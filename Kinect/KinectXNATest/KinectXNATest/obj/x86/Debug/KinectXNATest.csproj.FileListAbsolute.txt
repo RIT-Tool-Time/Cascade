@@ -1,0 +1,7 @@
+c:\users\christopher\documents\visual studio 2010\Projects\KinectXNATest\KinectXNATest\KinectXNATest\bin\x86\Debug\KinectXNATest.exe
+c:\users\christopher\documents\visual studio 2010\Projects\KinectXNATest\KinectXNATest\KinectXNATest\bin\x86\Debug\KinectXNATest.pdb
+c:\users\christopher\documents\visual studio 2010\Projects\KinectXNATest\KinectXNATest\KinectXNATest\obj\x86\Debug\KinectXNATest.csprojResolveAssemblyReference.cache
+c:\users\christopher\documents\visual studio 2010\Projects\KinectXNATest\KinectXNATest\KinectXNATest\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+c:\users\christopher\documents\visual studio 2010\Projects\KinectXNATest\KinectXNATest\KinectXNATest\obj\x86\Debug\KinectXNATest.exe
+c:\users\christopher\documents\visual studio 2010\Projects\KinectXNATest\KinectXNATest\KinectXNATest\obj\x86\Debug\KinectXNATest.pdb
+c:\users\christopher\documents\visual studio 2010\Projects\KinectXNATest\KinectXNATest\KinectXNATest\bin\x86\Debug\Content\Effect1.xnb

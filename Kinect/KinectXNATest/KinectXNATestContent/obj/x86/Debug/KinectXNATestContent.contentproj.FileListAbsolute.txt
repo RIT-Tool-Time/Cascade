@@ -1,0 +1,1 @@
+c:\users\christopher\documents\visual studio 2010\Projects\KinectXNATest\KinectXNATest\KinectXNATestContent\obj\x86\Debug\KinectXNATestContent.contentprojResolveAssemblyReference.cache
