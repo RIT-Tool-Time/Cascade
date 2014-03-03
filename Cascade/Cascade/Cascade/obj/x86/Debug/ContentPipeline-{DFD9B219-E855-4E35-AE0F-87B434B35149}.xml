@@ -7,7 +7,7 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Chris\Dropbox\Cascade\Cascade\Cascade\bin\x86\Debug\Content\OutputFont.xnb</Output>
+      <Output>C:\Users\Chris\Documents\GitHub\FTIR-Manager\Cascade\Cascade\Cascade\bin\x86\Debug\Content\OutputFont.xnb</Output>
       <Time>2014-02-27T09:31:32-05:00</Time>
     </Item>
     <Item>
@@ -16,7 +16,7 @@
       <Importer>EffectImporter</Importer>
       <Processor>EffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Chris\Dropbox\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Shader.xnb</Output>
+      <Output>C:\Users\Chris\Documents\GitHub\FTIR-Manager\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Shader.xnb</Output>
       <Time>2014-03-02T21:40:13.9848927-05:00</Time>
     </Item>
     <Item>
@@ -25,7 +25,7 @@
       <Importer>EffectImporter</Importer>
       <Processor>EffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Chris\Dropbox\Cascade\Cascade\Cascade\bin\x86\Debug\Content\SpriteShader.xnb</Output>
+      <Output>C:\Users\Chris\Documents\GitHub\FTIR-Manager\Cascade\Cascade\Cascade\bin\x86\Debug\Content\SpriteShader.xnb</Output>
       <Time>2014-03-02T22:18:13.3933715-05:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
@@ -35,10 +35,10 @@
       <TargetProfile>HiDef</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>C:\Users\Chris\Dropbox\Cascade\Cascade\CascadeContent\</RootDirectory>
-      <LoggerRootDirectory>C:\Users\Chris\Dropbox\Cascade\Cascade\Cascade\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Users\Chris\Dropbox\Cascade\Cascade\Cascade\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\Chris\Dropbox\Cascade\Cascade\Cascade\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\Chris\Documents\GitHub\FTIR-Manager\Cascade\Cascade\CascadeContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Chris\Documents\GitHub\FTIR-Manager\Cascade\Cascade\Cascade\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Chris\Documents\GitHub\FTIR-Manager\Cascade\Cascade\Cascade\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Chris\Documents\GitHub\FTIR-Manager\Cascade\Cascade\Cascade\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>

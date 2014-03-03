@@ -105,6 +105,7 @@ namespace Cascade
         }
         public virtual void Animate(Color target, int frames)
         {
+            frame = 0;
             animationFrames = frames;
             animationState = 0;
             animating = true;
