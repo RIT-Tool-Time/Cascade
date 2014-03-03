@@ -1,0 +1,3 @@
+c:\users\christopher\documents\visual studio 2010\Projects\Cascade\Cascade\CascadeContent\obj\x86\Debug\CascadeContent.contentprojResolveAssemblyReference.cache
+C:\SD Card\Dropbox\Cascade\Cascade\CascadeContent\obj\x86\Debug\CascadeContent.contentprojResolveAssemblyReference.cache
+C:\Users\Chris\Dropbox\Cascade\Cascade\CascadeContent\obj\x86\Debug\CascadeContent.contentprojResolveAssemblyReference.cache

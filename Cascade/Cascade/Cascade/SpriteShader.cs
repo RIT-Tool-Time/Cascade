@@ -1,0 +1,21 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using Microsoft.Xna.Framework.Graphics;
+
+namespace Cascade
+{
+    public class SpriteShader : Effect
+    {
+        public SpriteShader()
+            : base(Global.Game.Content.Load<Effect>("SpriteShader"))
+        {
+
+        }
+        public void SetTechnique(string s)
+        {
+            CurrentTechnique = Techniques[s];
+        }
+    }
+}
