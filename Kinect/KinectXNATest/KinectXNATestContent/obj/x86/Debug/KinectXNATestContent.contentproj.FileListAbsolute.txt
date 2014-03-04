@@ -1,1 +1,2 @@
 c:\users\christopher\documents\visual studio 2010\Projects\KinectXNATest\KinectXNATest\KinectXNATestContent\obj\x86\Debug\KinectXNATestContent.contentprojResolveAssemblyReference.cache
+C:\Users\Christopher\Documents\GitHub\FTIR-Manager\Kinect\KinectXNATest\KinectXNATestContent\obj\x86\Debug\KinectXNATestContent.contentprojResolveAssemblyReference.cache

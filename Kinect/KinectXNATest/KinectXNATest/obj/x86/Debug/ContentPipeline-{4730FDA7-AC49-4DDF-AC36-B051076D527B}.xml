@@ -7,7 +7,7 @@
       <Importer>EffectImporter</Importer>
       <Processor>EffectProcessor</Processor>
       <Options>None</Options>
-      <Output>c:\users\christopher\documents\visual studio 2010\Projects\KinectXNATest\KinectXNATest\KinectXNATest\bin\x86\Debug\Content\Effect1.xnb</Output>
+      <Output>C:\Users\Christopher\Documents\GitHub\FTIR-Manager\Kinect\KinectXNATest\KinectXNATest\bin\x86\Debug\Content\Effect1.xnb</Output>
       <Time>2014-02-07T20:52:23.8733904-05:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
@@ -17,10 +17,10 @@
       <TargetProfile>HiDef</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>c:\users\christopher\documents\visual studio 2010\Projects\KinectXNATest\KinectXNATest\KinectXNATestContent\</RootDirectory>
-      <LoggerRootDirectory>c:\users\christopher\documents\visual studio 2010\Projects\KinectXNATest\KinectXNATest\KinectXNATest\</LoggerRootDirectory>
-      <IntermediateDirectory>c:\users\christopher\documents\visual studio 2010\Projects\KinectXNATest\KinectXNATest\KinectXNATest\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>c:\users\christopher\documents\visual studio 2010\Projects\KinectXNATest\KinectXNATest\KinectXNATest\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\Christopher\Documents\GitHub\FTIR-Manager\Kinect\KinectXNATest\KinectXNATestContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Christopher\Documents\GitHub\FTIR-Manager\Kinect\KinectXNATest\KinectXNATest\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Christopher\Documents\GitHub\FTIR-Manager\Kinect\KinectXNATest\KinectXNATest\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Christopher\Documents\GitHub\FTIR-Manager\Kinect\KinectXNATest\KinectXNATest\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>

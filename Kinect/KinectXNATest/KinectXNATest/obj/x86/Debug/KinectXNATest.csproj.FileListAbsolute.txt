@@ -5,3 +5,10 @@ c:\users\christopher\documents\visual studio 2010\Projects\KinectXNATest\KinectX
 c:\users\christopher\documents\visual studio 2010\Projects\KinectXNATest\KinectXNATest\KinectXNATest\obj\x86\Debug\KinectXNATest.exe
 c:\users\christopher\documents\visual studio 2010\Projects\KinectXNATest\KinectXNATest\KinectXNATest\obj\x86\Debug\KinectXNATest.pdb
 c:\users\christopher\documents\visual studio 2010\Projects\KinectXNATest\KinectXNATest\KinectXNATest\bin\x86\Debug\Content\Effect1.xnb
+C:\Users\Christopher\Documents\GitHub\FTIR-Manager\Kinect\KinectXNATest\KinectXNATest\bin\x86\Debug\Content\Effect1.xnb
+C:\Users\Christopher\Documents\GitHub\FTIR-Manager\Kinect\KinectXNATest\KinectXNATest\bin\x86\Debug\KinectXNATest.exe
+C:\Users\Christopher\Documents\GitHub\FTIR-Manager\Kinect\KinectXNATest\KinectXNATest\bin\x86\Debug\KinectXNATest.pdb
+C:\Users\Christopher\Documents\GitHub\FTIR-Manager\Kinect\KinectXNATest\KinectXNATest\obj\x86\Debug\KinectXNATest.csprojResolveAssemblyReference.cache
+C:\Users\Christopher\Documents\GitHub\FTIR-Manager\Kinect\KinectXNATest\KinectXNATest\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Christopher\Documents\GitHub\FTIR-Manager\Kinect\KinectXNATest\KinectXNATest\obj\x86\Debug\KinectXNATest.exe
+C:\Users\Christopher\Documents\GitHub\FTIR-Manager\Kinect\KinectXNATest\KinectXNATest\obj\x86\Debug\KinectXNATest.pdb
