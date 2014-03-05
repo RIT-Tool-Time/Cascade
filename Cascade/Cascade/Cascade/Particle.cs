@@ -51,6 +51,7 @@ namespace Cascade
         public CascadeVertex[] Vertices;
         protected ParticleManager manager;
         public Matrix Matrix;
+        public float Gravity = 0;
 
         public Particle(ParticleManager Manager, Vector3 pos)
         {
@@ -71,6 +72,7 @@ namespace Cascade
         }
         public virtual void Update()
         {
+            Speed.Y += Gravity * Global.Speed;
             Pos += Speed * Global.Speed;
             SetVertexPositions();
             Matrix = Matrix.CreateTranslation(Pos);

@@ -2,3 +2,4 @@ c:\users\christopher\documents\visual studio 2010\Projects\Cascade\Cascade\Casca
 C:\SD Card\Dropbox\Cascade\Cascade\CascadeContent\obj\x86\Debug\CascadeContent.contentprojResolveAssemblyReference.cache
 C:\Users\Chris\Dropbox\Cascade\Cascade\CascadeContent\obj\x86\Debug\CascadeContent.contentprojResolveAssemblyReference.cache
 C:\Users\Chris\Documents\GitHub\FTIR-Manager\Cascade\Cascade\CascadeContent\obj\x86\Debug\CascadeContent.contentprojResolveAssemblyReference.cache
+C:\Users\Christopher\Documents\GitHub\FTIR-Manager\Cascade\Cascade\CascadeContent\obj\x86\Debug\CascadeContent.contentprojResolveAssemblyReference.cache

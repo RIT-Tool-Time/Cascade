@@ -8,14 +8,14 @@ float rearDepth = 10000;
 struct VertexShaderInput
 {
     float4 Position : POSITION0;
-	float4 Color : COLOR;
+	float4 Color : COLOR0;
 };
 
 struct VertexShaderOutput
 {
     float4 Position : POSITION0;
-	float4 Pos : POSITION1;
-	float4 Color : COLOR;
+	float4 Pos : TEXCOORD0;
+	float4 Color : COLOR0;
 };
 
 struct mrt { float4 col0 : COLOR0; float4 col1 : COLOR1; };

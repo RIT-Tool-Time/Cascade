@@ -85,19 +85,20 @@ namespace Cascade
 
             var emit = new CircleEmitter(Global.ParticleManager, new Vector3(-800, -900, 1000))
             {
-                Speed = new Vector3(10, 12, 10),
+                Speed = new Vector3(10, 30, 10),
                 SpeedRange = new Vector3(2, 4, 5),
                 ColorRange = new Color(0.5f, 0.5f, 0.5f, 0.0f),
                 PosRange = new Vector3(100),
                 Scale = new Vector2(1.0f),
-                Step = 1
+                Step = 5
             };
             emit.Emitted += delegate(ParticleEmittedEventArgs e)
             {
                 e.Particle.BlendState = BlendState.Opaque;
                 e.Particle.Alpha = 0;
+                e.Particle.Gravity = -0.4f;
                 //e.Particle.BlendState = BlendState.Additive;
-                e.Particle.Behaviors.Add(new Behaviors.Disappear(5000, 0.1f, 0.02f, 1f));
+                e.Particle.Behaviors.Add(new Behaviors.Disappear(800, 0.1f, 0.02f, 1f));
             };
 
             var emit2 = new CircleEmitter(Global.ParticleManager, new Vector3(10000, -4000, 10000))
@@ -111,7 +112,7 @@ namespace Cascade
             emit2.Emitted += delegate(ParticleEmittedEventArgs e)
             {
                 e.Particle.Alpha = 0;
-                e.Particle.Behaviors.Add(new Behaviors.Disappear(1000, 0.01f, 0.02f, 1f));
+                e.Particle.Behaviors.Add(new Behaviors.Disappear(800, 0.01f, 0.02f, 1f));
                 e.Particle.Behaviors.Add(new Behaviors.Spin(new Vector3(200, 0, 0), new Vector3(5, 0, 0)));
             };
             this.IsMouseVisible = true;
@@ -212,6 +213,14 @@ namespace Cascade
             Global.Update(gameTime);
             clearColor.Update();
             panelManager.Update();
+            if (Controls.GetKey(Keys.Space) == ControlState.Pressed)
+            {
+                Global.SetSpeed(0.1f, 0.1f);
+            }
+            else if (Controls.GetKey(Keys.Space) == ControlState.Released)
+            {
+                Global.SetSpeed(1f, 0.1f);
+            }
             // TODO: Add your update logic here
 
             base.Update(gameTime);
@@ -226,10 +235,11 @@ namespace Cascade
             Global.Effect.View = Matrix.CreateLookAt(Global.Camera.Pos, Global.Camera.LookAtPos, Vector3.Up);
 
             GraphicsDevice.SetRenderTarget(colorTarget);
-            GraphicsDevice.Clear(Color.Wheat);
+            GraphicsDevice.Clear(Color.White);
             GraphicsDevice.SetRenderTarget(depthTarget);
             GraphicsDevice.Clear(Color.Red);
             GraphicsDevice.SetRenderTargets(colorTarget, depthTarget);
+
             //GraphicsDevice.Clear(Color.Black);
             RasterizerState rast = new RasterizerState()
             {
@@ -274,14 +284,7 @@ namespace Cascade
                     y = -(size.Y - 500);
                 spriteBatch.DrawString(Fonts.Output, Global.Output, new Vector2(0, y), Color.Green);
             }
-            if (Controls.GetKey(Keys.Space) == ControlState.Pressed)
-            {
-                Global.SetSpeed(0.1f, 0.1f);
-            }
-            else if (Controls.GetKey(Keys.Space) == ControlState.Released)
-            {
-                Global.SetSpeed(1f, 0.1f);
-            }
+            
 
             
             spriteBatch.End();

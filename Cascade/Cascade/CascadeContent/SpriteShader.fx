@@ -1,7 +1,7 @@
 
 float aspect = 16.0/9.0;
-float blurLevel = 0.01;
-static float blurStep = 2.0 / 7.0;
+float blurLevel = 0.02;
+static float blurStep = 2.0 / 12.0;
 SamplerState gSampler : register(s0)
 {
 	
@@ -33,31 +33,37 @@ float4 NormalShader(float4 pos: POSITION, float4 color: COLOR, float2 tex: TEXCO
 float4 BokehShader(float4 pos: POSITION, float4 color: COLOR, float2 tex: TEXCOORD0) : COLOR0
 {
 	float blur = tex2D(depthSampler, tex).r;
-	float4 col = (float4)0;
-	float4 col2 = (float4)0;
-	float colMul = 0;
-	float times = 0;
-	float dist = 0;
-	float b = 0;
-	float2 pos2;
-	for (float i = -1; i <= 1; i+=blurStep)
+	[branch]if (blur > 0)
 	{
-		for (float o = -1; o <= 1; o+=blurStep)
+		float4 col = (float4)0;
+		float4 col2 = (float4)0;
+		float colMul = 0;
+		float times = 0;
+		float dist = 0;
+		float b = 0;
+		float2 pos2;
+		for (float i = -1; i <= 1; i+=blurStep)
 		{
-			dist = (i * i) + (o * o);
-			if (dist < 0.75)
+			for (float o = -1; o <= 1; o+=blurStep)
 			{
-				pos2 = (float2(i, o * aspect) * blur * blurLevel);
-				float b = tex2D(depthSampler, tex + pos2).r;
-				col2 = tex2D(gSampler,tex + (pos2 * b));
-				colMul = col2.r + col2.g + col2.b;
-				colMul = colMul * colMul;
-				col += col2 * colMul;
-				times+= colMul;
+				dist = (i * i) + (o * o);
+				[branch]if (dist < 0.75)
+				{
+					pos2 = float2(i, o * aspect) ;
+					float b = tex2Dlod(depthSampler, float4(tex + (pos2 * blur * blurLevel), 0, 0)).r;
+					col2 = tex2Dlod(gSampler, float4(tex + (pos2 * blurLevel * b), 0, 0));
+					colMul = col2.r + col2.g + col2.b;
+					colMul = (colMul * colMul);
+					//colMul = 1;
+					col += col2 * colMul;
+					times+= colMul;
+				}
 			}
 		}
+		return col / times;
 	}
-	return col / times;
+	else return tex2D(gSampler, tex);
+	
 }
 
 technique Normal
