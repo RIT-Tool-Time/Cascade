@@ -26,6 +26,7 @@ namespace Cascade
         public Color Color = Color.Gray;
         public Color ColorRange = new Color(0, 0, 0, 0);
         public event ParticleEmittedEventHandler Emitted;
+        
         public ParticleEmitter(ParticleManager man, Vector3 pos)
         {
             Pos = pos;
@@ -35,7 +36,7 @@ namespace Cascade
         public void Update()
         {
             timer += Global.Speed;
-            while (timer > Step)
+            while (Step > 0 && timer > Step)
             {
                 timer -= Step;
                 var p = CreateParticle();

@@ -16,6 +16,7 @@ namespace Cascade
         public Vector2 Scale = Vector2.One;
         public List<Behaviors.ParticleBehavior> Behaviors;
         public BlendState BlendState = BlendState.AlphaBlend;
+        
         public Color Color
         {
             get { return color; }
@@ -50,7 +51,6 @@ namespace Cascade
         }
         public CascadeVertex[] Vertices;
         protected ParticleManager manager;
-        public Matrix Matrix;
         public float Gravity = 0;
 
         public Particle(ParticleManager Manager, Vector3 pos)
@@ -59,23 +59,17 @@ namespace Cascade
             Pos = pos;
             manager = Manager;
             manager.Add(this);
-            /*int add = 20;
-            vertices = new VertexPositionColor[4];
-            vertices[0] = new VertexPositionColor(new Vector3(0, 0, 0), Color);
-            vertices[1] = new VertexPositionColor(new Vector3(add, add, 0), Color);
-            vertices[2] = new VertexPositionColor(new Vector3(-add, add, 0), Color);
-            vertices[3] = new VertexPositionColor(new Vector3(0, 0, 0), Color);*/
         }
         public virtual void Remove()
         {
             manager.Remove(this);
+            
         }
         public virtual void Update()
         {
             Speed.Y += Gravity * Global.Speed;
             Pos += Speed * Global.Speed;
             SetVertexPositions();
-            Matrix = Matrix.CreateTranslation(Pos);
             foreach (var b in Behaviors)
             {
                 b.Update(this);

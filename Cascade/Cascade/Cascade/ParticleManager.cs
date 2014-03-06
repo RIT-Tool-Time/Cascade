@@ -18,6 +18,13 @@ namespace Cascade
             particles = new List<Particle>();
             emitters = new List<ParticleEmitter>();
         }
+        public int NumberofParticles
+        {
+            get
+            {
+                return particles.Count;
+            }
+        }
         public void Add(params Particle[] parts)
         {
             foreach (var part in parts)

@@ -19,7 +19,7 @@ namespace Cascade
     /// </summary>
     public class Game1 : Microsoft.Xna.Framework.Game
     {
-        GraphicsDeviceManager graphics;
+        public GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
         ThreadStart socketThreadStart;
         Thread socketThread;
@@ -29,6 +29,7 @@ namespace Cascade
         ColorManager clearColor = new ColorManager();
         PanelManager panelManager;
         RenderTarget2D colorTarget, depthTarget;
+        ParticleEmitter emitter;
         public Game1()
         {
             Global.Game = this;
@@ -59,11 +60,12 @@ namespace Cascade
         protected override void LoadContent()
         {
             Global.init();
-            Global.Effect.Projection = Matrix.CreatePerspectiveFieldOfView(MathHelper.ToRadians(45), 16f / 9f, 1, 1000000);
-            Global.Effect.World = Matrix.CreateTranslation(0, 0, 0);
+            
             Global.Camera.Pos = new Vector3(0, 0, -1000);
+            Global.Camera.LookAtPos = new Vector3(0);
             
             panelManager = new PanelManager();
+            panelManager.Add(Color.Green);
             panelManager.Add(Color.Green);
             panelManager.Add(Color.Green);
             panelManager.Add(Color.Green);
@@ -82,8 +84,18 @@ namespace Cascade
 
             //new Ellipse(Global.ParticleManager, new Vector3(0, 0, 1000), 30) { Color = Color.Aqua, Speed = new Vector3(0, 0, 0) };
             spriteBatch = new SpriteBatch(GraphicsDevice);
-
-            var emit = new CircleEmitter(Global.ParticleManager, new Vector3(-800, -900, 1000))
+            emitter = new CircleEmitter(Global.ParticleManager, Vector3.Zero)
+            {
+                Step = 1,
+                Speed = new Vector3(10, 10, 0)
+            };
+            emitter.Emitted += delegate(ParticleEmittedEventArgs e)
+            {
+                e.Particle.Gravity = -0.1f;
+                e.Particle.Behaviors.Add(new Behaviors.Disappear(60, 0.1f, 0.1f, 1));
+                e.Particle.Alpha = 0;
+            };
+            var emit = new CircleEmitter(Global.ParticleManager, new Vector3(-800, -900, 2300))
             {
                 Speed = new Vector3(10, 30, 10),
                 SpeedRange = new Vector3(2, 4, 5),
@@ -98,12 +110,12 @@ namespace Cascade
                 e.Particle.Alpha = 0;
                 e.Particle.Gravity = -0.4f;
                 //e.Particle.BlendState = BlendState.Additive;
-                e.Particle.Behaviors.Add(new Behaviors.Disappear(800, 0.1f, 0.02f, 1f));
+                e.Particle.Behaviors.Add(new Behaviors.Disappear(400, 0.1f, 0.02f, 1f));
             };
 
             var emit2 = new CircleEmitter(Global.ParticleManager, new Vector3(10000, -4000, 10000))
             {
-                Step = 1,
+                Step = 2,
                 Speed = new Vector3(-25, 15, -10),
                 SpeedRange = new Vector3(5, 2, 0),
                 PosRange = new Vector3(500),
@@ -112,9 +124,10 @@ namespace Cascade
             emit2.Emitted += delegate(ParticleEmittedEventArgs e)
             {
                 e.Particle.Alpha = 0;
-                e.Particle.Behaviors.Add(new Behaviors.Disappear(800, 0.01f, 0.02f, 1f));
+                e.Particle.Behaviors.Add(new Behaviors.Disappear(400, 0.01f, 0.02f, 1f));
                 e.Particle.Behaviors.Add(new Behaviors.Spin(new Vector3(200, 0, 0), new Vector3(5, 0, 0)));
             };
+
             this.IsMouseVisible = true;
             try
             {
@@ -131,6 +144,7 @@ namespace Cascade
             graphics.ApplyChanges();
             socketThreadStart = new ThreadStart(SocketMethod);
             Global.Output += "LoadContent completed";
+            
             CreateRenderTargets(1280, (9f / 16f));
             // TODO: use this.Content to load your game content here
         }
@@ -221,6 +235,19 @@ namespace Cascade
             {
                 Global.SetSpeed(1f, 0.1f);
             }
+            if (Controls.GetKey(Keys.Down) == ControlState.Held)
+            {
+                Global.Camera.LookAtPos = new Vector3(Global.Camera.LookAtPos.X, Global.Camera.LookAtPos.Y - 1, Global.Camera.LookAtPos.Z);
+            }
+            if (Controls.MouseLeft == ControlState.Held)
+            {
+
+            }
+            Vector3 mouse = new Vector3(Controls.MousePos, 0);
+            emitter.Pos = GraphicsDevice.Viewport.Unproject(mouse, Global.Effect.Projection, Global.Effect.View, Matrix.Identity);
+            //emitter.Pos = new Vector3(-Controls.MousePos, 1000);
+            Global.Output += Global.ParticleManager.NumberofParticles + ", " + Controls.MousePos + ", " + emitter.Pos;
+            //Global.Output += GC.GetTotalMemory(false) / 1000000f;
             // TODO: Add your update logic here
 
             base.Update(gameTime);
@@ -232,10 +259,10 @@ namespace Cascade
         /// <param name="gameTime">Provides a snapshot of timing values.</param>
         protected override void Draw(GameTime gameTime)
         {
-            Global.Effect.View = Matrix.CreateLookAt(Global.Camera.Pos, Global.Camera.LookAtPos, Vector3.Up);
+            
 
             GraphicsDevice.SetRenderTarget(colorTarget);
-            GraphicsDevice.Clear(Color.White);
+            GraphicsDevice.Clear(Color.Wheat);
             GraphicsDevice.SetRenderTarget(depthTarget);
             GraphicsDevice.Clear(Color.Red);
             GraphicsDevice.SetRenderTargets(colorTarget, depthTarget);

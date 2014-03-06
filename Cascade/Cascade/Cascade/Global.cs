@@ -43,6 +43,11 @@ namespace Cascade
                 gamespeed += (speedtarget - gamespeed) * speedspeed * framespeed;
                 speed = MathHelper.Clamp(framespeed * gamespeed, 0, 5);
             }
+            Effect.View = Matrix.CreateLookAt(Global.Camera.Pos, Global.Camera.LookAtPos, Vector3.Up);
+            Effect.Projection = Matrix.CreatePerspectiveFieldOfView(MathHelper.ToRadians(45), 16f / 9f, 1, 1000000);
+            Effect.World = Matrix.CreateTranslation(0, 0, 0);
+            Controls.ScreenSize.X = Game.GraphicsDevice.PresentationParameters.BackBufferWidth;
+            Controls.ScreenSize.Y = Game.GraphicsDevice.PresentationParameters.BackBufferHeight;
             //speed = 10;
             ParticleManager.Update();
         }
@@ -69,7 +74,7 @@ namespace Cascade
         {
             return o.output;
         }
-        public static OutputString operator +(OutputString o, string s)
+        public static OutputString operator +(OutputString o, object s)
         {
             o.output += s + o.separator;
             return o;
