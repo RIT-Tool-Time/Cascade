@@ -4,3 +4,4 @@ C:\Users\Chris\Dropbox\Cascade\Cascade\CascadeContent\obj\x86\Debug\CascadeConte
 C:\Users\Chris\Documents\GitHub\FTIR-Manager\Cascade\Cascade\CascadeContent\obj\x86\Debug\CascadeContent.contentprojResolveAssemblyReference.cache
 C:\Users\Christopher\Documents\GitHub\FTIR-Manager\Cascade\Cascade\CascadeContent\obj\x86\Debug\CascadeContent.contentprojResolveAssemblyReference.cache
 C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\CascadeContent\obj\x86\Debug\CascadeContent.contentprojResolveAssemblyReference.cache
+C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\CascadeContent\obj\x86\Debug\CascadeContent.contentprojResolveAssemblyReference.cache

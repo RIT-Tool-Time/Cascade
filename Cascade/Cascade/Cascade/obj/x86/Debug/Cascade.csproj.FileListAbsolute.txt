@@ -50,3 +50,12 @@ C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\obj\x86\Debug\Ca
 C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\obj\x86\Debug\Cascade.exe
 C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\obj\x86\Debug\Cascade.pdb
+C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\OutputFont.xnb
+C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Shader.xnb
+C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\SpriteShader.xnb
+C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Cascade.exe
+C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Cascade.pdb
+C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\obj\x86\Debug\Cascade.csprojResolveAssemblyReference.cache
+C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\obj\x86\Debug\Cascade.exe
+C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\obj\x86\Debug\Cascade.pdb

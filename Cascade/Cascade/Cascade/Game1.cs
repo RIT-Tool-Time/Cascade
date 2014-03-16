@@ -320,7 +320,7 @@ namespace Cascade
 
             
             spriteBatch.Begin(SpriteSortMode.Immediate, BlendState.AlphaBlend, null, null, null);
-            Global.SpriteEffect.SetTechnique("Bokeh");
+            Global.SpriteEffect.SetTechnique("Normal");
             foreach (var pass in Global.SpriteEffect.CurrentTechnique.Passes)
             {
                 pass.Apply();
