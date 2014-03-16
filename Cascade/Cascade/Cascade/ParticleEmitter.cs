@@ -26,6 +26,7 @@ namespace Cascade
         public Color Color = Color.Gray;
         public Color ColorRange = new Color(0, 0, 0, 0);
         public event ParticleEmittedEventHandler Emitted;
+        public bool Emit = true;
         
         public ParticleEmitter(ParticleManager man, Vector3 pos)
         {
@@ -35,18 +36,21 @@ namespace Cascade
         }
         public void Update()
         {
-            timer += Global.Speed;
-            while (Step > 0 && timer > Step)
+            if (Emit)
             {
-                timer -= Step;
-                var p = CreateParticle();
-                p.Pos = Pos.RandomVectorRange(PosRange);
-                p.Scale = Scale + new Vector2(MyMath.RandomRange(-ScaleRange.X, ScaleRange.X), MyMath.RandomRange(-ScaleRange.Y, ScaleRange.Y));
-                p.Speed = Speed.RandomVectorRange(SpeedRange);
-                p.Color = new Color(Color.ToVector4().RandomVectorRange(ColorRange.ToVector4()));
-                if (Emitted != null)
+                timer += Global.Speed;
+                while (Step > 0 && timer > Step)
                 {
-                    Emitted(new ParticleEmittedEventArgs() { Particle = p, Emitter = this });
+                    timer -= Step;
+                    var p = CreateParticle();
+                    p.Pos = Pos.RandomVectorRange(PosRange);
+                    p.Scale = Scale + new Vector2(MyMath.RandomRange(-ScaleRange.X, ScaleRange.X), MyMath.RandomRange(-ScaleRange.Y, ScaleRange.Y));
+                    p.Speed = Speed.RandomVectorRange(SpeedRange);
+                    p.Color = new Color(Color.ToVector4().RandomVectorRange(ColorRange.ToVector4()));
+                    if (Emitted != null)
+                    {
+                        Emitted(new ParticleEmittedEventArgs() { Particle = p, Emitter = this });
+                    }
                 }
             }
         }

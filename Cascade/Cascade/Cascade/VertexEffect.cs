@@ -52,6 +52,22 @@ namespace Cascade
                 Parameters["World"].SetValue(value);
             }
         }
+        float alpha = 1;
+        public float Alpha
+        {
+            get
+            {
+                return alpha;
+            }
+            set
+            {
+                if (value != alpha)
+                {
+                    alpha = value;
+                    Parameters["alpha"].SetValue(alpha);
+                }
+            }
+        }
         public VertexEffect()
             : base(Global.Game.Content.Load<Effect>("Shader"))
         {

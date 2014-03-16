@@ -77,6 +77,10 @@ namespace Cascade
         public static OutputString operator +(OutputString o, object s)
         {
             o.output += s + o.separator;
+            if (o.output.Length > 2000)
+            {
+                o.output = o.output.Substring(o.output.Length - 2000);
+            }
             return o;
         }
     }

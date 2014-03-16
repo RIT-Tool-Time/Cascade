@@ -65,12 +65,12 @@ namespace Cascade
             Global.Camera.LookAtPos = new Vector3(0);
             
             panelManager = new PanelManager();
-            panelManager.Add(Color.Green);
-            panelManager.Add(Color.Green);
-            panelManager.Add(Color.Green);
-            panelManager.Add(Color.Green);
-            panelManager.Add(Color.Green);
-            panelManager.Add(Color.Green);
+            panelManager.Add(Color.White);
+            panelManager.Add(Color.White);
+            panelManager.Add(Color.White);
+            panelManager.Add(Color.White);
+            panelManager.Add(Color.White);
+            panelManager.Add(Color.White);
 
             for (int i = 0; i < 10; i++)
             {
@@ -84,16 +84,21 @@ namespace Cascade
 
             //new Ellipse(Global.ParticleManager, new Vector3(0, 0, 1000), 30) { Color = Color.Aqua, Speed = new Vector3(0, 0, 0) };
             spriteBatch = new SpriteBatch(GraphicsDevice);
-            emitter = new CircleEmitter(Global.ParticleManager, Vector3.Zero)
+            emitter = new TriangleEmitter(Global.ParticleManager, Vector3.Zero)
             {
-                Step = 1,
-                Speed = new Vector3(10, 10, 0)
+                Step = 0.1f,
+                Speed = new Vector3(0, -10, 0),
+                SpeedRange = new Vector3(5, 4, 10),
+                ColorRange = new Color(0.5f, 0.5f, 0.5f, 0.0f),
             };
             emitter.Emitted += delegate(ParticleEmittedEventArgs e)
             {
-                e.Particle.Gravity = -0.1f;
-                e.Particle.Behaviors.Add(new Behaviors.Disappear(60, 0.1f, 0.1f, 1));
+                e.Particle.Gravity = -0.2f;
+                e.Particle.Behaviors.Add(new Behaviors.Disappear(360, 0.1f, 0.1f, 1));
+                e.Particle.Behaviors.Add(new Behaviors.Bounce(-250, 0.2f));
                 e.Particle.Alpha = 0;
+                e.Particle.Scale = new Vector2(0.1f);
+                e.Particle.MotionStretch = true;
             };
             var emit = new CircleEmitter(Global.ParticleManager, new Vector3(-800, -900, 2300))
             {
@@ -102,7 +107,7 @@ namespace Cascade
                 ColorRange = new Color(0.5f, 0.5f, 0.5f, 0.0f),
                 PosRange = new Vector3(100),
                 Scale = new Vector2(1.0f),
-                Step = 5
+                Step = 100
             };
             emit.Emitted += delegate(ParticleEmittedEventArgs e)
             {
@@ -237,16 +242,25 @@ namespace Cascade
             }
             if (Controls.GetKey(Keys.Down) == ControlState.Held)
             {
-                Global.Camera.LookAtPos = new Vector3(Global.Camera.LookAtPos.X, Global.Camera.LookAtPos.Y - 1, Global.Camera.LookAtPos.Z);
+                Global.Camera.LookAtPos = new Vector3(Global.Camera.LookAtPos.X, Global.Camera.LookAtPos.Y - 5, Global.Camera.LookAtPos.Z);
             }
             if (Controls.MouseLeft == ControlState.Held)
             {
-
+                emitter.Step += (0.2f - emitter.Step) * 0.1f * Global.Speed;
+                emitter.Emit = true;
             }
+            else
+            {
+                emitter.Step += (30f - emitter.Step) * 0.01f * Global.Speed;
+                if (emitter.Step > 29)
+                    emitter.Emit = false;
+            }
+            //Global.Output += emitter.Step;
             Vector3 mouse = new Vector3(Controls.MousePos, 0);
-            emitter.Pos = GraphicsDevice.Viewport.Unproject(mouse, Global.Effect.Projection, Global.Effect.View, Matrix.Identity);
+            Viewport v = new Viewport(0, 0, 1280, 720) { MinDepth = 0, MaxDepth = 1000000 };
+            emitter.Pos = v.Unproject(mouse, Global.Effect.Projection, Global.Effect.View, Matrix.CreateTranslation(Global.Camera.Pos - Global.Camera.LookAtPos) * Matrix.CreateScale(1f / 1280, 1f / 720, 1));
             //emitter.Pos = new Vector3(-Controls.MousePos, 1000);
-            Global.Output += Global.ParticleManager.NumberofParticles + ", " + Controls.MousePos + ", " + emitter.Pos;
+            //Global.Output += Global.ParticleManager.NumberofParticles + ", " + Controls.MousePos + ", " + emitter.Pos;
             //Global.Output += GC.GetTotalMemory(false) / 1000000f;
             // TODO: Add your update logic here
 
@@ -259,8 +273,8 @@ namespace Cascade
         /// <param name="gameTime">Provides a snapshot of timing values.</param>
         protected override void Draw(GameTime gameTime)
         {
-            
 
+            
             GraphicsDevice.SetRenderTarget(colorTarget);
             GraphicsDevice.Clear(Color.Wheat);
             GraphicsDevice.SetRenderTarget(depthTarget);
@@ -281,8 +295,19 @@ namespace Cascade
             };
             GraphicsDevice.DepthStencilState = DepthStencilState.None;
             GraphicsDevice.RasterizerState = rast;
+
+            //Set matrices for panels
+            Global.Effect.View = Matrix.CreateTranslation(0, 0, 0);
+            Global.Effect.Projection = Matrix.CreateOrthographicOffCenter(0, 1280, 720, 0, 0, 1);
+            Global.Effect.World = Matrix.CreateTranslation(0, 0, 0);
+            Global.Effect.Alpha = 1;
             Global.Effect.CurrentTechnique.Passes[0].Apply();
             //panelManager.Draw(GraphicsDevice, graphics, spriteBatch, null, 1280, 720);
+
+            //Set matrices for particles
+            Global.Effect.View = Matrix.CreateLookAt(Global.Camera.Pos, Global.Camera.LookAtPos, Vector3.Up);
+            Global.Effect.Projection = Matrix.CreatePerspectiveFieldOfView(MathHelper.ToRadians(45), 16f / 9f, 1, 1000000);
+            Global.Effect.World = Matrix.CreateTranslation(0, 0, 0);
             Global.ParticleManager.Draw(GraphicsDevice, graphics, spriteBatch, colorTarget, Global.ScreenSize.X, Global.ScreenSize.Y);
 
             //sprite batch stuff
@@ -292,6 +317,7 @@ namespace Cascade
             //Global.SpriteEffect.Parameters["depthTexture"].SetValue(depthTarget);
             Matrix sbMatrix = Matrix.CreateOrthographicOffCenter(0, Global.ScreenSize.X, Global.ScreenSize.Y, 0, 0, 1);
             Global.SpriteEffect.Parameters["MatrixTransform"].SetValue(sbMatrix);
+
             
             spriteBatch.Begin(SpriteSortMode.Immediate, BlendState.AlphaBlend, null, null, null);
             Global.SpriteEffect.SetTechnique("Bokeh");
@@ -309,7 +335,7 @@ namespace Cascade
                 Vector2 size = Fonts.Output.MeasureString(Global.Output);
                 if (size.Y > 500)
                     y = -(size.Y - 500);
-                spriteBatch.DrawString(Fonts.Output, Global.Output, new Vector2(0, y), Color.Green);
+                spriteBatch.DrawString(Fonts.Output, Global.Output, new Vector2(0, y), Color.Black);
             }
             
 

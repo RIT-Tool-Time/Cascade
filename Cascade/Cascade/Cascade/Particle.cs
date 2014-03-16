@@ -16,7 +16,10 @@ namespace Cascade
         public Vector2 Scale = Vector2.One;
         public List<Behaviors.ParticleBehavior> Behaviors;
         public BlendState BlendState = BlendState.AlphaBlend;
-        
+        public bool MotionStretch = false;
+        public float Rotation = 0;
+        float stretchRot = 0, stretchScale = 0;
+        Vector3 prevPos = Vector3.Zero;
         public Color Color
         {
             get { return color; }
@@ -25,7 +28,7 @@ namespace Cascade
                 color = value;
                 for (int i = 0; i < Vertices.Length; i++)
                 {
-                    Vertices[i].Color = value * alpha;
+                    Vertices[i].Color = value;
                 }
             }
         }
@@ -43,10 +46,6 @@ namespace Cascade
             set
             {
                 alpha = value;
-                for (int i = 0; i < Vertices.Length; i++)
-                {
-                    Vertices[i].Color = color * value;
-                }
             }
         }
         public CascadeVertex[] Vertices;
@@ -67,13 +66,26 @@ namespace Cascade
         }
         public virtual void Update()
         {
+            prevPos = Pos;
             Speed.Y += Gravity * Global.Speed;
             Pos += Speed * Global.Speed;
             SetVertexPositions();
+
             foreach (var b in Behaviors)
             {
                 b.Update(this);
             }
+            if (MotionStretch)
+            {
+                stretchRot = -MathHelper.ToDegrees(MyMath.Direction(Pos.ToVector2(), prevPos.ToVector2())) + 90;
+                stretchScale = MyMath.Distance((Pos - prevPos).ToVector2().ToVector3()) * 0.04f;
+            }
+            else
+            {
+                stretchRot = Rotation;
+                stretchScale = 0;
+            }
+
         }
         public virtual void SetVertexPositions()
         {
@@ -89,7 +101,8 @@ namespace Cascade
         }
         public void Draw(GraphicsDevice GraphicsDevice, GraphicsDeviceManager graphics, SpriteBatch spriteBatch, RenderTarget2D defaultRenderTarget, float width, float height)
         {
-            Global.Effect.World = Matrix.CreateScale(new Vector3(Scale, 1)) * Matrix.CreateTranslation(Pos);
+            Global.Effect.World = Matrix.CreateScale(new Vector3(Scale + new Vector2(0, stretchScale), 1)) * Matrix.CreateRotationZ(MathHelper.ToRadians(stretchRot)) * Matrix.CreateTranslation(Pos);
+            Global.Effect.Alpha = Alpha;
             GraphicsDevice.BlendState = BlendState;
             foreach (var p in Global.Effect.CurrentTechnique.Passes)
             {
