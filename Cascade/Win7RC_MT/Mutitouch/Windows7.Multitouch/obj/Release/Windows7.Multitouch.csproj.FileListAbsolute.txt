@@ -1,0 +1,10 @@
+D:\temp\Win7RC_MT\Mutitouch\Windows7.Multitouch\bin\Release\Windows7.Multitouch.XML
+D:\temp\Win7RC_MT\Mutitouch\Windows7.Multitouch\bin\Release\Windows7.Multitouch.dll
+D:\temp\Win7RC_MT\Mutitouch\Windows7.Multitouch\bin\Release\Windows7.Multitouch.pdb
+D:\temp\Win7RC_MT\Mutitouch\Windows7.Multitouch\obj\Release\ResolveAssemblyReference.cache
+D:\temp\Win7RC_MT\Mutitouch\Windows7.Multitouch\obj\Release\Windows7.Multitouch.dll
+D:\temp\Win7RC_MT\Mutitouch\Windows7.Multitouch\obj\Release\Windows7.Multitouch.pdb
+C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Win7RC_MT\Mutitouch\Windows7.Multitouch\bin\Release\Windows7.Multitouch.dll
+C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Win7RC_MT\Mutitouch\Windows7.Multitouch\bin\Release\Windows7.Multitouch.pdb
+C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Win7RC_MT\Mutitouch\Windows7.Multitouch\obj\Release\Windows7.Multitouch.dll
+C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Win7RC_MT\Mutitouch\Windows7.Multitouch\obj\Release\Windows7.Multitouch.pdb

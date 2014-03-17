@@ -11,6 +11,8 @@ using Microsoft.Xna.Framework.Media;
 using System.Threading;
 using System.Text;
 using System.Globalization;
+using Windows7.Multitouch.Win32Helper;
+using Windows7.Multitouch;
 
 namespace Cascade
 {
@@ -28,8 +30,10 @@ namespace Cascade
         Random rand = new Random();
         ColorManager clearColor = new ColorManager();
         PanelManager panelManager;
-        RenderTarget2D colorTarget, depthTarget;
+        RenderTarget2D colorTarget, depthTarget, finalTarget;
         ParticleEmitter emitter;
+        Window w;
+        TouchHandler touchHandler;
         public Game1()
         {
             Global.Game = this;
@@ -37,6 +41,16 @@ namespace Cascade
             Content.RootDirectory = "Content";
             tcp = new TcpObject();
             this.TargetElapsedTime = TimeSpan.FromSeconds(1d / 60d);
+            touchHandler = Factory.CreateHandler<TouchHandler>(this.Window.Handle);
+            GC.KeepAlive(this.Window);
+            GC.KeepAlive(touchHandler);
+            touchHandler.TouchDown += new EventHandler<TouchEventArgs>(th_TouchDown);
+        }
+
+        void th_TouchDown(object sender, TouchEventArgs e)
+        {
+            Global.Output += "Touchdown!";
+            
         }
 
         /// <summary>
@@ -95,9 +109,9 @@ namespace Cascade
             {
                 e.Particle.Gravity = -0.2f;
                 e.Particle.Behaviors.Add(new Behaviors.Disappear(360, 0.1f, 0.1f, 1));
-                e.Particle.Behaviors.Add(new Behaviors.Bounce(-250, 0.2f));
+                e.Particle.Behaviors.Add(new Behaviors.Bounce(-250, 0.5f));
                 e.Particle.Alpha = 0;
-                e.Particle.Scale = new Vector2(0.1f);
+                e.Particle.Scale = new Vector2(0.05f);
                 e.Particle.MotionStretch = true;
             };
             var emit = new CircleEmitter(Global.ParticleManager, new Vector3(-800, -900, 2300))
@@ -145,12 +159,13 @@ namespace Cascade
             {
                 Global.Output += "TCP Client not connected";
             }
-            graphics.PreferredBackBufferWidth = 1280; graphics.PreferredBackBufferHeight = (int)(graphics.PreferredBackBufferWidth * (9f / 16f)); ;
+            graphics.PreferredBackBufferWidth = 1920; graphics.PreferredBackBufferHeight = (int)(graphics.PreferredBackBufferWidth * (9f / 16f));
+            graphics.IsFullScreen = true;
             graphics.ApplyChanges();
             socketThreadStart = new ThreadStart(SocketMethod);
             Global.Output += "LoadContent completed";
             
-            CreateRenderTargets(1280, (9f / 16f));
+            CreateRenderTargets(960, (9f / 16f));
             // TODO: use this.Content to load your game content here
         }
         private void CreateRenderTargets(int width, float aspectRatio)
@@ -158,6 +173,7 @@ namespace Cascade
             int height = (int)(width * aspectRatio);
             colorTarget = new RenderTarget2D(GraphicsDevice, width, height, false, GraphicsDevice.PresentationParameters.BackBufferFormat, DepthFormat.None, 0, RenderTargetUsage.PreserveContents);
             depthTarget = new RenderTarget2D(GraphicsDevice, width, height, false, GraphicsDevice.PresentationParameters.BackBufferFormat, DepthFormat.None, 0, RenderTargetUsage.PreserveContents);
+            finalTarget = new RenderTarget2D(GraphicsDevice, width, height, false, GraphicsDevice.PresentationParameters.BackBufferFormat, DepthFormat.None, 0, RenderTargetUsage.PreserveContents);
             Global.SpriteEffect.Parameters["depthTexture"].SetValue(depthTarget);
         }
         public void SocketMethod()
@@ -221,7 +237,7 @@ namespace Cascade
         protected override void Update(GameTime gameTime)
         {
             // Allows the game to exit
-            if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed)
+            if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Controls.GetKey(Keys.Escape) == ControlState.Pressed)
                 this.Exit();
             if (tcp.Connected && !threadRunning)
             {
@@ -246,7 +262,7 @@ namespace Cascade
             }
             if (Controls.MouseLeft == ControlState.Held)
             {
-                emitter.Step += (0.2f - emitter.Step) * 0.1f * Global.Speed;
+                emitter.Step += (0.1f - emitter.Step) * 0.1f * Global.Speed;
                 emitter.Emit = true;
             }
             else
@@ -312,7 +328,7 @@ namespace Cascade
 
             //sprite batch stuff
             GraphicsDevice.BlendState = BlendState.AlphaBlend;
-            GraphicsDevice.SetRenderTarget(null);
+            GraphicsDevice.SetRenderTarget(finalTarget);
             GraphicsDevice.Clear(Color.Black);
             //Global.SpriteEffect.Parameters["depthTexture"].SetValue(depthTarget);
             Matrix sbMatrix = Matrix.CreateOrthographicOffCenter(0, Global.ScreenSize.X, Global.ScreenSize.Y, 0, 0, 1);
@@ -327,10 +343,12 @@ namespace Cascade
                 spriteBatch.Draw(colorTarget, new Rectangle(0, 0, (int)Global.ScreenSize.X, (int)Global.ScreenSize.Y), Color.White);
             }
 
+            GraphicsDevice.SetRenderTarget(null);
             Global.SpriteEffect.SetTechnique("Normal");
             foreach (var pass in Global.SpriteEffect.CurrentTechnique.Passes)
             {
                 pass.Apply();
+                spriteBatch.Draw(finalTarget, new Rectangle(0, 0, (int)Global.ScreenSize.X, (int)Global.ScreenSize.Y), Color.White);
                 float y = 0;
                 Vector2 size = Fonts.Output.MeasureString(Global.Output);
                 if (size.Y > 500)

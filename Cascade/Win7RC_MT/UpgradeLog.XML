@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Windows7">
+</Property><Property Name="Solution File" Value="C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Win7RC_MT\Windows7.sln">
+</Property><Property Name="Date" Value="Sunday, March 16, 2014">
+</Property><Property Name="Time" Value="20:23 PM">
+</Property></Properties><Event ErrorLevel="0" Project="Windows7.Multitouch" Source="Mutitouch\Windows7.Multitouch\Windows7.Multitouch.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Windows7.Multitouch" Source="Mutitouch\Windows7.Multitouch\Windows7.Multitouch.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Windows7.Multitouch.WinForms" Source="Mutitouch\Windows7.Multitouch.WinForms\Windows7.Multitouch.WinForms.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Windows7.Multitouch.WinForms" Source="Mutitouch\Windows7.Multitouch.WinForms\Windows7.Multitouch.WinForms.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Windows7.Multitouch.WPF" Source="Mutitouch\Windows7.Multitouch.WPF\Windows7.Multitouch.WPF.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Windows7.Multitouch.WPF" Source="Mutitouch\Windows7.Multitouch.WPF\Windows7.Multitouch.WPF.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="mtGesture" Source="Demo\Multitouch\MultitouchWinForms\mtGesture\mtGesture.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="mtGesture" Source="Demo\Multitouch\MultitouchWinForms\mtGesture\mtGesture.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="mtInertia" Source="Demo\Multitouch\MultitouchWinForms\mtInertia\mtInertia.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="mtInertia" Source="Demo\Multitouch\MultitouchWinForms\mtInertia\mtInertia.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="mtManipulation" Source="Demo\Multitouch\MultitouchWinForms\mtManipulation\mtManipulation.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="mtManipulation" Source="Demo\Multitouch\MultitouchWinForms\mtManipulation\mtManipulation.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="MTScratchPad" Source="Demo\Multitouch\MultitouchWinForms\MTScratchPad\MTScratchPad.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="MTScratchPad" Source="Demo\Multitouch\MultitouchWinForms\MTScratchPad\MTScratchPad.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="MultiControls" Source="Demo\Multitouch\MultitouchWinForms\MultiControls\MultiControls.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="MultiControls" Source="Demo\Multitouch\MultitouchWinForms\MultiControls\MultiControls.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="mtWPFGesture" Source="Demo\Multitouch\MutlitouchWPF\mtWPFGesture\mtWPFGesture.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="mtWPFGesture" Source="Demo\Multitouch\MutlitouchWPF\mtWPFGesture\mtWPFGesture.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="mtWPFInertia" Source="Demo\Multitouch\MutlitouchWPF\mtWPFInertia\mtWPFInertia.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="mtWPFInertia" Source="Demo\Multitouch\MutlitouchWPF\mtWPFInertia\mtWPFInertia.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="mtWPFManipulation" Source="Demo\Multitouch\MutlitouchWPF\mtWPFManipulation\mtWPFManipulation.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="mtWPFManipulation" Source="Demo\Multitouch\MutlitouchWPF\mtWPFManipulation\mtWPFManipulation.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="mtWPFScratchPad" Source="Demo\Multitouch\MutlitouchWPF\mtWPFScratchPad\mtWPFScratchPad.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="mtWPFScratchPad" Source="Demo\Multitouch\MutlitouchWPF\mtWPFScratchPad\mtWPFScratchPad.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Windows7.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Windows7.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="mtGesture" Source="Demo\Multitouch\MultitouchWinForms\mtGesture\mtGesture.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="mtInertia" Source="Demo\Multitouch\MultitouchWinForms\mtInertia\mtInertia.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="mtManipulation" Source="Demo\Multitouch\MultitouchWinForms\mtManipulation\mtManipulation.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="MTScratchPad" Source="Demo\Multitouch\MultitouchWinForms\MTScratchPad\MTScratchPad.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="MultiControls" Source="Demo\Multitouch\MultitouchWinForms\MultiControls\MultiControls.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="mtWPFGesture" Source="Demo\Multitouch\MutlitouchWPF\mtWPFGesture\mtWPFGesture.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="mtWPFInertia" Source="Demo\Multitouch\MutlitouchWPF\mtWPFInertia\mtWPFInertia.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="mtWPFManipulation" Source="Demo\Multitouch\MutlitouchWPF\mtWPFManipulation\mtWPFManipulation.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="mtWPFScratchPad" Source="Demo\Multitouch\MutlitouchWPF\mtWPFScratchPad\mtWPFScratchPad.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="Windows7.Multitouch" Source="Mutitouch\Windows7.Multitouch\Windows7.Multitouch.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="Windows7.Multitouch.WinForms" Source="Mutitouch\Windows7.Multitouch.WinForms\Windows7.Multitouch.WinForms.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="Windows7.Multitouch.WPF" Source="Mutitouch\Windows7.Multitouch.WPF\Windows7.Multitouch.WPF.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

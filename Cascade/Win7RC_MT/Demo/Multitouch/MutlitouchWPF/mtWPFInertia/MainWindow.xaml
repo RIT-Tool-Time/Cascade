@@ -1,0 +1,8 @@
+﻿<Window x:Class="mtWPFInertia.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="mtWPFInertia" Height="300" Width="300" WindowState="Maximized"
+    xmlns:mt="clr-namespace:mtWPFInertia">
+    <Canvas Name="_canvas">
+    </Canvas>
+</Window>

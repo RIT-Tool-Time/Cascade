@@ -59,3 +59,6 @@ C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\obj\x86\De
 C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\obj\x86\Debug\Cascade.exe
 C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\obj\x86\Debug\Cascade.pdb
+C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Windows7.Multitouch.dll
+C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Windows7.Multitouch.pdb
+C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Windows7.Multitouch.xml

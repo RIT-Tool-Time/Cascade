@@ -1,0 +1,1142 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Windows7.Multitouch</name>
+    </assembly>
+    <members>
+        <member name="T:Windows7.Multitouch.GestureHandler">
+            <summary>
+            Handles gesture events
+            </summary>
+            <remarks>
+            The handler simplifies handling gesture such as rotate, zoom and pan 
+            by keeping the requires knowledge of the previous and first event in 
+            the gesture event sequence.  
+            </remarks>
+        </member>
+        <member name="T:Windows7.Multitouch.Handler">
+            <summary>
+            Base class for handling Gesture and Touch event
+            </summary>
+            <remarks>
+            A form can have one handler, either touch handler or gesture handler. 
+            The form need to create the handler and register to events. 
+            The code is not thread safe, we assume that the calling thread is the 
+            UI thread. There is no blocking operation in the code.
+            </remarks>
+        </member>
+        <member name="M:Windows7.Multitouch.Handler.SetHWndTouchInfo">
+            <summary>
+            Initiate touch support for the underline hWnd 
+            </summary>
+            <remarks>Registering the hWnd to touch support or configure the hWnd to receive gesture messages</remarks>
+            <returns>true if succeeded</returns>
+        </member>
+        <member name="M:Windows7.Multitouch.Handler.WindowProc(System.IntPtr,System.Int32,System.IntPtr,System.IntPtr)">
+            <summary>
+            The interceptor WndProc
+            </summary>
+            <param name="hWnd">WndProc hWnd</param>
+            <param name="msg">WndProc msg</param>
+            <param name="wparam">WndProc wParam</param>
+            <param name="lparam">WndProc lPara</param>
+            <returns>WndProc return</returns>
+        </member>
+        <member name="M:Windows7.Multitouch.Handler.#ctor(Windows7.Multitouch.IHwndWrapper)">
+            <summary>
+            We create the hanlder using a factory method.
+            </summary>
+            <param name="hWndWrapper">The control or Window that registered for touch/gesture events</param>
+        </member>
+        <member name="M:Windows7.Multitouch.Handler.Initialize">
+            <summary>
+            Connect the handler to the Control
+            </summary>
+            <remarks>
+            The trick is to subclass the Control and intercept touch/gesture events, then reflect
+            them back to the control.
+            </remarks>
+        </member>
+        <member name="M:Windows7.Multitouch.Handler.WindowProcSubClass(System.IntPtr,System.Int32,System.IntPtr,System.IntPtr)">
+            <summary>
+            Intercept touch/gesture events using Windows subclassing
+            </summary>
+            <param name="hWnd">The hWnd of the registered form</param>
+            <param name="msg">The WM code</param>
+            <param name="wparam">The WM WParam</param>
+            <param name="lparam">The WM LParam</param>
+            <returns></returns>
+        </member>
+        <member name="M:Windows7.Multitouch.Handler.IsTouchWindows(System.IntPtr)">
+            <summary>
+            Check if the Window is registered for multitouch events
+            </summary>
+            <param name="hWnd"></param>
+            <returns></returns>
+        </member>
+        <member name="P:Windows7.Multitouch.Handler.HWndWrapper">
+            <summary>
+            The registered control wrapper
+            </summary>
+        </member>
+        <member name="P:Windows7.Multitouch.Handler.ControlHandle">
+            <summary>
+            The registered control's handler
+            </summary>
+        </member>
+        <member name="P:Windows7.Multitouch.Handler.DpiX">
+            <summary>
+            The X DPI of the target window
+            </summary>
+        </member>
+        <member name="P:Windows7.Multitouch.Handler.DpiY">
+            <summary>
+            The Y DPI of the target window
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "E:Windows7.Multitouch.Handler.GestureNotify" -->
+        <member name="E:Windows7.Multitouch.Handler.WindowMessage">
+            <summary>
+            Enable advanced message handling/blocking
+            </summary>
+        </member>
+        <member name="T:Windows7.Multitouch.Handler.DigitizerCapabilities">
+            <summary>
+            Report digitizer capabilities
+            </summary>
+        </member>
+        <member name="P:Windows7.Multitouch.Handler.DigitizerCapabilities.Status">
+            <summary>
+            Get the current Digitizer Status
+            </summary>
+        </member>
+        <member name="P:Windows7.Multitouch.Handler.DigitizerCapabilities.MaxumumTouches">
+            <summary>
+            Get the maximum touches capability
+            </summary>
+        </member>
+        <member name="P:Windows7.Multitouch.Handler.DigitizerCapabilities.IsIntegratedTouch">
+            <summary>
+            Check for integrated touch support
+            </summary>
+        </member>
+        <member name="P:Windows7.Multitouch.Handler.DigitizerCapabilities.IsExternalTouch">
+            <summary>
+            Check for external touch support
+            </summary>
+        </member>
+        <member name="P:Windows7.Multitouch.Handler.DigitizerCapabilities.IsIntegratedPan">
+            <summary>
+            Check for Pen support
+            </summary>
+        </member>
+        <member name="P:Windows7.Multitouch.Handler.DigitizerCapabilities.IsExternalPan">
+            <summary>
+            Check for external Pan support
+            </summary>
+        </member>
+        <member name="P:Windows7.Multitouch.Handler.DigitizerCapabilities.IsMultiInput">
+            <summary>
+            Check for multi-input
+            </summary>
+        </member>
+        <member name="P:Windows7.Multitouch.Handler.DigitizerCapabilities.IsStackReady">
+            <summary>
+            Check if touch device is ready
+            </summary>
+        </member>
+        <member name="P:Windows7.Multitouch.Handler.DigitizerCapabilities.IsMultiTouchReady">
+            <summary>
+            Check if Multi-touch support device is ready
+            </summary>
+        </member>
+        <member name="M:Windows7.Multitouch.GestureHandler.#ctor(Windows7.Multitouch.IHwndWrapper)">
+            <summary>
+            Construct a gesture handler instance
+            </summary>
+            <param name="hWndWrapper">The target control wrapper</param>
+        </member>
+        <member name="M:Windows7.Multitouch.GestureHandler.SetHWndTouchInfo">
+            <summary>
+            Register the form to get gesture events
+            </summary>
+            <returns>true if succeeded</returns>
+        </member>
+        <member name="M:Windows7.Multitouch.GestureHandler.WindowProc(System.IntPtr,System.Int32,System.IntPtr,System.IntPtr)">
+            <summary>
+            The Windows message interception for gesture events handling
+            </summary>
+            <param name="hWnd">WndProc hWnd</param>
+            <param name="msg">WndProc msg</param>
+            <param name="wParam">WndProc wParam</param>
+            <param name="lParam">WndProc lParam</param>
+            <returns>WndProc return</returns>
+        </member>
+        <member name="P:Windows7.Multitouch.GestureHandler.LastBeginEvent">
+            <summary>
+            The event that started the current gesture
+            </summary>
+        </member>
+        <member name="P:Windows7.Multitouch.GestureHandler.LastEvent">
+            <summary>
+            The last event in the current gesture event sequence
+            </summary>
+        </member>
+        <member name="E:Windows7.Multitouch.GestureHandler.Begin">
+            <summary>
+            Indicate a that a gesture is beginning
+            </summary>
+        </member>
+        <member name="E:Windows7.Multitouch.GestureHandler.End">
+            <summary>
+            Indicate an end of a gesture
+            </summary>
+        </member>
+        <member name="E:Windows7.Multitouch.GestureHandler.PanBegin">
+            <summary>
+            Start the pannin sequence
+            </summary>
+        </member>
+        <member name="E:Windows7.Multitouch.GestureHandler.Pan">
+            <summary>
+            Panning continue
+            </summary>
+            /// <remarks>
+            Use the PanTranslation property of the event argument to get the
+            relative translation size (relative to the last pan event) 
+            </remarks>
+        </member>
+        <member name="E:Windows7.Multitouch.GestureHandler.PanEnd">
+            <summary>
+            End pan event
+            </summary>
+        </member>
+        <member name="E:Windows7.Multitouch.GestureHandler.PressAndTap">
+            <summary>
+            RollOver gesture event, this is a single event
+            </summary>
+        </member>
+        <member name="E:Windows7.Multitouch.GestureHandler.RotateBegin">
+            <summary>
+            Starting rotate gesture 
+            </summary>
+        </member>
+        <member name="E:Windows7.Multitouch.GestureHandler.Rotate">
+            <summary>
+            Continue rotating
+            </summary>
+            <remarks>
+            Use the RotateAngle in the event argument to get the relative 
+            rotation angle
+            </remarks>
+        </member>
+        <member name="E:Windows7.Multitouch.GestureHandler.RotateEnd">
+            <summary>
+            Rotate end
+            </summary>
+        </member>
+        <member name="E:Windows7.Multitouch.GestureHandler.TwoFingerTap">
+            <summary>
+            Two fingers tap event.
+            </summary>
+            <remarks>
+            This is a single event
+            </remarks>
+        </member>
+        <member name="E:Windows7.Multitouch.GestureHandler.ZoomBegin">
+            <summary>
+            Start zoom gesture
+            </summary>
+        </member>
+        <member name="E:Windows7.Multitouch.GestureHandler.Zoom">
+            <summary>
+            Continue zooming
+            </summary>
+            <remarks>
+            Use the ZoomFactor to know the relative zoom factor
+            </remarks>
+        </member>
+        <member name="E:Windows7.Multitouch.GestureHandler.ZoomEnd">
+            <summary>
+            Zoom End event
+            </summary>
+        </member>
+        <member name="T:Windows7.Multitouch.GestureEventArgs">
+            <summary>
+            Event arguments for all gesture events
+            </summary>
+            <remarks>
+            Some of the properties are related to specific messages:
+            Panning: PanTranslation
+            Zooming: ZoomFactor
+            Rotation: RotateAngle
+            </remarks>
+        </member>
+        <member name="M:Windows7.Multitouch.GestureEventArgs.#ctor(Windows7.Multitouch.GestureHandler,Windows7.Multitouch.Interop.GESTUREINFO@)">
+            <summary>
+            Create new gesture event instance and decode the gesture info structure
+            </summary>
+            <param name="handler">The gesture handler</param>
+            <param name="gestureInfo">The gesture information</param>
+        </member>
+        <member name="P:Windows7.Multitouch.GestureEventArgs.GestureId">
+            <summary>
+            The windows gesture id
+            </summary>
+        </member>
+        <member name="P:Windows7.Multitouch.GestureEventArgs.GestureArguments">
+            <summary>
+            the raw Gesture arguments
+            </summary>
+        </member>
+        <member name="P:Windows7.Multitouch.GestureEventArgs.Location">
+            <summary>
+            The gesture location translated into client area
+            </summary>
+        </member>
+        <member name="P:Windows7.Multitouch.GestureEventArgs.IsBegin">
+            <summary>
+            The first event of a gesture
+            </summary>
+        </member>
+        <member name="P:Windows7.Multitouch.GestureEventArgs.IsEnd">
+            <summary>
+            The last event of a gesture
+            </summary>
+        </member>
+        <member name="P:Windows7.Multitouch.GestureEventArgs.IsInertia">
+            <summary>
+            The gesture has triggered inertia
+            </summary>
+        </member>
+        <member name="P:Windows7.Multitouch.GestureEventArgs.RotateAngle">
+            <summary>
+            The relative rotation angle, used by the Rotate event
+            </summary>
+        </member>
+        <member name="P:Windows7.Multitouch.GestureEventArgs.Center">
+            <summary>
+            The calculated gesture center
+            </summary>
+        </member>
+        <member name="P:Windows7.Multitouch.GestureEventArgs.ZoomFactor">
+            <summary>
+            The zoom factor, used by the Zoom event
+            </summary>
+        </member>
+        <member name="P:Windows7.Multitouch.GestureEventArgs.PanTranslation">
+            <summary>
+            The relative panning translation, used by the Pan event
+            </summary>
+        </member>
+        <member name="P:Windows7.Multitouch.GestureEventArgs.PanVelocity">
+            <summary>
+            The velocity vector of the pan gesture, can be used for custom inertia
+            </summary>
+        </member>
+        <member name="P:Windows7.Multitouch.GestureEventArgs.LastBeginEvent">
+            <summary>
+            The first gesture in this gesture event sequence
+            </summary>
+        </member>
+        <member name="P:Windows7.Multitouch.GestureEventArgs.LastEvent">
+            <summary>
+            The last gesture in this gesture event sequence
+            </summary>
+        </member>
+        <member name="T:Windows7.Multitouch.TouchHandler">
+            <summary>
+            Handles touch events for a hWnd
+            </summary>
+        </member>
+        <member name="M:Windows7.Multitouch.TouchHandler.SetHWndTouchInfo">
+            <summary>
+            Register for touch event
+            </summary>
+            <returns>true if succeeded</returns>
+        </member>
+        <member name="M:Windows7.Multitouch.TouchHandler.WindowProc(System.IntPtr,System.Int32,System.IntPtr,System.IntPtr)">
+            <summary>
+            Intercept and fire touch events
+            </summary>
+            <param name="hWnd">The Windows Handle</param>
+            <param name="msg">Windows Message</param>
+            <param name="wparam">wParam</param>
+            <param name="lparam">lParam</param>
+            <returns></returns>
+        </member>
+        <member name="M:Windows7.Multitouch.TouchHandler.DecodeMessage(System.IntPtr,System.Int32,System.IntPtr,System.IntPtr,System.Single,System.Single)">
+            <summary>
+            Decode the message and create a collection of event arguments
+            </summary>
+            <remarks>
+            One Windows message can result a group of events
+            </remarks>
+            <returns>An enumerator of thr resuting events</returns>
+            <param name="hWnd">the WndProc hWnd</param>
+            <param name="msg">the WndProc msg</param>
+            <param name="wParam">the WndProc wParam</param>
+            <param name="lParam">the WndProc lParam</param>
+        </member>
+        <member name="P:Windows7.Multitouch.TouchHandler.DisablePalmRejection">
+            <summary>
+            Enabling this flag disables palm rejection
+            </summary>
+        </member>
+        <member name="E:Windows7.Multitouch.TouchHandler.TouchDown">
+            <summary>
+            Register to receive TouchDown Events
+            </summary>
+        </member>
+        <member name="E:Windows7.Multitouch.TouchHandler.TouchUp">
+            <summary>
+            Register to receive TouchUp Events
+            </summary>
+        </member>
+        <member name="E:Windows7.Multitouch.TouchHandler.TouchMove">
+            <summary>
+            Register to receive TouchMove Events
+            </summary>
+        </member>
+        <member name="T:Windows7.Multitouch.TouchEventArgs">
+            <summary>
+            EventArgs passed to Touch handlers 
+            </summary>
+        </member>
+        <member name="M:Windows7.Multitouch.TouchEventArgs.#ctor(Windows7.Multitouch.IHwndWrapper,System.Single,System.Single,Windows7.Multitouch.Interop.TOUCHINPUT@)">
+            <summary>
+            Create new touch event argument instance
+            </summary>
+            <param name="hWndWrapper">The target control</param>
+            <param name="touchInput">one of the inner touch input in the message</param>
+        </member>
+        <member name="P:Windows7.Multitouch.TouchEventArgs.Location">
+            <summary>
+            Touch client coordinate in pixels
+            </summary>
+        </member>
+        <member name="P:Windows7.Multitouch.TouchEventArgs.Id">
+            <summary>
+            A touch point identifier that distinguishes a particular touch input
+            </summary>
+        </member>
+        <member name="P:Windows7.Multitouch.TouchEventArgs.Flags">
+            <summary>
+            A set of bit flags that specify various aspects of touch point
+            press, release, and motion. 
+            </summary>
+        </member>
+        <member name="P:Windows7.Multitouch.TouchEventArgs.Mask">
+            <summary>
+            mask which fields in the structure are valid
+            </summary>
+        </member>
+        <member name="P:Windows7.Multitouch.TouchEventArgs.AbsoluteTime">
+            <summary>
+            touch event time
+            </summary>
+        </member>
+        <member name="P:Windows7.Multitouch.TouchEventArgs.Time">
+            <summary>
+            touch event time from system up
+            </summary>
+        </member>
+        <member name="P:Windows7.Multitouch.TouchEventArgs.ContactSize">
+            <summary>
+            the size of the contact area in pixels
+            </summary>
+        </member>
+        <member name="P:Windows7.Multitouch.TouchEventArgs.IsPrimaryContact">
+            <summary>
+            Is Primary Contact (The first touch sequence)
+            </summary>
+        </member>
+        <member name="P:Windows7.Multitouch.TouchEventArgs.IsTouchMove">
+            <summary>
+            Specifies that movement occurred
+            </summary>
+        </member>
+        <member name="P:Windows7.Multitouch.TouchEventArgs.IsTouchDown">
+            <summary>
+            Specifies that the corresponding touch point was established through a new contact
+            </summary>
+        </member>
+        <member name="P:Windows7.Multitouch.TouchEventArgs.IsTouchUp">
+            <summary>
+            Specifies that a touch point was removed
+            </summary>
+        </member>
+        <member name="P:Windows7.Multitouch.TouchEventArgs.IsTouchInRange">
+            <summary>
+            Specifies that a touch point is in range
+            </summary>
+        </member>
+        <member name="P:Windows7.Multitouch.TouchEventArgs.IsTouchNoCoalesce">
+            <summary>
+            specifies that this input was not coalesced.
+            </summary>
+        </member>
+        <member name="P:Windows7.Multitouch.TouchEventArgs.IsTouchPen">
+            <summary>
+            Specifies that the touch point is associated with a pen contact
+            </summary>
+        </member>
+        <member name="P:Windows7.Multitouch.TouchEventArgs.IsTouchPalm">
+            <summary>
+            The touch event came from the user's palm
+            </summary>
+            <remarks>Set <see cref="!:DisablePalmRejection"/> to true</remarks>
+        </member>
+        <member name="T:Windows7.Multitouch.Interop.TOUCHINPUT">
+            <summary>
+            Touch API defined structures [winuser.h]
+            </summary>
+        </member>
+        <member name="T:Windows7.Multitouch.Interop.POINTS">
+            <summary>
+            A Simple POINTS Interop structure
+            </summary>
+        </member>
+        <member name="T:Windows7.Multitouch.Interop.POINT">
+            <summary>
+            A Simple POINT Interop structure
+            </summary>
+        </member>
+        <member name="T:Windows7.Multitouch.Interop.GESTURECONFIG">
+            <summary>
+            Gesture Config Interop Structure
+            </summary>
+        </member>
+        <member name="T:Windows7.Multitouch.Interop.GESTUREINFO">
+            <summary>
+            Gesture Info Interop Structure
+            </summary>
+        </member>
+        <member name="M:Windows7.Multitouch.Interop.Kernel32.GetCurrentThreadId">
+            <summary>
+            Get the native thread id
+            </summary>
+            <returns>Thread ID</returns>
+        </member>
+        <member name="T:Windows7.Multitouch.IHwndWrapper">
+            <summary>
+            Wrapp HWND source such as System.Windows.Forms.Control, or System.Windows.Window
+            </summary>
+        </member>
+        <member name="M:Windows7.Multitouch.IHwndWrapper.PointToClient(System.Drawing.Point)">
+            <summary>
+            Computes the location of the specified screen point into client coordinates
+            </summary>
+            <param name="point">The screen coordinate System.Drawing.Point to convert</param>
+            <returns>A point that represents the converted point in client coordinates</returns>
+        </member>
+        <member name="P:Windows7.Multitouch.IHwndWrapper.Handle">
+            <summary>
+            The Underline Windows Handle
+            </summary>
+        </member>
+        <member name="P:Windows7.Multitouch.IHwndWrapper.Source">
+            <summary>
+            The .NET object that wrap the Windows Handle (WinForm, WinForm Control, WPF Window, IntPtr of HWND)
+            </summary>
+        </member>
+        <member name="E:Windows7.Multitouch.IHwndWrapper.HandleCreated">
+            <summary>
+            The Win32 Handle has been created
+            </summary>
+        </member>
+        <member name="E:Windows7.Multitouch.IHwndWrapper.HandleDestroyed">
+            <summary>
+            /// The Win32 Handle has been destroyed
+            </summary>
+        </member>
+        <member name="P:Windows7.Multitouch.IHwndWrapper.IsHandleCreated">
+            <summary>
+            Check if the Win32 Handle is already created
+            </summary>
+        </member>
+        <member name="T:Windows7.Multitouch.IGUITimer">
+            <summary>
+            A Common interface foir timer.
+            The timer has to be in the UI thread context
+            </summary>
+        </member>
+        <member name="M:Windows7.Multitouch.IGUITimer.Start">
+            <summary>
+            Starts the timer.
+            </summary>
+        </member>
+        <member name="M:Windows7.Multitouch.IGUITimer.Stop">
+            <summary>
+            Stops the timer.
+            </summary>
+        </member>
+        <member name="P:Windows7.Multitouch.IGUITimer.Enabled">
+            <summary>
+            Gets or sets whether the timer is running.
+            </summary>
+        </member>
+        <member name="P:Windows7.Multitouch.IGUITimer.Interval">
+            <summary>
+            Gets or sets the time, in milliseconds, before the Tick event is raised
+            </summary>
+        </member>
+        <member name="E:Windows7.Multitouch.IGUITimer.Tick">
+            <summary>
+              Occurs when the specified timer interval has elapsed and the timer is enabled.
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "T:Windows7.Multitouch.GestureNotifyEventArgs" -->
+        <member name="P:Windows7.Multitouch.GestureNotifyEventArgs.Location">
+            <summary>
+            The gesture location
+            </summary>
+        </member>
+        <member name="P:Windows7.Multitouch.GestureNotifyEventArgs.TargetHwnd">
+            <summary>
+            The gesture target window
+            </summary>
+        </member>
+        <member name="T:Windows7.Multitouch.WMEventArgs">
+            <summary>
+            Enable advanced message handling/blocking
+            </summary>
+        </member>
+        <member name="T:Windows7.Multitouch.DigitizerStatus">
+            <summary>
+            All availible digitizer capabilities
+            </summary>
+        </member>
+        <member name="T:Windows7.Multitouch.Win32Helper.Factory">
+            <summary>
+            A factory that creates touch or gesture handler for a HWnd based Window
+            </summary>
+        </member>
+        <member name="M:Windows7.Multitouch.Win32Helper.Factory.CreateHandler``1(System.IntPtr)">
+            <summary>
+             A factory that creates touch or gesture handler for a HWnd based Window
+            </summary>
+            <remarks>We use factory to ensure that only one handler will be created for a window, since Gesture and Touch are mutually exclude</remarks>
+            <typeparam name="T">The handler type</typeparam>
+            <param name="hWnd">The Windows handle that need touch or gesture events</param>
+            <returns>TouchHandler or Gesture Handler</returns>
+        </member>
+        <member name="T:Windows7.Multitouch.Manipulation.ProcessorManipulations">
+            <summary>
+            Manipulation Flags.
+            Enables Manipulation Support
+            </summary>
+        </member>
+        <member name="F:Windows7.Multitouch.Manipulation.ProcessorManipulations.NONE">
+            <summary>
+            Disable manipulation events
+            </summary>
+        </member>
+        <member name="F:Windows7.Multitouch.Manipulation.ProcessorManipulations.TRANSLATE_X">
+            <summary>
+            X axis translation events
+            </summary>
+        </member>
+        <member name="F:Windows7.Multitouch.Manipulation.ProcessorManipulations.TRANSLATE_Y">
+            <summary>
+            Y Axis translation events
+            </summary>
+        </member>
+        <member name="F:Windows7.Multitouch.Manipulation.ProcessorManipulations.SCALE">
+            <summary>
+            Scaling events
+            </summary>
+        </member>
+        <member name="F:Windows7.Multitouch.Manipulation.ProcessorManipulations.ROTATE">
+            <summary>
+            Rotation events
+            </summary>
+        </member>
+        <member name="F:Windows7.Multitouch.Manipulation.ProcessorManipulations.ALL">
+            <summary>
+            Fire all manipulation events
+            </summary>
+        </member>
+        <member name="T:Windows7.Multitouch.Manipulation.VectorF">
+            <summary>
+            Utility class for vector manipulations
+            </summary>
+        </member>
+        <member name="M:Windows7.Multitouch.Manipulation.VectorF.#ctor(System.Single,System.Single)">
+            <summary>
+            Create new float vector
+            </summary>
+            <param name="x">X direction</param>
+            <param name="y">Y Direction</param>
+        </member>
+        <member name="M:Windows7.Multitouch.Manipulation.VectorF.ToString">
+            <summary>
+            (x,y)
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Windows7.Multitouch.Manipulation.VectorF.Equals(System.Object)">
+            <summary>
+            Check if two vectors are equal
+            </summary>
+            <param name="obj">the second vector</param>
+            <returns>true if they are equal</returns>
+        </member>
+        <member name="M:Windows7.Multitouch.Manipulation.VectorF.GetHashCode">
+            <summary>
+            Return the Vector hash code
+            </summary>
+            <returns>Hash Code</returns>
+        </member>
+        <member name="M:Windows7.Multitouch.Manipulation.VectorF.op_Implicit(Windows7.Multitouch.Manipulation.VectorF)~System.Drawing.Size">
+            <summary>
+            Convert vector to Size
+            </summary>
+            <param name="vector">The Vector</param>
+            <returns>The vector as Size</returns>
+        </member>
+        <member name="M:Windows7.Multitouch.Manipulation.VectorF.op_Implicit(Windows7.Multitouch.Manipulation.VectorF)~System.Drawing.SizeF">
+            <summary>
+            Convert Vector to SizeF
+            </summary>
+            <param name="vector">The Vector</param>
+            <returns>The vector as SizeF</returns>
+        </member>
+        <member name="M:Windows7.Multitouch.Manipulation.VectorF.op_Implicit(System.Drawing.Size)~Windows7.Multitouch.Manipulation.VectorF">
+            <summary>
+            Convert Size to vector
+            </summary>
+            <param name="size">The size</param>
+            <returns>The size as vector</returns>
+        </member>
+        <member name="M:Windows7.Multitouch.Manipulation.VectorF.op_Implicit(System.Drawing.SizeF)~Windows7.Multitouch.Manipulation.VectorF">
+            <summary>
+            Convert SizeF to Vector
+            </summary>
+            <param name="size">The Size</param>
+            <returns>The Size as Vector</returns>
+        </member>
+        <member name="M:Windows7.Multitouch.Manipulation.VectorF.op_Multiply(Windows7.Multitouch.Manipulation.VectorF,System.Single)">
+            <summary>
+            Multiply the vector with scalar (float)
+            </summary>
+            <param name="vector">The source vector</param>
+            <param name="value">The floating point scalar</param>
+            <returns>New vector</returns>
+        </member>
+        <member name="M:Windows7.Multitouch.Manipulation.VectorF.op_Division(Windows7.Multitouch.Manipulation.VectorF,System.Single)">
+            <summary>
+            Divide Vector with scalar (float)
+            </summary>
+            <param name="vector">The Vector</param>
+            <param name="value">The scalar</param>
+            <returns>New Vector</returns>
+        </member>
+        <member name="M:Windows7.Multitouch.Manipulation.VectorF.op_Addition(Windows7.Multitouch.Manipulation.VectorF,System.Single)">
+            <summary>
+            Add scalar to a vector
+            </summary>
+            <param name="vector">The Vector</param>
+            <param name="value">The scalar</param>
+            <returns>New vector</returns>
+        </member>
+        <member name="M:Windows7.Multitouch.Manipulation.VectorF.op_Subtraction(Windows7.Multitouch.Manipulation.VectorF,System.Single)">
+            <summary>
+            Substruct Scalar from vector
+            </summary>
+            <param name="vector">The vector</param>
+            <param name="value">The scalar</param>
+            <returns>New vector</returns>
+        </member>
+        <member name="M:Windows7.Multitouch.Manipulation.VectorF.op_Addition(Windows7.Multitouch.Manipulation.VectorF,Windows7.Multitouch.Manipulation.VectorF)">
+            <summary>
+            Add two vectors
+            </summary>
+            <param name="v1">V1</param>
+            <param name="v2">V2</param>
+            <returns>New Vector</returns>
+        </member>
+        <member name="M:Windows7.Multitouch.Manipulation.VectorF.op_Subtraction(Windows7.Multitouch.Manipulation.VectorF,Windows7.Multitouch.Manipulation.VectorF)">
+            <summary>
+            Substruct two vectors
+            </summary>
+            <param name="v1">V1</param>
+            <param name="v2">V2</param>
+            <returns>New Vector</returns>
+        </member>
+        <member name="P:Windows7.Multitouch.Manipulation.VectorF.X">
+            <summary>
+            The X direction
+            </summary>
+        </member>
+        <member name="P:Windows7.Multitouch.Manipulation.VectorF.Y">
+            <summary>
+            The Y Direction
+            </summary>
+        </member>
+        <member name="P:Windows7.Multitouch.Manipulation.VectorF.Magnitude">
+            <summary>
+            Return the magnitude (normal) of a vector
+            </summary>
+        </member>
+        <member name="P:Windows7.Multitouch.Manipulation.VectorF.Direction">
+            <summary>
+            Return the unit vector
+            </summary>
+        </member>
+        <member name="T:Windows7.Multitouch.Manipulation.ManipulationStartedEventArgs">
+            <summary>
+            Argument for manipulatiuon start event
+            </summary>
+        </member>
+        <member name="M:Windows7.Multitouch.Manipulation.ManipulationStartedEventArgs.#ctor(System.Single,System.Single)">
+            <summary>
+            Argument for touch event location
+            </summary>
+            <param name="x">The x Axis</param>
+            <param name="y">The y Axis</param>
+        </member>
+        <member name="P:Windows7.Multitouch.Manipulation.ManipulationStartedEventArgs.Location">
+            <summary>
+            This location is usually the center point
+            </summary>
+        </member>
+        <member name="T:Windows7.Multitouch.Manipulation.ManipulationCompletedEventArgs">
+            <summary>
+            The argument for manipulation complete event
+            </summary>
+        </member>
+        <member name="M:Windows7.Multitouch.Manipulation.ManipulationCompletedEventArgs.#ctor(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)">
+            <summary>
+            Create new ManipulationCompletedEventArgs
+            </summary>
+            <param name="x">x Axis</param>
+            <param name="y">y Axis</param>
+            <param name="cumulativeTranslationX">Cumulative Translation in the X Axis since starting manipulation</param>
+            <param name="cumulativeTranslationY">Cumulative Translation in the Y Axis since starting manipulation</param>
+            <param name="cumulativeScale">Cumulative scaling since starting manipulation</param>
+            <param name="cumulativeExpansion">Cumulative Expension since starting manipulation</param>
+            <param name="cumulativeRotation">Cumulative rotation in radians since starting manipulation</param>
+        </member>
+        <member name="P:Windows7.Multitouch.Manipulation.ManipulationCompletedEventArgs.CumulativeTranslation">
+            <summary>
+            Total translation
+            </summary>
+        </member>
+        <member name="P:Windows7.Multitouch.Manipulation.ManipulationCompletedEventArgs.CumulativeScale">
+            <summary>
+            Total Scaling
+            </summary>
+        </member>
+        <member name="P:Windows7.Multitouch.Manipulation.ManipulationCompletedEventArgs.CumulativeExpansion">
+            <summary>
+            Total Extension
+            </summary>
+        </member>
+        <member name="P:Windows7.Multitouch.Manipulation.ManipulationCompletedEventArgs.CumulativeRotation">
+            <summary>
+            Total Rotation
+            </summary>
+        </member>
+        <member name="T:Windows7.Multitouch.Manipulation.ManipulationDeltaEventArgs">
+            <summary>
+            The argument for manipulation delta
+            </summary>
+        </member>
+        <member name="M:Windows7.Multitouch.Manipulation.ManipulationDeltaEventArgs.#ctor(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)">
+            <summary>
+            
+            </summary>
+            <param name="x">x Axis</param>
+            <param name="y">y Axis</param>
+            <param name="translationDeltaX">The amount of translation since the last event</param>
+            <param name="translationDeltaY">The amount of translation since the last event</param>
+            <param name="scaleDelta">The amount of scaling since the last event</param>
+            <param name="expansionDelta">The amount of expension since the last event</param>
+            <param name="rotationDelta">The amount of rotation in radians since the last event</param>
+            <param name="cumulativeTranslationX">Cumulative Translation in the X Axis since starting manipulation</param>
+            <param name="cumulativeTranslationY">Cumulative Translation in the Y Axis since starting manipulation</param>
+            <param name="cumulativeScale">Cumulative scaling since starting manipulation</param>
+            <param name="cumulativeExpansion">Cumulative Expension since starting manipulation</param>
+            <param name="cumulativeRotation">Cumulative rotation in radians since starting manipulation</param>
+        </member>
+        <member name="P:Windows7.Multitouch.Manipulation.ManipulationDeltaEventArgs.TranslationDelta">
+            <summary>
+            The amount of translation since the last event
+            </summary>
+        </member>
+        <member name="P:Windows7.Multitouch.Manipulation.ManipulationDeltaEventArgs.ScaleDelta">
+            <summary>
+            The amount of scaling since the last event
+            </summary>
+        </member>
+        <member name="P:Windows7.Multitouch.Manipulation.ManipulationDeltaEventArgs.ExpansionDelta">
+            <summary>
+            The amount of expension since the last event
+            </summary>
+        </member>
+        <member name="P:Windows7.Multitouch.Manipulation.ManipulationDeltaEventArgs.RotationDelta">
+            <summary>
+            The amount of rotation since the last event
+            </summary>
+        </member>
+        <member name="T:Windows7.Multitouch.Manipulation.ManipulationProcessor">
+            <summary>
+            A .NET wrapper for touch manipulation processing
+            </summary>
+        </member>
+        <member name="M:Windows7.Multitouch.Manipulation.ManipulationProcessor.#ctor(Windows7.Multitouch.Manipulation.ProcessorManipulations)">
+            <summary>
+            Create new manipulation processor
+            </summary>
+            <remarks>
+            Call the <see cref="M:Windows7.Multitouch.Manipulation.ManipulationProcessor.ProcessDown(System.UInt32,System.Drawing.PointF)"/>, <see cref="M:Windows7.Multitouch.Manipulation.ManipulationProcessor.ProcessMove(System.UInt32,System.Drawing.PointF)"/>, <see cref="M:Windows7.Multitouch.Manipulation.ManipulationProcessor.ProcessUp(System.UInt32,System.Drawing.PointF)"/> to feed the processor.
+            Register on <see cref="E:Windows7.Multitouch.Manipulation.ManipulationProcessor.ManipulationStarted"/>, <see cref="E:Windows7.Multitouch.Manipulation.ManipulationProcessor.ManipulationDelta"/> and <see cref="E:Windows7.Multitouch.Manipulation.ManipulationProcessor.ManipulationCompleted"/>
+            to handle manipulation events
+            </remarks>
+            <param name="supportedManipulations">Activate specific manipulation (scale, translate, rotate)</param>
+        </member>
+        <member name="M:Windows7.Multitouch.Manipulation.ManipulationProcessor.CompleteManipulation">
+            <summary>
+            This method raises the ManipulationCompleted() event in response
+            </summary>
+        </member>
+        <member name="M:Windows7.Multitouch.Manipulation.ManipulationProcessor.ProcessDown(System.UInt32,System.Drawing.PointF)">
+            <summary>
+            The ProcessDown method feeds data to the manipulation processor associated with a target
+            </summary>
+            <param name="manipulationId">The identifier for the manipulation that you want to process</param>
+            <param name="location">The coordinates associated with the target</param>
+        </member>
+        <member name="M:Windows7.Multitouch.Manipulation.ManipulationProcessor.ProcessMove(System.UInt32,System.Drawing.PointF)">
+            <summary>
+            The ProcessMove method feeds movement data for the target object to its manipulation processor
+            </summary>
+            <param name="manipulationId">The identifier for the manipulation that you want to process</param>
+            <param name="location">The coordinates associated with the target</param>
+        </member>
+        <member name="M:Windows7.Multitouch.Manipulation.ManipulationProcessor.ProcessUp(System.UInt32,System.Drawing.PointF)">
+            <summary>
+            The ProcessUp method feeds data to a target's manipulation processor for touch up sequences
+            </summary>
+            <param name="manipulationId">The identifier for the manipulation that you want to process</param>
+            <param name="location">The coordinates associated with the target</param>
+        </member>
+        <member name="M:Windows7.Multitouch.Manipulation.ManipulationProcessor.ProcessDownWithTime(System.UInt32,System.Drawing.PointF,System.Int32)">
+            <summary>
+            Feds data to the manipulation processor associated with a target and a timestamp
+            </summary>
+            <param name="manipulationId">The identifier for the manipulation that you want to process</param>
+            <param name="location">The coordinates associated with the target</param>
+            <param name="timestamp">The timestamp of the event</param>
+        </member>
+        <member name="M:Windows7.Multitouch.Manipulation.ManipulationProcessor.ProcessMoveWithTime(System.UInt32,System.Drawing.PointF,System.Int32)">
+            <summary>
+            Feds data to the manipulation processor associated with a target and a timestamp
+            </summary>
+            <param name="manipulationId">The identifier for the manipulation that you want to process</param>
+            <param name="location">The coordinates associated with the target</param>
+            <param name="timestamp">The timestamp of the event</param>
+        </member>
+        <member name="M:Windows7.Multitouch.Manipulation.ManipulationProcessor.ProcessUpWithTime(System.UInt32,System.Drawing.PointF,System.Int32)">
+            <summary>
+            Feds data to the manipulation processor associated with a target and a timestamp
+            </summary>
+            <param name="manipulationId">The identifier for the manipulation that you want to process</param>
+            <param name="location">The coordinates associated with the target</param>
+            <param name="timestamp">The timestamp of the event</param>
+        </member>
+        <member name="M:Windows7.Multitouch.Manipulation.ManipulationProcessor.Dispose(System.Boolean)">
+            <summary>
+            Release the underlined COM Object
+            </summary>
+            <param name="dispose"></param>
+        </member>
+        <member name="M:Windows7.Multitouch.Manipulation.ManipulationProcessor.Dispose">
+            <summary>
+            Dispose the object, free the underline COM object
+            </summary>
+        </member>
+        <member name="E:Windows7.Multitouch.Manipulation.ManipulationProcessor.ManipulationStarted">
+            <summary>
+            Fired when manipulation is started
+            </summary>
+        </member>
+        <member name="E:Windows7.Multitouch.Manipulation.ManipulationProcessor.ManipulationDelta">
+            <summary>
+            Fired each time the processor had figured a change in one or more of the required manipulations
+            </summary>
+        </member>
+        <member name="E:Windows7.Multitouch.Manipulation.ManipulationProcessor.ManipulationCompleted">
+            <summary>
+            Fired on manipulation end
+            </summary>
+        </member>
+        <member name="P:Windows7.Multitouch.Manipulation.ManipulationProcessor.SupportedManipulations">
+            <summary>
+            Get or Set the required manipulation
+            </summary>
+        </member>
+        <member name="P:Windows7.Multitouch.Manipulation.ManipulationProcessor.PivotPoint">
+            <summary>
+            The Center of the object
+            </summary>
+        </member>
+        <member name="P:Windows7.Multitouch.Manipulation.ManipulationProcessor.PivotRadius">
+            <summary>
+            The PivotRadius property is used to determine how much rotation is used in single finger manipulation
+            </summary>
+        </member>
+        <member name="P:Windows7.Multitouch.Manipulation.ManipulationProcessor.Velocity">
+            <summary>
+            Calculates and returns the velocity for the target object
+            </summary>
+        </member>
+        <member name="P:Windows7.Multitouch.Manipulation.ManipulationProcessor.ExpansionVelocity">
+            <summary>
+            Calculates the rate that the target object is expanding at
+            </summary>
+        </member>
+        <member name="P:Windows7.Multitouch.Manipulation.ManipulationProcessor.AngularVelocity">
+            <summary>
+            Calculates the rotational velocity that the target object is moving at
+            </summary>
+        </member>
+        <member name="P:Windows7.Multitouch.Manipulation.ManipulationProcessor.MinimumScaleRotateRadius">
+            <summary>
+            Specifies the minimum scale and rotate radius
+            </summary>
+        </member>
+        <member name="T:Windows7.Multitouch.Manipulation.ManipulationInertiaProcessor">
+            <summary>
+            A manipulation processor that support Inertia processing
+            </summary>
+        </member>
+        <member name="M:Windows7.Multitouch.Manipulation.ManipulationInertiaProcessor.#ctor(Windows7.Multitouch.Manipulation.ProcessorManipulations,Windows7.Multitouch.IGUITimer)">
+            <summary>
+            Create new manipulation processor
+            </summary>
+            <remarks>
+            Call the <see cref="M:Windows7.Multitouch.Manipulation.ManipulationProcessor.ProcessDown(System.UInt32,System.Drawing.PointF)"/>, <see cref="M:Windows7.Multitouch.Manipulation.ManipulationProcessor.ProcessMove(System.UInt32,System.Drawing.PointF)"/>, <see cref="M:Windows7.Multitouch.Manipulation.ManipulationProcessor.ProcessUp(System.UInt32,System.Drawing.PointF)"/> to feed the processor.
+            Register on <see cref="E:Windows7.Multitouch.Manipulation.ManipulationProcessor.ManipulationStarted"/>, <see cref="E:Windows7.Multitouch.Manipulation.ManipulationProcessor.ManipulationDelta"/> and <see cref="E:Windows7.Multitouch.Manipulation.ManipulationProcessor.ManipulationCompleted"/>
+            to handle manipulation events
+            Set the <see cref="P:Windows7.Multitouch.Manipulation.ManipulationInertiaProcessor.InertiaProcessor"/> properties to get the desired inertia behavior
+            Register to the <see cref="E:Windows7.Multitouch.Manipulation.ManipulationInertiaProcessor.BeforeInertia"/> event to set the inertia properties when inertia is starting/&gt;
+            </remarks>
+            <param name="supportedManipulations">Activate specific manipulation (scale, translate, rotate)</param>
+            <param name="timer">The GUI timer that will be used for inertia events</param>
+        </member>
+        <member name="M:Windows7.Multitouch.Manipulation.ManipulationInertiaProcessor.Dispose(System.Boolean)">
+            <summary>
+            Release the underline COM object
+            </summary>
+            <param name="dispose"></param>
+        </member>
+        <member name="E:Windows7.Multitouch.Manipulation.ManipulationInertiaProcessor.BeforeInertia">
+            <summary>
+            Fired just before inertia is starting
+            </summary>
+        </member>
+        <member name="P:Windows7.Multitouch.Manipulation.ManipulationInertiaProcessor.InertiaProcessor">
+            <summary>
+            The inertia processor that is associate with the Manipulation Processor
+            </summary>
+        </member>
+        <member name="T:Windows7.Multitouch.Manipulation.InertiaProcessor">
+            <summary>
+            The Inertia Processor
+            </summary>
+            <remarks>Handles calculations regarding object motion for multitouch</remarks>
+        </member>
+        <member name="M:Windows7.Multitouch.Manipulation.InertiaProcessor.Dispose">
+            <summary>
+            Dispose the object and release the underline COM object
+            </summary>
+        </member>
+        <member name="P:Windows7.Multitouch.Manipulation.InertiaProcessor.MaxInertiaSteps">
+            <summary>
+            After this amount of timer ticks, the Inertia will stop
+            </summary>
+        </member>
+        <member name="P:Windows7.Multitouch.Manipulation.InertiaProcessor.InertiaTimerInterval">
+            <summary>
+            The timer resolution for inertia events
+            </summary>
+        </member>
+        <member name="P:Windows7.Multitouch.Manipulation.InertiaProcessor.InInertia">
+            <summary>
+            True when the inertia processor generate inertia motion events
+            </summary>
+        </member>
+        <member name="P:Windows7.Multitouch.Manipulation.InertiaProcessor.InitialVelocity">
+            <summary>
+            Specifies the initial movement of the target object
+            </summary>
+        </member>
+        <member name="P:Windows7.Multitouch.Manipulation.InertiaProcessor.InitialAngularVelocity">
+            <summary>
+            Specifies the rotation of the target when movement begins
+            </summary>
+        </member>
+        <member name="P:Windows7.Multitouch.Manipulation.InertiaProcessor.InitialExpansionVelocity">
+            <summary>
+            Specifies the expention of the target when movement begins
+            </summary>
+        </member>
+        <member name="P:Windows7.Multitouch.Manipulation.InertiaProcessor.InitialRadius">
+            <summary>
+            Specifies the distance from the edge of the target to its center before the object was changed
+            </summary>
+        </member>
+        <member name="P:Windows7.Multitouch.Manipulation.InertiaProcessor.Boundary">
+            <summary>
+            Limits how far towards the edge of the screen the target object can move
+            </summary>
+        </member>
+        <member name="P:Windows7.Multitouch.Manipulation.InertiaProcessor.ElasticMargin">
+            <summary>
+            Specifies the rectangle region for bouncing the target objec
+            </summary>
+        </member>
+        <member name="P:Windows7.Multitouch.Manipulation.InertiaProcessor.DesiredDisplacement">
+            <summary>
+            Specifies the desired distance that the object will travel
+            </summary>
+        </member>
+        <member name="P:Windows7.Multitouch.Manipulation.InertiaProcessor.DesiredRotation">
+            <summary>
+            Specifies the desired radians that the object will rotate
+            </summary>
+        </member>
+        <member name="P:Windows7.Multitouch.Manipulation.InertiaProcessor.DesiredExpansion">
+            <summary>
+            Specifies the desired change in the object's average radius
+            </summary>
+        </member>
+        <member name="P:Windows7.Multitouch.Manipulation.InertiaProcessor.DesiredDeceleration">
+            <summary>
+            Specifies the desired rate at which translation operations will decelerate
+            </summary>
+        </member>
+        <member name="P:Windows7.Multitouch.Manipulation.InertiaProcessor.DesiredAngularDeceleration">
+            <summary>
+            Specifies the desired rate that the target object will stop spinning in radians per msec
+            </summary>
+        </member>
+        <member name="P:Windows7.Multitouch.Manipulation.InertiaProcessor.DesiredExpansionDeceleration">
+            <summary>
+            Specifies the rate at which the object will stop expanding
+            </summary>
+        </member>
+        <member name="T:Windows7.Multitouch.Manipulation.BeforeInertiaEventArgs">
+            <summary>
+            Before Inertia phase is starting
+            </summary>
+        </member>
+        <member name="F:Windows7.Multitouch.Manipulation.BeforeInertiaEventArgs.CancelInertia">
+            <summary>
+            Cancel Inertia by setting this property to true
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -12,9 +12,9 @@ namespace Cascade
         public Triangle(ParticleManager manager, Vector3 pos)
             :base(manager, pos)
         {
-            int add = 50;
+            int add = 30;
             Vertices = new CascadeVertex[3];
-            Vertices[0] = new CascadeVertex(new Vector3(0, 0, 0), Color);
+            Vertices[0] = new CascadeVertex(new Vector3(0, -add, 0), Color);
             Vertices[1] = new CascadeVertex(new Vector3(add, add, 0), Color);
             Vertices[2] = new CascadeVertex(new Vector3(-add, add, 0), Color);
             PrimitiveCount = 1;

@@ -1,0 +1,7 @@
+C:\Users\v-alflie\Documents\Visual Studio 2008\Projects\Windows7IntegrationLibrary\Mutitouch\Windows7.Multitouch.WinForms\bin\Debug\Windows7.Multitouch.WinForms.dll
+C:\Users\v-alflie\Documents\Visual Studio 2008\Projects\Windows7IntegrationLibrary\Mutitouch\Windows7.Multitouch.WinForms\bin\Debug\Windows7.Multitouch.WinForms.pdb
+C:\Users\v-alflie\Documents\Visual Studio 2008\Projects\Windows7IntegrationLibrary\Mutitouch\Windows7.Multitouch.WinForms\bin\Debug\Windows7.Multitouch.dll
+C:\Users\v-alflie\Documents\Visual Studio 2008\Projects\Windows7IntegrationLibrary\Mutitouch\Windows7.Multitouch.WinForms\bin\Debug\Windows7.Multitouch.pdb
+C:\Users\v-alflie\Documents\Visual Studio 2008\Projects\Windows7IntegrationLibrary\Mutitouch\Windows7.Multitouch.WinForms\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\v-alflie\Documents\Visual Studio 2008\Projects\Windows7IntegrationLibrary\Mutitouch\Windows7.Multitouch.WinForms\obj\Debug\Windows7.Multitouch.WinForms.dll
+C:\Users\v-alflie\Documents\Visual Studio 2008\Projects\Windows7IntegrationLibrary\Mutitouch\Windows7.Multitouch.WinForms\obj\Debug\Windows7.Multitouch.WinForms.pdb

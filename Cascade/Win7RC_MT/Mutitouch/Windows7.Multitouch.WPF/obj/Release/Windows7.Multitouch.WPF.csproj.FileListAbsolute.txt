@@ -1,0 +1,9 @@
+D:\temp\Win7RC_MT\Mutitouch\Windows7.Multitouch.WPF\bin\Release\Windows7.Multitouch.WPF.XML
+D:\temp\Win7RC_MT\Mutitouch\Windows7.Multitouch.WPF\bin\Release\Windows7.Multitouch.WPF.dll
+D:\temp\Win7RC_MT\Mutitouch\Windows7.Multitouch.WPF\bin\Release\Windows7.Multitouch.WPF.pdb
+D:\temp\Win7RC_MT\Mutitouch\Windows7.Multitouch.WPF\bin\Release\Windows7.Multitouch.dll
+D:\temp\Win7RC_MT\Mutitouch\Windows7.Multitouch.WPF\bin\Release\Windows7.Multitouch.pdb
+D:\temp\Win7RC_MT\Mutitouch\Windows7.Multitouch.WPF\bin\Release\Windows7.Multitouch.xml
+D:\temp\Win7RC_MT\Mutitouch\Windows7.Multitouch.WPF\obj\Release\ResolveAssemblyReference.cache
+D:\temp\Win7RC_MT\Mutitouch\Windows7.Multitouch.WPF\obj\Release\Windows7.Multitouch.WPF.dll
+D:\temp\Win7RC_MT\Mutitouch\Windows7.Multitouch.WPF\obj\Release\Windows7.Multitouch.WPF.pdb

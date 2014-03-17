@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Windows7.Multitouch.WPF</name>
+    </assembly>
+    <members>
+        <member name="T:Windows7.Multitouch.WPF.WindowWrapper">
+            <summary>
+            Represents a WPF Window
+            </summary>
+        </member>
+        <member name="T:Windows7.Multitouch.WPF.GUITimer">
+            <summary>
+            The WPF GUI Timer for Inerta Events
+            </summary>
+        </member>
+        <member name="M:Windows7.Multitouch.WPF.GUITimer.Dispose">
+            <summary>
+            Do Nothing
+            </summary>
+        </member>
+        <member name="M:Windows7.Multitouch.WPF.GUITimer.Windows7#Multitouch#IGUITimer#Start">
+            <summary>
+            The WPF GUI Timer for Inerta Events
+            </summary>
+        </member>
+        <member name="M:Windows7.Multitouch.WPF.GUITimer.Windows7#Multitouch#IGUITimer#Stop">
+            <summary>
+            The WPF GUI Timer for Inerta Events
+            </summary>
+        </member>
+        <member name="M:Windows7.Multitouch.WPF.GUITimer.Windows7#Multitouch#IGUITimer#add_Tick(System.EventHandler)">
+            <summary>
+            The WPF GUI Timer for Inerta Events
+            </summary>
+        </member>
+        <member name="M:Windows7.Multitouch.WPF.GUITimer.Windows7#Multitouch#IGUITimer#remove_Tick(System.EventHandler)">
+            <summary>
+            The WPF GUI Timer for Inerta Events
+            </summary>
+        </member>
+        <member name="P:Windows7.Multitouch.WPF.GUITimer.Windows7#Multitouch#IGUITimer#Interval">
+            <summary>
+            Get/Set the timer interval
+            </summary>
+        </member>
+        <member name="T:Windows7.Multitouch.WPF.Factory">
+            <summary>
+            Helper class for creating Gesture handler and Enabling touch for WPF application
+            </summary>
+        </member>
+        <member name="M:Windows7.Multitouch.WPF.Factory.CreateGestureHandler(System.Windows.Window)">
+            <summary>
+            A factory that creates gesture handler for a WPF Window
+            </summary>
+            <remarks>since WPF does not support Touch events, only Gesture handler can be created</remarks>
+            <param name="window">The window that need touch or gesture events</param>
+            <returns>The Gesture Handler</returns>
+        </member>
+        <member name="M:Windows7.Multitouch.WPF.Factory.EnableStylusEvents(System.Windows.Window)">
+            <summary>
+            Enable Stylus events, that represent touch events. 
+            </summary>
+            <remarks>Each stylus device has an Id that is corelate to the touch Id</remarks>
+            <param name="window">The WPF window that needs stylus events</param>
+        </member>
+        <member name="M:Windows7.Multitouch.WPF.Factory.CreateTimer">
+            <summary>
+            Create a wrapper for a UI based timer 
+            </summary>
+            <remarks>This timer is called in the context of the UI thread</remarks>
+            <returns>A timer Wrapper</returns>
+        </member>
+        <member name="T:Windows7.Multitouch.WPF.PointUtil">
+            <summary>
+            Helper class to convert drawing point tp WPF point and vice versa
+            </summary>
+        </member>
+        <member name="M:Windows7.Multitouch.WPF.PointUtil.ToDrawingPointF(System.Windows.Point)">
+            <summary>
+            Convert WPF point to drawing point
+            </summary>
+            <param name="p">WPF point</param>
+            <returns>Drawing Point</returns>
+        </member>
+        <member name="M:Windows7.Multitouch.WPF.PointUtil.ToDrawingPointF(System.Drawing.PointF)">
+            <summary>
+            Convert drawing point to WPF point
+            </summary>
+            <param name="p">Drawing Point</param>
+            <returns>WPF Point</returns>
+        </member>
+    </members>
+</doc>

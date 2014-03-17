@@ -66,10 +66,14 @@
     <Reference Include="Microsoft.Xna.Framework.GamerServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86" />
     <Reference Include="mscorlib" />
     <Reference Include="System" />
+    <Reference Include="System.Windows.Input.Manipulations" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Net" />
+    <Reference Include="Windows7.Multitouch">
+      <HintPath>..\..\Win7RC_MT\Mutitouch\Windows7.Multitouch\bin\Release\Windows7.Multitouch.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Camera.cs" />
@@ -94,6 +98,7 @@
     <Compile Include="TcpObject.cs" />
     <Compile Include="Triangle.cs" />
     <Compile Include="VertexEffect.cs" />
+    <Compile Include="Window.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Game.ico" />
