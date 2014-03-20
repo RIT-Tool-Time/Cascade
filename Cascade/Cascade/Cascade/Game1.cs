@@ -111,7 +111,7 @@ namespace Cascade
                 e.Particle.Behaviors.Add(new Behaviors.Disappear(360, 0.1f, 0.1f, 1));
                 e.Particle.Behaviors.Add(new Behaviors.Bounce(-250, 0.5f));
                 e.Particle.Alpha = 0;
-                e.Particle.Scale = new Vector2(0.05f);
+                e.Particle.Scale = new Vector2(0.1f);
                 e.Particle.MotionStretch = true;
             };
             var emit = new CircleEmitter(Global.ParticleManager, new Vector3(-800, -900, 2300))
@@ -134,7 +134,7 @@ namespace Cascade
 
             var emit2 = new CircleEmitter(Global.ParticleManager, new Vector3(10000, -4000, 10000))
             {
-                Step = 2,
+                Step = 1,
                 Speed = new Vector3(-25, 15, -10),
                 SpeedRange = new Vector3(5, 2, 0),
                 PosRange = new Vector3(500),
@@ -336,7 +336,7 @@ namespace Cascade
 
             
             spriteBatch.Begin(SpriteSortMode.Immediate, BlendState.AlphaBlend, null, null, null);
-            Global.SpriteEffect.SetTechnique("Normal");
+            Global.SpriteEffect.SetTechnique("Bokeh");
             foreach (var pass in Global.SpriteEffect.CurrentTechnique.Passes)
             {
                 pass.Apply();
