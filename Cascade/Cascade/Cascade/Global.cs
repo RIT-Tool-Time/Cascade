@@ -61,6 +61,10 @@ namespace Cascade
     {
         public static SpriteFont Output = Global.Game.Content.Load<SpriteFont>("OutputFont");
     }
+    public static class Textures
+    {
+        public static Texture Light = Global.Game.Content.Load<Texture2D>("Light2");
+    }
     public struct OutputString
     {
         string output;

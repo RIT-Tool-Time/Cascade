@@ -83,19 +83,37 @@ namespace Cascade.Behaviors
     }
     public class Bounce : ParticleBehavior
     {
-        float minY = 0;
+        float maxY = 0;
         float speedMult = 1;
-        public Bounce(float minY, float speedMult = 1)
+        public Bounce(float maxY, float speedMult = 1)
         {
-            this.minY = minY;
+            this.maxY = maxY;
             this.speedMult = speedMult;
         }
         public override void Update(Particle part)
         {
-            if (part.Pos.Y <= minY)
+            if (part.Pos.Y >= maxY)
             {
-                part.Pos.Y = minY;
+                part.Pos.Y = maxY;
                 part.Speed.Y *= -speedMult;
+            }
+            base.Update(part);
+        }
+    }
+    public class SpeedDamping : ParticleBehavior
+    {
+        float damping = 0;
+        float minSpeed = 0;
+        public SpeedDamping(float damping, float minSpeed)
+        {
+            this.damping = damping;
+            this.minSpeed = minSpeed;
+        }
+        public override void Update(Particle part)
+        {
+            if (part.Speed.Length() > minSpeed)
+            {
+                part.Speed += ((part.Speed * damping) - part.Speed) * Global.Speed;
             }
             base.Update(part);
         }

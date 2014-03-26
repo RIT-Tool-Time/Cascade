@@ -68,6 +68,22 @@ namespace Cascade
                 }
             }
         }
+        float depth = 0;
+        public float Depth
+        {
+            get
+            {
+                return depth;
+            }
+            set
+            {
+                if (value != depth)
+                {
+                    depth = value;
+                    Parameters["depth"].SetValue(depth);
+                }
+            }
+        }
         public VertexEffect()
             : base(Global.Game.Content.Load<Effect>("Shader"))
         {

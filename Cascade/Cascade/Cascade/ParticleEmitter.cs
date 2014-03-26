@@ -14,6 +14,7 @@ namespace Cascade
     }
     public class ParticleEmitter
     {
+        Vector3 prevPos = Vector3.Zero;
         public Vector3 Pos = Vector3.Zero;
         public Vector3 PosRange = Vector3.Zero;
         public float Step = 1;
@@ -27,6 +28,7 @@ namespace Cascade
         public Color ColorRange = new Color(0, 0, 0, 0);
         public event ParticleEmittedEventHandler Emitted;
         public bool Emit = true;
+        public float SpeedTransferMultiplier = 1;
         
         public ParticleEmitter(ParticleManager man, Vector3 pos)
         {
@@ -45,7 +47,7 @@ namespace Cascade
                     var p = CreateParticle();
                     p.Pos = Pos.RandomVectorRange(PosRange);
                     p.Scale = Scale + new Vector2(MyMath.RandomRange(-ScaleRange.X, ScaleRange.X), MyMath.RandomRange(-ScaleRange.Y, ScaleRange.Y));
-                    p.Speed = Speed.RandomVectorRange(SpeedRange);
+                    p.Speed = Speed.RandomVectorRange(SpeedRange) + ((Pos - prevPos) * SpeedTransferMultiplier);
                     p.Color = new Color(Color.ToVector4().RandomVectorRange(ColorRange.ToVector4()));
                     if (Emitted != null)
                     {
@@ -53,6 +55,7 @@ namespace Cascade
                     }
                 }
             }
+            prevPos = Pos;
         }
         protected virtual Particle CreateParticle()
         {

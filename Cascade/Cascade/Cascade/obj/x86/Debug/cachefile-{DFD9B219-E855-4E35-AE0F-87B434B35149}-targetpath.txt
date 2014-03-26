@@ -1,3 +1,4 @@
 Content\OutputFont.xnb
 Content\Shader.xnb
 Content\SpriteShader.xnb
+Content\Light2.xnb

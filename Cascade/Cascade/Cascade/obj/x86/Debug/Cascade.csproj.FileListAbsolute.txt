@@ -62,3 +62,7 @@ C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\obj\x86\De
 C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Windows7.Multitouch.dll
 C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Windows7.Multitouch.pdb
 C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Windows7.Multitouch.xml
+C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Windows7.Multitouch.dll
+C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Windows7.Multitouch.pdb
+C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Windows7.Multitouch.xml
+C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Light2.xnb

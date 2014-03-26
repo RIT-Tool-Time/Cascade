@@ -18,6 +18,7 @@ namespace Cascade
         public BlendState BlendState = BlendState.AlphaBlend;
         public bool MotionStretch = false;
         public float Rotation = 0;
+        public float Depth = 0;
         float stretchRot = 0, stretchScale = 0;
         Vector3 prevPos = Vector3.Zero;
         public Color Color
@@ -85,7 +86,7 @@ namespace Cascade
                 stretchRot = Rotation;
                 stretchScale = 0;
             }
-
+            Depth += 0.01f * Global.Speed;
         }
         public virtual void SetVertexPositions()
         {
@@ -103,6 +104,7 @@ namespace Cascade
         {
             Global.Effect.World = Matrix.CreateScale(new Vector3(Scale + new Vector2(0, stretchScale), 1)) * Matrix.CreateRotationZ(MathHelper.ToRadians(stretchRot)) * Matrix.CreateTranslation(Pos);
             Global.Effect.Alpha = Alpha;
+            Global.Effect.Depth = Depth;
             GraphicsDevice.BlendState = BlendState;
             foreach (var p in Global.Effect.CurrentTechnique.Passes)
             {

@@ -2,8 +2,7 @@ float4x4 World;
 float4x4 View;
 float4x4 Projection;
 
-float frontDepth = 1000;
-float rearDepth = 10000;
+float depth = 0;
 float alpha =1;
 
 struct VertexShaderInput
@@ -39,7 +38,7 @@ mrt PixelShaderFunction(VertexShaderOutput input) : COLOR0
     mrt m = (mrt)0;
 	m.col0 = input.Color;
 	float z = input.Pos.z;
-	m.col1= float4( (z - frontDepth) / (rearDepth - frontDepth), 0, 0, 1) * input.Color.a;
+	m.col1= float4( depth, 0, 0, 1);
 	//mrt.col
     return m;
 }

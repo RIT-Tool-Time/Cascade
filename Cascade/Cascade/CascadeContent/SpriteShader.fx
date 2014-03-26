@@ -1,7 +1,7 @@
 
 float aspect = 16.0/9.0;
-float blurLevel = 0.02;
-static float blurStep = 2.0 / 12.0;
+float blurLevel = 0.015;
+static float blurStep = 2.0 / 24.0;
 SamplerState gSampler : register(s0)
 {
 	
@@ -47,14 +47,14 @@ float4 BokehShader(float4 pos: POSITION, float4 color: COLOR, float2 tex: TEXCOO
 			for (float o = -1; o <= 1; o+=blurStep)
 			{
 				dist = (i * i) + (o * o);
-				[branch]if (dist < 0.75)
+				[branch]if (dist < 0.6)
 				{
 					pos2 = float2(i, o * aspect) ;
 					float b = tex2Dlod(depthSampler, float4(tex + (pos2 * blur * blurLevel), 0, 0)).r;
 					
 					col2 = tex2Dlod(gSampler, float4(tex + (pos2 * blurLevel * b), 0, 0));
 					colMul = (col2.r + col2.g + col2.b) * (dist + 0.5);
-					colMul = 1;
+					colMul = dist + 0.3;
 					col += col2 * colMul;
 					times+= colMul;
 				}
