@@ -113,7 +113,7 @@ namespace Cascade
                 e.Particle.Behaviors.Add(new Behaviors.SpeedDamping(0.9f, 0.25f));
                 //e.Particle.Behaviors.Add(new Behaviors.Bounce(720, 0.5f));
                 e.Particle.Alpha = 0;
-                e.Particle.Scale = new Vector2(0.1f);
+                e.Particle.Scale = new Vector2(0.05f);
                 e.Particle.MotionStretch = true;
             };
 

@@ -53,8 +53,8 @@ float4 BokehShader(float4 pos: POSITION, float4 color: COLOR, float2 tex: TEXCOO
 					float b = tex2Dlod(depthSampler, float4(tex + (pos2 * blur * blurLevel), 0, 0)).r;
 					
 					col2 = tex2Dlod(gSampler, float4(tex + (pos2 * blurLevel * b), 0, 0));
-					colMul = (col2.r + col2.g + col2.b) * (dist + 0.5);
-					colMul = dist + 0.3;
+					colMul = (pow(col2.r + col2.g + col2.b, 1) * (dist)) + 1;
+					//colMul = dist + 0.3;
 					col += col2 * colMul;
 					times+= colMul;
 				}
