@@ -36,7 +36,7 @@ namespace Cascade
             manager = man;
             man.Add(this);
         }
-        public void Update()
+        public virtual void Update()
         {
             if (Emit)
             {
@@ -71,7 +71,7 @@ namespace Cascade
         }
         protected override Particle CreateParticle()
         {
-            return new Ellipse(manager, Vector3.Zero, 12);
+            return new Ellipse(manager, Vector3.Zero, 6);
         }
     }
     public class TriangleEmitter : ParticleEmitter
@@ -84,6 +84,36 @@ namespace Cascade
         protected override Particle CreateParticle()
         {
             return new Triangle(manager, Vector3.Zero);
+        }
+    }
+    public class TouchEmitter : CircleEmitter
+    {
+        public TouchPoint Touch = null;
+        public TouchEmitter(ParticleManager man, Vector3 p)
+            : base(man, p)
+        {
+
+        }
+        public override void Update()
+        {
+            if (Touch != null)
+            {
+                Pos = Touch.Position.ToVector3();
+                if (Touch.State == TouchState.Moved)
+                {
+                    Step = 0.3f;
+                }
+                else
+                {
+                    Step = 0;
+                }
+                if (Touch.State == TouchState.Released || Touch.State == TouchState.None)
+                {
+                    Step = 0;
+                    Touch = null;
+                }
+            }
+            base.Update();
         }
     }
 }

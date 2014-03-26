@@ -86,7 +86,7 @@ namespace Cascade
                 stretchRot = Rotation;
                 stretchScale = 0;
             }
-            Depth += 0.01f * Global.Speed;
+            Depth += 0.0075f * Global.Speed;
         }
         public virtual void SetVertexPositions()
         {

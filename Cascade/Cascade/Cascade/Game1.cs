@@ -31,9 +31,9 @@ namespace Cascade
         ColorManager clearColor = new ColorManager();
         PanelManager panelManager;
         RenderTarget2D colorTarget, depthTarget, finalTarget;
-        ParticleEmitter emitter;
         Window w;
         TouchHandler touchHandler;
+        TouchEmitter[] emitters = new TouchEmitter[10];
         public Game1()
         {
             Global.Game = this;
@@ -41,10 +41,8 @@ namespace Cascade
             Content.RootDirectory = "Content";
             tcp = new TcpObject();
             this.TargetElapsedTime = TimeSpan.FromSeconds(1d / 60d);
-            touchHandler = Factory.CreateHandler<TouchHandler>(this.Window.Handle);
             GC.KeepAlive(this.Window);
             GC.KeepAlive(touchHandler);
-            touchHandler.TouchDown += new EventHandler<TouchEventArgs>(th_TouchDown);
         }
 
         void th_TouchDown(object sender, TouchEventArgs e)
@@ -74,7 +72,22 @@ namespace Cascade
         protected override void LoadContent()
         {
             Global.init();
-            
+            TouchManager.init();
+
+            for (int i = 0; i < emitters.Length; i++)
+            {
+                emitters[i] = new TouchEmitter(Global.ParticleManager, Vector3.Zero)
+                {
+                    Step = 100f,
+                    Speed = new Vector3(0, 0, 0),
+                    SpeedRange = new Vector3(5, 5, 0),
+                    Color = new Color(0, 255, 255),
+                    ColorRange = new Color(0.0f, 0.0f, 0.0f, 0.0f),
+                    SpeedTransferMultiplier = 0.5f
+                };
+                emitters[i].Emitted += new ParticleEmittedEventHandler(Game1_Emitted);
+            }
+
             Global.Camera.Pos = new Vector3(0, 0, -1000);
             Global.Camera.LookAtPos = new Vector3(0);
             
@@ -98,24 +111,7 @@ namespace Cascade
 
             //new Ellipse(Global.ParticleManager, new Vector3(0, 0, 1000), 30) { Color = Color.Aqua, Speed = new Vector3(0, 0, 0) };
             spriteBatch = new SpriteBatch(GraphicsDevice);
-            emitter = new TriangleEmitter(Global.ParticleManager, Vector3.Zero)
-            {
-                Step = 0.1f,
-                Speed = new Vector3(0, 0, 0),
-                SpeedRange = new Vector3(5, 5, 0),
-                ColorRange = new Color(0.5f, 0.5f, 0.5f, 0.0f),
-                SpeedTransferMultiplier = 0.5f
-            };
-            emitter.Emitted += delegate(ParticleEmittedEventArgs e)
-            {
-                e.Particle.Gravity = 0.0f;
-                e.Particle.Behaviors.Add(new Behaviors.Disappear(360, 0.1f, 0.1f, 1));
-                e.Particle.Behaviors.Add(new Behaviors.SpeedDamping(0.9f, 0.25f));
-                //e.Particle.Behaviors.Add(new Behaviors.Bounce(720, 0.5f));
-                e.Particle.Alpha = 0;
-                e.Particle.Scale = new Vector2(0.05f);
-                e.Particle.MotionStretch = true;
-            };
+            
 
             this.IsMouseVisible = true;
             try
@@ -135,8 +131,19 @@ namespace Cascade
             socketThreadStart = new ThreadStart(SocketMethod);
             Global.Output += "LoadContent completed";
             
-            CreateRenderTargets(1280, (9f / 16f));
+            CreateRenderTargets(640, (9f / 16f));
             // TODO: use this.Content to load your game content here
+        }
+
+        void Game1_Emitted(ParticleEmittedEventArgs e)
+        {
+            e.Particle.Gravity = 0.0f;
+            e.Particle.Behaviors.Add(new Behaviors.Disappear(240, 0.1f, 0.05f, 1));
+            e.Particle.Behaviors.Add(new Behaviors.SpeedDamping(0.93f, 0.25f));
+            //e.Particle.Behaviors.Add(new Behaviors.Bounce(720, 0.5f));
+            e.Particle.Alpha = 0;
+            e.Particle.Scale = new Vector2(0.05f);
+            e.Particle.MotionStretch = true;
         }
         private void CreateRenderTargets(int width, float aspectRatio)
         {
@@ -216,6 +223,7 @@ namespace Cascade
             }
             
             Global.Update(gameTime);
+            TouchManager.Update();
             clearColor.Update();
             panelManager.Update();
             if (Controls.GetKey(Keys.Space) == ControlState.Pressed)
@@ -230,22 +238,17 @@ namespace Cascade
             {
                 Global.Camera.LookAtPos = new Vector3(Global.Camera.LookAtPos.X, Global.Camera.LookAtPos.Y - 5, Global.Camera.LookAtPos.Z);
             }
-            if (Controls.MouseLeft == ControlState.Held)
+            foreach (var touch in TouchManager.TouchPoints)
             {
-                emitter.Step += (0.1f - emitter.Step) * 0.5f * Global.Speed;
-                emitter.Emit = true;
+                foreach (var emit in emitters)
+                {
+                    if (emit.Touch == null && touch.State == TouchState.Touched)
+                    {
+                        emit.Touch = touch;
+                        break;
+                    }
+                }
             }
-            else
-            {
-                emitter.Step += (30f - emitter.Step) * 0.01f * Global.Speed;
-                if (emitter.Step > 29)
-                    emitter.Emit = false;
-            }
-            //Global.Output += emitter.Step;
-            Vector3 mouse = new Vector3(Controls.MousePos, 0);
-            Viewport v = new Viewport(0, 0, 1280, 720) { MinDepth = 0, MaxDepth = 1000000 };
-            emitter.Pos = v.Unproject(mouse, Global.Effect.Projection, Global.Effect.View, Matrix.CreateTranslation(Global.Camera.Pos - Global.Camera.LookAtPos) * Matrix.CreateScale(1f / 1280, 1f / 720, 1));
-            emitter.Pos = Controls.MousePos.ToVector3() ;
             //emitter.Pos = new Vector3(-Controls.MousePos, 1000);
             //Global.Output += Global.ParticleManager.NumberofParticles + ", " + Controls.MousePos + ", " + emitter.Pos;
             //Global.Output += GC.GetTotalMemory(false) / 1000000f;
