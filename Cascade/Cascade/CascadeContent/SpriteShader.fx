@@ -1,6 +1,6 @@
 
 float aspect = 16.0/9.0;
-float blurLevel = 0.02;
+float blurLevel = 0.01;
 static float blurStep = 2.0 / 18.0;
 SamplerState gSampler : register(s0)
 {

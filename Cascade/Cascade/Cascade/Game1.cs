@@ -78,10 +78,10 @@ namespace Cascade
             {
                 emitters[i] = new TouchEmitter(Global.ParticleManager, Vector3.Zero)
                 {
-                    Step = 100f,
+                    Step = 0.3f,
                     Speed = new Vector3(0, 0, 0),
                     SpeedRange = new Vector3(5, 5, 0),
-                    Color = new Color(0, 255, 255),
+                    Color = new Color(45, 160, 241),
                     ColorRange = new Color(0.0f, 0.0f, 0.0f, 0.0f),
                     SpeedTransferMultiplier = 0.5f
                 };
@@ -142,7 +142,7 @@ namespace Cascade
             e.Particle.Behaviors.Add(new Behaviors.SpeedDamping(0.93f, 0.25f));
             //e.Particle.Behaviors.Add(new Behaviors.Bounce(720, 0.5f));
             e.Particle.Alpha = 0;
-            e.Particle.Scale = new Vector2(0.05f);
+            e.Particle.Scale = new Vector2(0.055f);
             e.Particle.MotionStretch = true;
         }
         private void CreateRenderTargets(int width, float aspectRatio)
@@ -269,7 +269,7 @@ namespace Cascade
             GraphicsDevice.Clear(Color.Red);
 
             GraphicsDevice.SetRenderTarget(colorTarget);
-            GraphicsDevice.Clear(Color.Black);
+            GraphicsDevice.Clear(Color.Transparent);
 
             GraphicsDevice.SetRenderTargets(colorTarget, depthTarget);
 
@@ -294,6 +294,7 @@ namespace Cascade
             Global.Effect.World = Matrix.CreateTranslation(0, 0, 0);
             Global.Effect.Alpha = 1;
             Global.Effect.CurrentTechnique.Passes[0].Apply();
+            Global.Effect.Parameters["depth"].SetValue(0);
             //panelManager.Draw(GraphicsDevice, graphics, spriteBatch, null, 1280, 720);
 
             //Set matrices for particles
@@ -309,8 +310,15 @@ namespace Cascade
             //Global.SpriteEffect.Parameters["depthTexture"].SetValue(depthTarget);
             Matrix sbMatrix = Matrix.CreateOrthographicOffCenter(0, Global.ScreenSize.X, Global.ScreenSize.Y, 0, 0, 1);
             Global.SpriteEffect.Parameters["MatrixTransform"].SetValue(sbMatrix);
+            Global.Effect.World = Matrix.CreateTranslation(Vector3.Zero);
+            Global.Effect.Alpha = 1;
+            foreach (var pass in Global.Effect.CurrentTechnique.Passes)
+            {
+                pass.Apply();
+                //spriteBatch.Draw(colorTarget, new Rectangle(0, 0, (int)Global.ScreenSize.X, (int)Global.ScreenSize.Y), Color.White);
+                panelManager.Draw(GraphicsDevice, graphics, spriteBatch, null, 1280, 720);
+            }
 
-            
             spriteBatch.Begin(SpriteSortMode.Immediate, BlendState.AlphaBlend, null, null, null);
             Global.SpriteEffect.SetTechnique("Bokeh");
             foreach (var pass in Global.SpriteEffect.CurrentTechnique.Passes)
@@ -318,8 +326,11 @@ namespace Cascade
                 pass.Apply();
                 spriteBatch.Draw(colorTarget, new Rectangle(0, 0, (int)Global.ScreenSize.X, (int)Global.ScreenSize.Y), Color.White);
             }
+            
+            
 
             GraphicsDevice.SetRenderTarget(null);
+            GraphicsDevice.Clear(Color.Black);
             Global.SpriteEffect.SetTechnique("Normal");
             foreach (var pass in Global.SpriteEffect.CurrentTechnique.Passes)
             {

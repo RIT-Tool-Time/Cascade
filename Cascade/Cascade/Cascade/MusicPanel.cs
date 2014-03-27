@@ -31,7 +31,7 @@ namespace Cascade
         public MusicPanel()
         {
             clearColor = new ColorManager();
-            clearColor.Color = Color.Green;
+            clearColor.Color = new Color(20,20,20);
         }
         public void Update()
         {

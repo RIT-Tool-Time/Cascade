@@ -40,6 +40,7 @@ namespace Cascade
         {
             if (Emit)
             {
+                
                 timer += Global.Speed;
                 while (Step > 0 && timer > Step)
                 {
@@ -92,7 +93,7 @@ namespace Cascade
         public TouchEmitter(ParticleManager man, Vector3 p)
             : base(man, p)
         {
-
+            Emit = false;
         }
         public override void Update()
         {
@@ -101,15 +102,15 @@ namespace Cascade
                 Pos = Touch.Position.ToVector3();
                 if (Touch.State == TouchState.Moved)
                 {
-                    Step = 0.3f;
+                    Emit = true;
                 }
                 else
                 {
-                    Step = 0;
+                    Emit = false;
                 }
                 if (Touch.State == TouchState.Released || Touch.State == TouchState.None)
                 {
-                    Step = 0;
+                    Emit = false;
                     Touch = null;
                 }
             }

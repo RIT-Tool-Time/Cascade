@@ -62,7 +62,7 @@ namespace Cascade
                     r.vertices[o].Color = panels[i].Color;
                 }
                 x += panelWidth;
-                GraphicsDevice.DrawUserPrimitives<VertexPositionColor>(PrimitiveType.TriangleList, r.vertices, 0, 2);
+                GraphicsDevice.DrawUserPrimitives<CascadeVertex>(PrimitiveType.TriangleList, r.vertices, 0, 2);
             }
         }
     }

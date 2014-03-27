@@ -6,7 +6,7 @@ namespace Cascade
     public class PolygonRect
     {
         public Vector2 pos;
-        public VertexPositionColor[] vertices;
+        public CascadeVertex[] vertices;
         ColorManager color;
 
         float x = 0, y = 0, z = 0, width = 0, height = 0;
@@ -27,13 +27,13 @@ namespace Cascade
             width = Width; height = Height;
             color = new ColorManager();
             color.Color = Color.Black;
-            vertices = new VertexPositionColor[6];
-            vertices[0] = new VertexPositionColor(new Vector3(0, 0, 0),  Color.Red);
-            vertices[1] = new VertexPositionColor(new Vector3(Width, 0, 0), Color.Red);
-            vertices[2] = new VertexPositionColor(new Vector3(Width, Height, 0), Color.Red);
-            vertices[3] = new VertexPositionColor(new Vector3(Width, Height, 0), Color.Red);
-            vertices[4] = new VertexPositionColor(new Vector3(0, Height, 0), Color.Red);
-            vertices[5] = new VertexPositionColor(new Vector3(0, 0, 0), Color.Red);
+            vertices = new CascadeVertex[6];
+            vertices[0] = new CascadeVertex(new Vector3(0, 0, 0), Color.Red);
+            vertices[1] = new CascadeVertex(new Vector3(Width, 0, 0), Color.Red);
+            vertices[2] = new CascadeVertex(new Vector3(Width, Height, 0), Color.Red);
+            vertices[3] = new CascadeVertex(new Vector3(Width, Height, 0), Color.Red);
+            vertices[4] = new CascadeVertex(new Vector3(0, Height, 0), Color.Red);
+            vertices[5] = new CascadeVertex(new Vector3(0, 0, 0), Color.Red);
             Origin = Vector3.Zero;
         }
         /// <summary>
