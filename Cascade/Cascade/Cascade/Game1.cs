@@ -29,10 +29,7 @@ namespace Cascade
         bool threadRunning = false;
         Random rand = new Random();
         ColorManager clearColor = new ColorManager();
-        PanelManager panelManager;
         RenderTarget2D colorTarget, depthTarget, finalTarget;
-        Window w;
-        TouchHandler touchHandler;
         TouchEmitter[] emitters = new TouchEmitter[10];
         public Game1()
         {
@@ -42,7 +39,6 @@ namespace Cascade
             tcp = new TcpObject();
             this.TargetElapsedTime = TimeSpan.FromSeconds(1d / 60d);
             GC.KeepAlive(this.Window);
-            GC.KeepAlive(touchHandler);
         }
 
         void th_TouchDown(object sender, TouchEventArgs e)
@@ -90,14 +86,23 @@ namespace Cascade
 
             Global.Camera.Pos = new Vector3(0, 0, -1000);
             Global.Camera.LookAtPos = new Vector3(0);
-            
-            panelManager = new PanelManager();
+            /*panelManager.Add(Color.White);
             panelManager.Add(Color.White);
             panelManager.Add(Color.White);
             panelManager.Add(Color.White);
             panelManager.Add(Color.White);
-            panelManager.Add(Color.White);
-            panelManager.Add(Color.White);
+            panelManager.Add(Color.White);*/
+            Global.PanelManager.NoteOffset = 36;
+            MusicManager.Update();
+            for (int i = 0; i < MusicManager.PentatonicScale.Length; i++)
+            {
+                Global.PanelManager.Add(
+                    new MusicPanel()
+                    {
+                        NoteOffset = MusicManager.PentatonicScale[i]
+                    }
+                    );
+            }
 
             for (int i = 0; i < 10; i++)
             {
@@ -114,6 +119,7 @@ namespace Cascade
             
 
             this.IsMouseVisible = true;
+            
             try
             {
                 /*tcp.Connect("129.21.65.69", 8124);
@@ -125,8 +131,8 @@ namespace Cascade
             {
                 Global.Output += "TCP Client not connected";
             }
-            graphics.PreferredBackBufferWidth = 1920; graphics.PreferredBackBufferHeight = (int)(graphics.PreferredBackBufferWidth * (9f / 16f));
-            graphics.IsFullScreen = true;
+            graphics.PreferredBackBufferWidth = 1280; graphics.PreferredBackBufferHeight = (int)(graphics.PreferredBackBufferWidth * (9f / 16f));
+            //graphics.IsFullScreen = true;
             graphics.ApplyChanges();
             socketThreadStart = new ThreadStart(SocketMethod);
             Global.Output += "LoadContent completed";
@@ -171,7 +177,7 @@ namespace Cascade
                         clearColor.G = (byte)(num >> 8);
                         clearColor.B = (byte)num;
                         clearColor.A = (byte)255;
-                        foreach (var mp in panelManager.Panels)
+                        foreach (var mp in Global.PanelManager.Panels)
                         {
                             mp.ColorManager.Color = clearColor;
                         }
@@ -185,7 +191,7 @@ namespace Cascade
                             string s = val.Substring(3);
                             int.TryParse(s, out index);
                             index--;
-                            panelManager[index].ColorManager.Animate(Color.White, 15);
+                            Global.PanelManager[index].ColorManager.Animate(Color.White, 15);
                         }
                         catch
                         {
@@ -223,9 +229,10 @@ namespace Cascade
             }
             
             Global.Update(gameTime);
+            MusicManager.Update();
             TouchManager.Update();
             clearColor.Update();
-            panelManager.Update();
+            Global.PanelManager.Update();
             if (Controls.GetKey(Keys.Space) == ControlState.Pressed)
             {
                 Global.SetSpeed(0.1f, 0.1f);
@@ -238,7 +245,7 @@ namespace Cascade
             {
                 Global.Camera.LookAtPos = new Vector3(Global.Camera.LookAtPos.X, Global.Camera.LookAtPos.Y - 5, Global.Camera.LookAtPos.Z);
             }
-            foreach (var touch in TouchManager.TouchPoints)
+            foreach (var touch in Global.Touches)
             {
                 foreach (var emit in emitters)
                 {
@@ -316,7 +323,7 @@ namespace Cascade
             {
                 pass.Apply();
                 //spriteBatch.Draw(colorTarget, new Rectangle(0, 0, (int)Global.ScreenSize.X, (int)Global.ScreenSize.Y), Color.White);
-                panelManager.Draw(GraphicsDevice, graphics, spriteBatch, null, 1280, 720);
+                Global.PanelManager.Draw(GraphicsDevice, graphics, spriteBatch, null, 1280, 720);
             }
 
             spriteBatch.Begin(SpriteSortMode.Immediate, BlendState.AlphaBlend, null, null, null);

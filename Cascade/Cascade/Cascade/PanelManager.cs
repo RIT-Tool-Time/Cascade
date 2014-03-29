@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using Microsoft.Xna.Framework.Audio;
 
 namespace Cascade
 {
@@ -17,6 +18,7 @@ namespace Cascade
                 return panels;
             }
         }
+        public int NoteOffset = 0;
         public MusicPanel this[int i]
         {
             get 
@@ -42,6 +44,11 @@ namespace Cascade
             MusicPanel mp = new MusicPanel();
             panels.Add(mp);
             //mp.Color = baseColor;
+            return mp;
+        }
+        public MusicPanel Add(MusicPanel mp)
+        {
+            panels.Add(mp);
             return mp;
         }
         public void Draw(GraphicsDevice GraphicsDevice, GraphicsDeviceManager graphics, SpriteBatch spriteBatch, RenderTarget2D defaultRenderTarget, int width, int height)

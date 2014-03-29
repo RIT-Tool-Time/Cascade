@@ -11,6 +11,13 @@ namespace Cascade
 {
     public static class TouchManager
     {
+        public static bool SupportsTouch
+        {
+            get
+            {
+                return Windows7.Multitouch.Handler.DigitizerCapabilities.IsMultiTouchReady;
+            }
+        }
         static TouchHandler handler;
         public static List<TouchPoint> TouchPoints = new List<TouchPoint>();
         static List<TouchPoint> toAddToList = new List<TouchPoint>();

@@ -84,6 +84,7 @@
     <Compile Include="Ellipse.cs" />
     <Compile Include="GameExtensions.cs" />
     <Compile Include="Global.cs" />
+    <Compile Include="MusicManager.cs" />
     <Compile Include="MusicPanel.cs" />
     <Compile Include="MyMath.cs" />
     <Compile Include="PanelManager.cs" />

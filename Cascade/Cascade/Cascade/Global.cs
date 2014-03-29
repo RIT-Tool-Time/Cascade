@@ -15,9 +15,12 @@ namespace Cascade
         public static VertexEffect Effect;
         public static SpriteShader SpriteEffect;
         public static ParticleManager ParticleManager;
+        public static PanelManager PanelManager;
         public static Camera Camera;
         public static Vector2 ScreenSize = new Vector2(1280, 720);
         static Controls controls;
+        public static List<TouchPoint> Touches;
+        static TouchPoint mouseTouch = null;
         public static float Speed
         {
             get
@@ -27,16 +30,53 @@ namespace Cascade
         }
         public static void init()
         {
+            Touches = new List<TouchPoint>();
             Effect = new VertexEffect();
             SpriteEffect = new SpriteShader();
             Output = new OutputString("\n");
             ParticleManager = new ParticleManager();
+            PanelManager = new PanelManager();
             Camera = new Camera();
             controls = new Controls();
         }
         public static void Update(GameTime time)
         {
             controls.update();
+            Touches.Clear();
+            foreach (var t in TouchManager.TouchPoints)
+            {
+                Touches.Add(t);
+            }
+            if (!TouchManager.SupportsTouch)
+            {
+                TouchState ts = TouchState.None;
+                switch (Controls.MouseLeft)
+                {
+                    case ControlState.Pressed:
+                        ts = TouchState.Touched;
+                        break;
+                    case ControlState.Held:
+                        ts = TouchState.Moved;
+                        break;
+                    case ControlState.Released:
+                        ts = TouchState.Released;
+                        break;
+                }
+                if (mouseTouch == null)
+                {
+                    mouseTouch = new TouchPoint()
+                    {
+                        
+
+                    };
+                }
+                mouseTouch.Position = Controls.MousePos;
+                mouseTouch.State = ts;
+                if (ts != TouchState.None)
+                {
+                    Global.Touches.Add(mouseTouch);
+                }
+            }
             framespeed = (60f) / (1f / (float)time.ElapsedGameTime.TotalSeconds);
             if (!float.IsNaN(framespeed))
             {
