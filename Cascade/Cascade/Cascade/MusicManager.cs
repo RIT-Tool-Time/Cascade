@@ -110,7 +110,7 @@ namespace Cascade
             }
             else if (fadeIn)
             {
-                float vol = Volume + 0.1f;
+                float vol = Volume + 0.05f;
                 if (vol < 1)
                 {
                     s.Volume = vol;

@@ -46,7 +46,9 @@ namespace Cascade
             foreach (var t in TouchManager.TouchPoints)
             {
                 Touches.Add(t);
+                //Output += "Added touch";
             }
+            //Output += Touches.Count;
             if (!TouchManager.SupportsTouch)
             {
                 TouchState ts = TouchState.None;

@@ -92,7 +92,7 @@ namespace Cascade
             panelManager.Add(Color.White);
             panelManager.Add(Color.White);
             panelManager.Add(Color.White);*/
-            Global.PanelManager.NoteOffset = 36;
+            Global.PanelManager.NoteOffset = 48;
             MusicManager.Update();
             for (int i = 0; i < MusicManager.PentatonicScale.Length; i++)
             {
@@ -131,8 +131,8 @@ namespace Cascade
             {
                 Global.Output += "TCP Client not connected";
             }
-            graphics.PreferredBackBufferWidth = 1280; graphics.PreferredBackBufferHeight = (int)(graphics.PreferredBackBufferWidth * (9f / 16f));
-            //graphics.IsFullScreen = true;
+            graphics.PreferredBackBufferWidth = 1920; graphics.PreferredBackBufferHeight = (int)(graphics.PreferredBackBufferWidth * (9f / 16f));
+            graphics.IsFullScreen = true;
             graphics.ApplyChanges();
             socketThreadStart = new ThreadStart(SocketMethod);
             Global.Output += "LoadContent completed";
@@ -227,10 +227,11 @@ namespace Cascade
                 socketThread = new Thread(socketThreadStart);
                 socketThread.Start();
             }
-            
+
+            TouchManager.Update();
             Global.Update(gameTime);
             MusicManager.Update();
-            TouchManager.Update();
+            
             clearColor.Update();
             Global.PanelManager.Update();
             if (Controls.GetKey(Keys.Space) == ControlState.Pressed)
@@ -247,6 +248,7 @@ namespace Cascade
             }
             foreach (var touch in Global.Touches)
             {
+                Global.Output += touch.State;
                 foreach (var emit in emitters)
                 {
                     if (emit.Touch == null && touch.State == TouchState.Touched)
