@@ -315,7 +315,7 @@ namespace Cascade
             //sprite batch stuff
             GraphicsDevice.BlendState = BlendState.AlphaBlend;
             GraphicsDevice.SetRenderTarget(finalTarget);
-            GraphicsDevice.Clear(Color.Black);
+            GraphicsDevice.Clear(Color.White);
             //Global.SpriteEffect.Parameters["depthTexture"].SetValue(depthTarget);
             Matrix sbMatrix = Matrix.CreateOrthographicOffCenter(0, Global.ScreenSize.X, Global.ScreenSize.Y, 0, 0, 1);
             Global.SpriteEffect.Parameters["MatrixTransform"].SetValue(sbMatrix);

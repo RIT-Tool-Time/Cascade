@@ -9,7 +9,7 @@ namespace Cascade
     public static class MusicManager
     {
         public static readonly int[] MajorScale = { 0, 2, 4, 5, 6, 9, 11, 12 };
-        public static readonly int[] PentatonicScale = { 0, 2, 3, 7, 9, 12 };
+        public static readonly int[] PentatonicScale = { 0, 2, 4, 7, 9, 12 };
         public static List<MusicalNote> SoundEffects = new List<MusicalNote>();
         
         public static SoundEffect LoadUserSound(int UserNumber, int MidiNumber, int Version, string InstrumentName)
@@ -84,6 +84,7 @@ namespace Cascade
         {
             s = instance;
             s.Volume = 0;
+            fadeIn = true;
             s.Play();
         }
        
@@ -95,9 +96,9 @@ namespace Cascade
         }
         public void Update()
         {
-            if (fade)
+            if (fade && !fadeIn)
             {
-                float vol = Volume - (Volume > 0.5f ? fadeSpeed : fadeSpeed2);
+                float vol = Volume - (Volume > 0.1f ? fadeSpeed : fadeSpeed2);
                 if (vol > 0)
                 {
                     s.Volume = vol;
@@ -110,7 +111,7 @@ namespace Cascade
             }
             else if (fadeIn)
             {
-                float vol = Volume + 0.05f;
+                float vol = Volume + 0.1f;
                 if (vol < 1)
                 {
                     s.Volume = vol;

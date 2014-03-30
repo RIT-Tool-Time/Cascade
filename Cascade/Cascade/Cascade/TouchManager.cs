@@ -22,6 +22,7 @@ namespace Cascade
         public static List<TouchPoint> TouchPoints = new List<TouchPoint>();
         static List<TouchPoint> toAddToList = new List<TouchPoint>();
         static List<TouchPoint> toRemoveFromList = new List<TouchPoint>();
+        
         public static void init()
         {
             handler = Factory.CreateHandler<TouchHandler>(Global.Game.Window.Handle);
@@ -96,6 +97,7 @@ namespace Cascade
                 State = TouchState.Moved;
             else if (State == TouchState.Released)
                 State = TouchState.None;
+            
         }
         public void SetArgs(TouchEventArgs e)
         {

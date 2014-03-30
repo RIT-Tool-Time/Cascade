@@ -35,7 +35,7 @@ namespace Cascade
         public MusicPanel()
         {
             clearColor = new ColorManager();
-            clearColor.Color = new Color(20,20,20);
+            clearColor.Color = new Color(150,150,150);
         }
         public void Update()
         {
@@ -72,7 +72,7 @@ namespace Cascade
             {
                 if (note != null)
                 {
-                    note.FadeOut(0.04f, 0.01f);
+                    note.FadeOut(0.04f, 0.001f);
                 }
             }
         }
