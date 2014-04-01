@@ -14,6 +14,7 @@ namespace Cascade
         public Vector3 Speed = Vector3.Zero;
         public Vector3 Pos = Vector3.Zero;
         public Vector2 Scale = Vector2.One;
+        public Vector2 ScaleSpeed = Vector2.Zero;
         public List<Behaviors.ParticleBehavior> Behaviors;
         public BlendState BlendState = BlendState.AlphaBlend;
         public bool MotionStretch = false;
@@ -21,6 +22,7 @@ namespace Cascade
         public float Depth = 0;
         float stretchRot = 0, stretchScale = 0;
         Vector3 prevPos = Vector3.Zero;
+        public RasterizerState RasterizerState = RasterizerState.CullClockwise;
         public Color Color
         {
             get { return color; }
@@ -70,8 +72,9 @@ namespace Cascade
             prevPos = Pos;
             Speed.Y += Gravity * Global.Speed;
             Pos += Speed * Global.Speed;
+            Scale += ScaleSpeed * Global.Speed;
             SetVertexPositions();
-
+            //Global.Output += Pos;
             foreach (var b in Behaviors)
             {
                 b.Update(this);
@@ -86,7 +89,7 @@ namespace Cascade
                 stretchRot = Rotation;
                 stretchScale = 0;
             }
-            Depth += 0.0075f * Global.Speed;
+            Depth += 0.000f * Global.Speed;
         }
         public virtual void SetVertexPositions()
         {
@@ -106,6 +109,7 @@ namespace Cascade
             Global.Effect.Alpha = Alpha;
             Global.Effect.Depth = Depth;
             GraphicsDevice.BlendState = BlendState;
+            GraphicsDevice.RasterizerState = RasterizerState;
             foreach (var p in Global.Effect.CurrentTechnique.Passes)
             {
                 p.Apply();

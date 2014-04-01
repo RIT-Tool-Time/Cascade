@@ -74,12 +74,12 @@ namespace Cascade
             {
                 emitters[i] = new TouchEmitter(Global.ParticleManager, Vector3.Zero)
                 {
-                    Step = 0.3f,
+                    Step = 3,
                     Speed = new Vector3(0, 0, 0),
-                    SpeedRange = new Vector3(5, 5, 0),
+                    SpeedRange = new Vector3(0, 0, 0),
                     Color = new Color(45, 160, 241),
-                    ColorRange = new Color(0.0f, 0.0f, 0.0f, 0.0f),
-                    SpeedTransferMultiplier = 0.5f
+                    ColorRange = new Color(0.2f, 0.0f, 0.0f, 0.0f),
+                    SpeedTransferMultiplier = 0.0f
                 };
                 emitters[i].Emitted += new ParticleEmittedEventHandler(Game1_Emitted);
             }
@@ -137,18 +137,22 @@ namespace Cascade
             socketThreadStart = new ThreadStart(SocketMethod);
             Global.Output += "LoadContent completed";
             
-            CreateRenderTargets(640, (9f / 16f));
+            CreateRenderTargets(1920, (9f / 16f));
             // TODO: use this.Content to load your game content here
         }
 
         void Game1_Emitted(ParticleEmittedEventArgs e)
         {
             e.Particle.Gravity = 0.0f;
-            e.Particle.Behaviors.Add(new Behaviors.Disappear(240, 0.1f, 0.05f, 1));
-            e.Particle.Behaviors.Add(new Behaviors.SpeedDamping(0.93f, 0.25f));
+            e.Particle.Behaviors.Add(new Behaviors.Disappear(30, 0.2f, 0.05f, 0.5f));
+            e.Particle.Behaviors.Add(new Behaviors.SpeedDamping(0.6f, 0.5f));
+            
+
+            e.Particle.BlendState = BlendState.AlphaBlend;
             //e.Particle.Behaviors.Add(new Behaviors.Bounce(720, 0.5f));
             e.Particle.Alpha = 0;
-            e.Particle.Scale = new Vector2(0.055f);
+            e.Particle.Scale = new Vector2(MyMath.RandomRange(0.5f, 0.75f));
+            e.Particle.ScaleSpeed = new Vector2(MyMath.RandomRange(0.01f, 0.02f)) * 0.1f;
             e.Particle.MotionStretch = true;
         }
         private void CreateRenderTargets(int width, float aspectRatio)
@@ -248,12 +252,14 @@ namespace Cascade
             }
             foreach (var touch in Global.Touches)
             {
-                Global.Output += touch.State;
+                //Global.Output += touch.State;
                 foreach (var emit in emitters)
                 {
                     if (emit.Touch == null && touch.State == TouchState.Touched)
                     {
                         emit.Touch = touch;
+                        emit.Pos = touch.Position.ToVector3();
+                        emit.EmitParticle();
                         break;
                     }
                 }
@@ -321,6 +327,7 @@ namespace Cascade
             Global.SpriteEffect.Parameters["MatrixTransform"].SetValue(sbMatrix);
             Global.Effect.World = Matrix.CreateTranslation(Vector3.Zero);
             Global.Effect.Alpha = 1;
+            GraphicsDevice.RasterizerState = RasterizerState.CullNone;
             foreach (var pass in Global.Effect.CurrentTechnique.Passes)
             {
                 pass.Apply();
@@ -329,7 +336,7 @@ namespace Cascade
             }
 
             spriteBatch.Begin(SpriteSortMode.Immediate, BlendState.AlphaBlend, null, null, null);
-            Global.SpriteEffect.SetTechnique("Bokeh");
+            Global.SpriteEffect.SetTechnique("Normal");
             foreach (var pass in Global.SpriteEffect.CurrentTechnique.Passes)
             {
                 pass.Apply();

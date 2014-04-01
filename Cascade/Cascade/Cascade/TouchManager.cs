@@ -78,10 +78,23 @@ namespace Cascade
     public enum TouchState { Touched, Moved, Released, None }
     public class TouchPoint
     {
-        public Vector2 Position = Vector2.Zero;
+        public Vector2 Position = Vector2.Zero, StartPosition = Vector2.Zero;
         public int Id = 0;
         public int Timer = 0;
         public TouchState State = TouchState.None;
+        bool setStart = false;
+        int holdTimer = 0;
+        Vector2 lastPos = Vector2.Zero, lastPos2 = Vector2.Zero;
+        Vector2 holdStartPosition = Vector2.Zero;
+        bool checkForHold = false;
+        bool holding = false;
+        public bool Holding
+        {
+            get
+            {
+                return holding;
+            }
+        }
         public TouchPoint()
         {
 
@@ -92,6 +105,39 @@ namespace Cascade
         }
         public void Update()
         {
+            lastPos2 = lastPos;
+            lastPos = Position;
+            if (State == TouchState.Moved)
+            {
+                if ((lastPos - lastPos2).Length() < 15 && !checkForHold)
+                {
+
+                    holdStartPosition = lastPos;
+                    checkForHold = true;
+                    holding = false;
+                    holdTimer = 0;
+
+                }
+
+                if (checkForHold)
+                {
+                    if ((holdStartPosition - lastPos).Length() < 15)
+                    {
+                        holdTimer++;
+                        if (holdTimer > 30)
+                        {
+                            holding = true;
+                        }
+                    }
+                    else
+                    {
+                        checkForHold = false;
+                        holding = false;
+                        holdTimer = 0;
+                    }
+                }
+                Global.Output += holding + ", " + holdTimer;
+            }
             Timer++;
             if (State == TouchState.Touched)
                 State = TouchState.Moved;
@@ -109,6 +155,11 @@ namespace Cascade
                 State = TouchState.Moved;
             else if (e.IsTouchUp)
                 State = TouchState.Released;
+            if (!setStart)
+            {
+                setStart = true;
+                StartPosition = Position;
+            }
         }
     }
 }
