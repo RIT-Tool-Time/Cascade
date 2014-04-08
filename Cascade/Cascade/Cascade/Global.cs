@@ -21,6 +21,7 @@ namespace Cascade
         static Controls controls;
         public static List<TouchPoint> Touches;
         static TouchPoint mouseTouch = null;
+
         public static float Speed
         {
             get
@@ -43,6 +44,10 @@ namespace Cascade
         {
             controls.update();
             Touches.Clear();
+            foreach (var t in Game.Touches)
+            {
+                Touches.Add(t);
+            }
             foreach (var t in TouchManager.TouchPoints)
             {
                 Touches.Add(t);
@@ -72,11 +77,20 @@ namespace Cascade
 
                     };
                 }
+                mouseTouch.Update();
                 mouseTouch.Position = Controls.MousePos;
                 mouseTouch.State = ts;
                 if (ts != TouchState.None)
                 {
-                    Global.Touches.Add(mouseTouch);
+                    if(!Global.Touches.Contains(mouseTouch))
+                        Global.Touches.Add(mouseTouch);
+                }
+                else
+                {
+                    if (Global.Touches.Contains(mouseTouch))
+                    {
+                        Global.Touches.Remove(mouseTouch);
+                    }
                 }
             }
             framespeed = (60f) / (1f / (float)time.ElapsedGameTime.TotalSeconds);

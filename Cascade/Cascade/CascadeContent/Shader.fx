@@ -4,6 +4,7 @@ float4x4 Projection;
 
 float depth = 0;
 float alpha =1;
+float4 color = float4(1,1,1,1);
 
 struct VertexShaderInput
 {
@@ -29,7 +30,7 @@ VertexShaderOutput VertexShaderFunction(VertexShaderInput input)
 	float4 projPosition = mul(viewPosition, Projection);
     output.Position = projPosition;
 	output.Pos = projPosition;
-	output.Color = input.Color * alpha;
+	output.Color = input.Color * alpha * color;
     return output;
 }
 

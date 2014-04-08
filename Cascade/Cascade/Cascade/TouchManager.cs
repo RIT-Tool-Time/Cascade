@@ -109,7 +109,7 @@ namespace Cascade
             lastPos = Position;
             if (State == TouchState.Moved)
             {
-                if ((lastPos - lastPos2).Length() < 15 && !checkForHold)
+                if ((lastPos - lastPos2).Length() < 30 && !checkForHold)
                 {
 
                     holdStartPosition = lastPos;
@@ -121,7 +121,7 @@ namespace Cascade
 
                 if (checkForHold)
                 {
-                    if ((holdStartPosition - lastPos).Length() < 15)
+                    if ((holdStartPosition - lastPos).Length() < 30)
                     {
                         holdTimer++;
                         if (holdTimer > 30)
@@ -136,8 +136,9 @@ namespace Cascade
                         holdTimer = 0;
                     }
                 }
-                Global.Output += holding + ", " + holdTimer;
+                
             }
+            //Global.Output += State + ", " + holdTimer;
             Timer++;
             if (State == TouchState.Touched)
                 State = TouchState.Moved;

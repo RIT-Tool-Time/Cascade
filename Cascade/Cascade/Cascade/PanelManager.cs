@@ -54,7 +54,7 @@ namespace Cascade
         public void Draw(GraphicsDevice GraphicsDevice, GraphicsDeviceManager graphics, SpriteBatch spriteBatch, RenderTarget2D defaultRenderTarget, int width, int height)
         {
             int w = width; int h = height;
-            int add = 10;
+            float add = 0.5f;
 
             float panelWidth = ((w - add) / (float)panels.Count) - (add);
 

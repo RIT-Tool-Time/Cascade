@@ -49,7 +49,17 @@ namespace Cascade
         {
             Write(buffer, 0, buffer.Length);
         }
+        public void Close()
+        {
+            try
+            {
+                client.Close();
+            }
+            catch
+            {
 
+            }
+        }
         public byte[] Read()
         {
             byte[] bytes = new byte[64];

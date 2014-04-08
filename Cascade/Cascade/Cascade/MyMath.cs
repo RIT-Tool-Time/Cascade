@@ -18,6 +18,11 @@ namespace Cascade
         {
             return num1 + ((num2 - num1) * val);
         }
+
+        public static Vector2 Between(Vector2 num1, Vector2 num2, float val)
+        {
+            return num1 + ((num2 - num1) * val);
+        }
         public static float BetweenValue(float val1, float val2, float between)
         {
             return (between - val1) / (val2 - val1);

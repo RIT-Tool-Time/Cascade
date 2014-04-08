@@ -68,6 +68,22 @@ namespace Cascade
                 }
             }
         }
+        Color color = Color.White;
+        public Color Color
+        {
+            get
+            {
+                return color;
+            }
+            set
+            {
+                if (value != color)
+                {
+                    color = value;
+                    Parameters["color"].SetValue(color.ToVector4());
+                }
+            }
+        }
         float depth = 0;
         public float Depth
         {

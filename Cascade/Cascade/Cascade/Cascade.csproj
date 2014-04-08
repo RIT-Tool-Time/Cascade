@@ -77,6 +77,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Behaviors\Pulsate.cs" />
     <Compile Include="Camera.cs" />
     <Compile Include="CascadeVertex.cs" />
     <Compile Include="ColorManager.cs" />

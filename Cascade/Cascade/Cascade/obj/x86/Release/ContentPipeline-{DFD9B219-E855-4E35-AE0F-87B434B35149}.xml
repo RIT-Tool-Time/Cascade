@@ -7,7 +7,7 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\SD Card\Dropbox\Cascade\Cascade\Cascade\bin\x86\Release\Content\OutputFont.xnb</Output>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\OutputFont.xnb</Output>
       <Time>0001-01-01T00:00:00</Time>
     </Item>
     <Item>
@@ -16,20 +16,2495 @@
       <Importer>EffectImporter</Importer>
       <Processor>EffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\SD Card\Dropbox\Cascade\Cascade\Cascade\bin\x86\Release\Content\Shader.xnb</Output>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Shader.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>SpriteShader.fx</Source>
+      <Name>SpriteShader</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\SpriteShader.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Light2.png</Source>
+      <Name>Light2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Light2.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\ARP1\ARP1_100_24_bip.wav</Source>
+      <Name>Sound Samples\ARP1\ARP1_100_24_bip</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\ARP1\ARP1_100_24_bip.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\ARP1\ARP1_100_25_bip.wav</Source>
+      <Name>Sound Samples\ARP1\ARP1_100_25_bip</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\ARP1\ARP1_100_25_bip.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\ARP1\ARP1_100_26_bip.wav</Source>
+      <Name>Sound Samples\ARP1\ARP1_100_26_bip</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\ARP1\ARP1_100_26_bip.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\ARP1\ARP1_100_27_bip.wav</Source>
+      <Name>Sound Samples\ARP1\ARP1_100_27_bip</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\ARP1\ARP1_100_27_bip.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\ARP1\ARP1_100_28_bip.wav</Source>
+      <Name>Sound Samples\ARP1\ARP1_100_28_bip</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\ARP1\ARP1_100_28_bip.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\ARP1\ARP1_100_29_bip.wav</Source>
+      <Name>Sound Samples\ARP1\ARP1_100_29_bip</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\ARP1\ARP1_100_29_bip.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\ARP1\ARP1_100_30_bip.wav</Source>
+      <Name>Sound Samples\ARP1\ARP1_100_30_bip</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\ARP1\ARP1_100_30_bip.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\ARP1\ARP1_100_31_bip.wav</Source>
+      <Name>Sound Samples\ARP1\ARP1_100_31_bip</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\ARP1\ARP1_100_31_bip.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\ARP1\ARP1_100_32_bip.wav</Source>
+      <Name>Sound Samples\ARP1\ARP1_100_32_bip</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\ARP1\ARP1_100_32_bip.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\ARP1\ARP1_100_33_bip.wav</Source>
+      <Name>Sound Samples\ARP1\ARP1_100_33_bip</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\ARP1\ARP1_100_33_bip.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\ARP1\ARP1_100_34_bip.wav</Source>
+      <Name>Sound Samples\ARP1\ARP1_100_34_bip</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\ARP1\ARP1_100_34_bip.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\ARP1\ARP1_100_35_bip.wav</Source>
+      <Name>Sound Samples\ARP1\ARP1_100_35_bip</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\ARP1\ARP1_100_35_bip.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\ARP1\ARP1_100_36_bip.wav</Source>
+      <Name>Sound Samples\ARP1\ARP1_100_36_bip</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\ARP1\ARP1_100_36_bip.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\ARP1\ARP1_100_37_bip.wav</Source>
+      <Name>Sound Samples\ARP1\ARP1_100_37_bip</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\ARP1\ARP1_100_37_bip.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\ARP1\ARP1_100_38_bip.wav</Source>
+      <Name>Sound Samples\ARP1\ARP1_100_38_bip</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\ARP1\ARP1_100_38_bip.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\ARP1\ARP1_100_39_bip.wav</Source>
+      <Name>Sound Samples\ARP1\ARP1_100_39_bip</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\ARP1\ARP1_100_39_bip.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\ARP1\ARP1_100_40_bip.wav</Source>
+      <Name>Sound Samples\ARP1\ARP1_100_40_bip</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\ARP1\ARP1_100_40_bip.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\ARP1\ARP1_100_41_bip.wav</Source>
+      <Name>Sound Samples\ARP1\ARP1_100_41_bip</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\ARP1\ARP1_100_41_bip.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\ARP1\ARP1_100_42_bip.wav</Source>
+      <Name>Sound Samples\ARP1\ARP1_100_42_bip</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\ARP1\ARP1_100_42_bip.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\ARP1\ARP1_100_43_bip.wav</Source>
+      <Name>Sound Samples\ARP1\ARP1_100_43_bip</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\ARP1\ARP1_100_43_bip.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\ARP1\ARP1_100_44_bip.wav</Source>
+      <Name>Sound Samples\ARP1\ARP1_100_44_bip</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\ARP1\ARP1_100_44_bip.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\ARP1\ARP1_100_45_bip.wav</Source>
+      <Name>Sound Samples\ARP1\ARP1_100_45_bip</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\ARP1\ARP1_100_45_bip.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\ARP1\ARP1_100_46_bip.wav</Source>
+      <Name>Sound Samples\ARP1\ARP1_100_46_bip</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\ARP1\ARP1_100_46_bip.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\ARP1\ARP1_100_47_bip.wav</Source>
+      <Name>Sound Samples\ARP1\ARP1_100_47_bip</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\ARP1\ARP1_100_47_bip.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\ARP1\ARP1_100_48_bip.wav</Source>
+      <Name>Sound Samples\ARP1\ARP1_100_48_bip</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\ARP1\ARP1_100_48_bip.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\ARP1\ARP1_100_49_bip.wav</Source>
+      <Name>Sound Samples\ARP1\ARP1_100_49_bip</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\ARP1\ARP1_100_49_bip.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\ARP1\ARP1_100_50_bip.wav</Source>
+      <Name>Sound Samples\ARP1\ARP1_100_50_bip</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\ARP1\ARP1_100_50_bip.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\ARP1\ARP1_100_51_bip.wav</Source>
+      <Name>Sound Samples\ARP1\ARP1_100_51_bip</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\ARP1\ARP1_100_51_bip.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\ARP1\ARP1_100_52_bip.wav</Source>
+      <Name>Sound Samples\ARP1\ARP1_100_52_bip</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\ARP1\ARP1_100_52_bip.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\ARP1\ARP1_120_24_bip.wav</Source>
+      <Name>Sound Samples\ARP1\ARP1_120_24_bip</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\ARP1\ARP1_120_24_bip.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\ARP1\ARP1_120_25_bip.wav</Source>
+      <Name>Sound Samples\ARP1\ARP1_120_25_bip</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\ARP1\ARP1_120_25_bip.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\ARP1\ARP1_120_26_bip.wav</Source>
+      <Name>Sound Samples\ARP1\ARP1_120_26_bip</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\ARP1\ARP1_120_26_bip.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\ARP1\ARP1_120_27_bip.wav</Source>
+      <Name>Sound Samples\ARP1\ARP1_120_27_bip</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\ARP1\ARP1_120_27_bip.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\ARP1\ARP1_120_28_bip.wav</Source>
+      <Name>Sound Samples\ARP1\ARP1_120_28_bip</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\ARP1\ARP1_120_28_bip.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\ARP1\ARP1_120_29_bip.wav</Source>
+      <Name>Sound Samples\ARP1\ARP1_120_29_bip</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\ARP1\ARP1_120_29_bip.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\ARP1\ARP1_120_30_bip.wav</Source>
+      <Name>Sound Samples\ARP1\ARP1_120_30_bip</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\ARP1\ARP1_120_30_bip.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\ARP1\ARP1_120_31_bip.wav</Source>
+      <Name>Sound Samples\ARP1\ARP1_120_31_bip</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\ARP1\ARP1_120_31_bip.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\ARP1\ARP1_120_32_bip.wav</Source>
+      <Name>Sound Samples\ARP1\ARP1_120_32_bip</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\ARP1\ARP1_120_32_bip.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\ARP1\ARP1_120_33_bip.wav</Source>
+      <Name>Sound Samples\ARP1\ARP1_120_33_bip</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\ARP1\ARP1_120_33_bip.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\ARP1\ARP1_120_34_bip.wav</Source>
+      <Name>Sound Samples\ARP1\ARP1_120_34_bip</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\ARP1\ARP1_120_34_bip.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\ARP1\ARP1_120_35_bip.wav</Source>
+      <Name>Sound Samples\ARP1\ARP1_120_35_bip</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\ARP1\ARP1_120_35_bip.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\ARP1\ARP1_120_36_bip.wav</Source>
+      <Name>Sound Samples\ARP1\ARP1_120_36_bip</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\ARP1\ARP1_120_36_bip.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\ARP1\ARP1_120_37_bip.wav</Source>
+      <Name>Sound Samples\ARP1\ARP1_120_37_bip</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\ARP1\ARP1_120_37_bip.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\ARP1\ARP1_120_38_bip.wav</Source>
+      <Name>Sound Samples\ARP1\ARP1_120_38_bip</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\ARP1\ARP1_120_38_bip.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\ARP1\ARP1_120_39_bip.wav</Source>
+      <Name>Sound Samples\ARP1\ARP1_120_39_bip</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\ARP1\ARP1_120_39_bip.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\ARP1\ARP1_120_40_bip.wav</Source>
+      <Name>Sound Samples\ARP1\ARP1_120_40_bip</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\ARP1\ARP1_120_40_bip.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\ARP1\ARP1_120_41_bip.wav</Source>
+      <Name>Sound Samples\ARP1\ARP1_120_41_bip</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\ARP1\ARP1_120_41_bip.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\ARP1\ARP1_120_42_bip.wav</Source>
+      <Name>Sound Samples\ARP1\ARP1_120_42_bip</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\ARP1\ARP1_120_42_bip.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\ARP1\ARP1_120_43_bip.wav</Source>
+      <Name>Sound Samples\ARP1\ARP1_120_43_bip</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\ARP1\ARP1_120_43_bip.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\ARP1\ARP1_120_44_bip.wav</Source>
+      <Name>Sound Samples\ARP1\ARP1_120_44_bip</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\ARP1\ARP1_120_44_bip.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\ARP1\ARP1_120_45_bip.wav</Source>
+      <Name>Sound Samples\ARP1\ARP1_120_45_bip</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\ARP1\ARP1_120_45_bip.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\ARP1\ARP1_120_46_bip.wav</Source>
+      <Name>Sound Samples\ARP1\ARP1_120_46_bip</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\ARP1\ARP1_120_46_bip.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\ARP1\ARP1_120_47_bip.wav</Source>
+      <Name>Sound Samples\ARP1\ARP1_120_47_bip</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\ARP1\ARP1_120_47_bip.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\ARP1\ARP1_120_48_bip.wav</Source>
+      <Name>Sound Samples\ARP1\ARP1_120_48_bip</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\ARP1\ARP1_120_48_bip.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\ARP1\ARP1_120_49_bip.wav</Source>
+      <Name>Sound Samples\ARP1\ARP1_120_49_bip</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\ARP1\ARP1_120_49_bip.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\ARP1\ARP1_120_50_bip.wav</Source>
+      <Name>Sound Samples\ARP1\ARP1_120_50_bip</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\ARP1\ARP1_120_50_bip.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\ARP1\ARP1_120_51_bip.wav</Source>
+      <Name>Sound Samples\ARP1\ARP1_120_51_bip</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\ARP1\ARP1_120_51_bip.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\ARP1\ARP1_120_52_bip.wav</Source>
+      <Name>Sound Samples\ARP1\ARP1_120_52_bip</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\ARP1\ARP1_120_52_bip.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\ARP1\ARP1_140_24_bip.wav</Source>
+      <Name>Sound Samples\ARP1\ARP1_140_24_bip</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\ARP1\ARP1_140_24_bip.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\ARP1\ARP1_140_25_bip.wav</Source>
+      <Name>Sound Samples\ARP1\ARP1_140_25_bip</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\ARP1\ARP1_140_25_bip.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\ARP1\ARP1_140_26_bip.wav</Source>
+      <Name>Sound Samples\ARP1\ARP1_140_26_bip</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\ARP1\ARP1_140_26_bip.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\ARP1\ARP1_140_27_bip.wav</Source>
+      <Name>Sound Samples\ARP1\ARP1_140_27_bip</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\ARP1\ARP1_140_27_bip.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\ARP1\ARP1_140_28_bip.wav</Source>
+      <Name>Sound Samples\ARP1\ARP1_140_28_bip</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\ARP1\ARP1_140_28_bip.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\ARP1\ARP1_140_29_bip.wav</Source>
+      <Name>Sound Samples\ARP1\ARP1_140_29_bip</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\ARP1\ARP1_140_29_bip.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\ARP1\ARP1_140_30_bip.wav</Source>
+      <Name>Sound Samples\ARP1\ARP1_140_30_bip</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\ARP1\ARP1_140_30_bip.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\ARP1\ARP1_140_31_bip.wav</Source>
+      <Name>Sound Samples\ARP1\ARP1_140_31_bip</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\ARP1\ARP1_140_31_bip.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\ARP1\ARP1_140_32_bip.wav</Source>
+      <Name>Sound Samples\ARP1\ARP1_140_32_bip</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\ARP1\ARP1_140_32_bip.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\ARP1\ARP1_140_33_bip.wav</Source>
+      <Name>Sound Samples\ARP1\ARP1_140_33_bip</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\ARP1\ARP1_140_33_bip.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\ARP1\ARP1_140_34_bip.wav</Source>
+      <Name>Sound Samples\ARP1\ARP1_140_34_bip</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\ARP1\ARP1_140_34_bip.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\ARP1\ARP1_140_35_bip.wav</Source>
+      <Name>Sound Samples\ARP1\ARP1_140_35_bip</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\ARP1\ARP1_140_35_bip.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\ARP1\ARP1_140_36_bip.wav</Source>
+      <Name>Sound Samples\ARP1\ARP1_140_36_bip</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\ARP1\ARP1_140_36_bip.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\ARP1\ARP1_140_37_bip.wav</Source>
+      <Name>Sound Samples\ARP1\ARP1_140_37_bip</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\ARP1\ARP1_140_37_bip.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\ARP1\ARP1_140_38_bip.wav</Source>
+      <Name>Sound Samples\ARP1\ARP1_140_38_bip</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\ARP1\ARP1_140_38_bip.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\ARP1\ARP1_140_39_bip.wav</Source>
+      <Name>Sound Samples\ARP1\ARP1_140_39_bip</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\ARP1\ARP1_140_39_bip.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\ARP1\ARP1_140_40_bip.wav</Source>
+      <Name>Sound Samples\ARP1\ARP1_140_40_bip</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\ARP1\ARP1_140_40_bip.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\ARP1\ARP1_140_41_bip.wav</Source>
+      <Name>Sound Samples\ARP1\ARP1_140_41_bip</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\ARP1\ARP1_140_41_bip.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\ARP1\ARP1_140_42_bip.wav</Source>
+      <Name>Sound Samples\ARP1\ARP1_140_42_bip</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\ARP1\ARP1_140_42_bip.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\ARP1\ARP1_140_43_bip.wav</Source>
+      <Name>Sound Samples\ARP1\ARP1_140_43_bip</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\ARP1\ARP1_140_43_bip.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\ARP1\ARP1_140_44_bip.wav</Source>
+      <Name>Sound Samples\ARP1\ARP1_140_44_bip</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\ARP1\ARP1_140_44_bip.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\ARP1\ARP1_140_45_bip.wav</Source>
+      <Name>Sound Samples\ARP1\ARP1_140_45_bip</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\ARP1\ARP1_140_45_bip.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\ARP1\ARP1_140_46_bip.wav</Source>
+      <Name>Sound Samples\ARP1\ARP1_140_46_bip</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\ARP1\ARP1_140_46_bip.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\ARP1\ARP1_140_47_bip.wav</Source>
+      <Name>Sound Samples\ARP1\ARP1_140_47_bip</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\ARP1\ARP1_140_47_bip.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\ARP1\ARP1_140_48_bip.wav</Source>
+      <Name>Sound Samples\ARP1\ARP1_140_48_bip</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\ARP1\ARP1_140_48_bip.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\ARP1\ARP1_140_49_bip.wav</Source>
+      <Name>Sound Samples\ARP1\ARP1_140_49_bip</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\ARP1\ARP1_140_49_bip.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\ARP1\ARP1_140_50_bip.wav</Source>
+      <Name>Sound Samples\ARP1\ARP1_140_50_bip</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\ARP1\ARP1_140_50_bip.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\ARP1\ARP1_140_51_bip.wav</Source>
+      <Name>Sound Samples\ARP1\ARP1_140_51_bip</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\ARP1\ARP1_140_51_bip.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\ARP1\ARP1_140_52_bip.wav</Source>
+      <Name>Sound Samples\ARP1\ARP1_140_52_bip</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\ARP1\ARP1_140_52_bip.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\BASS2\BASS2_28_bip.wav</Source>
+      <Name>Sound Samples\BASS2\BASS2_28_bip</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\BASS2\BASS2_28_bip.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\BASS2\BASS2_29_bip.wav</Source>
+      <Name>Sound Samples\BASS2\BASS2_29_bip</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\BASS2\BASS2_29_bip.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\BASS2\BASS2_30_bip.wav</Source>
+      <Name>Sound Samples\BASS2\BASS2_30_bip</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\BASS2\BASS2_30_bip.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\BASS2\BASS2_31_bip.wav</Source>
+      <Name>Sound Samples\BASS2\BASS2_31_bip</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\BASS2\BASS2_31_bip.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\BASS2\BASS2_32_bip.wav</Source>
+      <Name>Sound Samples\BASS2\BASS2_32_bip</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\BASS2\BASS2_32_bip.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\BASS2\BASS2_33_bip.wav</Source>
+      <Name>Sound Samples\BASS2\BASS2_33_bip</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\BASS2\BASS2_33_bip.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\BASS2\BASS2_34_bip.wav</Source>
+      <Name>Sound Samples\BASS2\BASS2_34_bip</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\BASS2\BASS2_34_bip.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\BASS2\BASS2_35_bip.wav</Source>
+      <Name>Sound Samples\BASS2\BASS2_35_bip</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\BASS2\BASS2_35_bip.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\BASS2\BASS2_36_bip.wav</Source>
+      <Name>Sound Samples\BASS2\BASS2_36_bip</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\BASS2\BASS2_36_bip.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\BASS2\BASS2_37_bip.wav</Source>
+      <Name>Sound Samples\BASS2\BASS2_37_bip</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\BASS2\BASS2_37_bip.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\BASS2\BASS2_38_bip.wav</Source>
+      <Name>Sound Samples\BASS2\BASS2_38_bip</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\BASS2\BASS2_38_bip.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\BASS2\BASS2_39_bip.wav</Source>
+      <Name>Sound Samples\BASS2\BASS2_39_bip</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\BASS2\BASS2_39_bip.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\BASS2\BASS2_40_bip.wav</Source>
+      <Name>Sound Samples\BASS2\BASS2_40_bip</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\BASS2\BASS2_40_bip.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER1\USER_V1_36_bip 1.wav</Source>
+      <Name>Sound Samples\USER1\USER_V1_36_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER1\USER_V1_36_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER1\USER_V1_37_bip 1.wav</Source>
+      <Name>Sound Samples\USER1\USER_V1_37_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER1\USER_V1_37_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER1\USER_V1_38_bip 1.wav</Source>
+      <Name>Sound Samples\USER1\USER_V1_38_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER1\USER_V1_38_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER1\USER_V1_39_bip 1.wav</Source>
+      <Name>Sound Samples\USER1\USER_V1_39_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER1\USER_V1_39_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER1\USER_V1_40_bip 1.wav</Source>
+      <Name>Sound Samples\USER1\USER_V1_40_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER1\USER_V1_40_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER1\USER_V1_41_bip 1.wav</Source>
+      <Name>Sound Samples\USER1\USER_V1_41_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER1\USER_V1_41_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER1\USER_V1_42_bip 1.wav</Source>
+      <Name>Sound Samples\USER1\USER_V1_42_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER1\USER_V1_42_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER1\USER_V1_43_bip 1.wav</Source>
+      <Name>Sound Samples\USER1\USER_V1_43_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER1\USER_V1_43_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER1\USER_V1_44_bip 1.wav</Source>
+      <Name>Sound Samples\USER1\USER_V1_44_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER1\USER_V1_44_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER1\USER_V1_45_bip 1.wav</Source>
+      <Name>Sound Samples\USER1\USER_V1_45_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER1\USER_V1_45_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER1\USER_V1_46_bip 1.wav</Source>
+      <Name>Sound Samples\USER1\USER_V1_46_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER1\USER_V1_46_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER1\USER_V1_47_bip 1.wav</Source>
+      <Name>Sound Samples\USER1\USER_V1_47_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER1\USER_V1_47_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER1\USER_V1_48_bip 1.wav</Source>
+      <Name>Sound Samples\USER1\USER_V1_48_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER1\USER_V1_48_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER1\USER_V1_49_bip 1.wav</Source>
+      <Name>Sound Samples\USER1\USER_V1_49_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER1\USER_V1_49_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER1\USER_V1_50_bip 1.wav</Source>
+      <Name>Sound Samples\USER1\USER_V1_50_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER1\USER_V1_50_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER1\USER_V1_51_bip 1.wav</Source>
+      <Name>Sound Samples\USER1\USER_V1_51_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER1\USER_V1_51_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER1\USER_V1_52_bip 1.wav</Source>
+      <Name>Sound Samples\USER1\USER_V1_52_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER1\USER_V1_52_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER1\USER_V1_53_bip 1.wav</Source>
+      <Name>Sound Samples\USER1\USER_V1_53_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER1\USER_V1_53_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER1\USER_V1_54_bip 1.wav</Source>
+      <Name>Sound Samples\USER1\USER_V1_54_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER1\USER_V1_54_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER1\USER_V1_55_bip 1.wav</Source>
+      <Name>Sound Samples\USER1\USER_V1_55_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER1\USER_V1_55_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER1\USER_V1_56_bip 1.wav</Source>
+      <Name>Sound Samples\USER1\USER_V1_56_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER1\USER_V1_56_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER1\USER_V1_57_bip 1.wav</Source>
+      <Name>Sound Samples\USER1\USER_V1_57_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER1\USER_V1_57_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER1\USER_V1_58_bip 1.wav</Source>
+      <Name>Sound Samples\USER1\USER_V1_58_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER1\USER_V1_58_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER1\USER_V1_59_bip 1.wav</Source>
+      <Name>Sound Samples\USER1\USER_V1_59_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER1\USER_V1_59_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER1\USER_V1_60_bip 1.wav</Source>
+      <Name>Sound Samples\USER1\USER_V1_60_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER1\USER_V1_60_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER1\USER_V1_61_bip 1.wav</Source>
+      <Name>Sound Samples\USER1\USER_V1_61_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER1\USER_V1_61_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER1\USER_V1_62_bip 1.wav</Source>
+      <Name>Sound Samples\USER1\USER_V1_62_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER1\USER_V1_62_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER1\USER_V1_63_bip 1.wav</Source>
+      <Name>Sound Samples\USER1\USER_V1_63_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER1\USER_V1_63_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER1\USER_V1_64_bip 1.wav</Source>
+      <Name>Sound Samples\USER1\USER_V1_64_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER1\USER_V1_64_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER1\USER_V2_36_bip 1.wav</Source>
+      <Name>Sound Samples\USER1\USER_V2_36_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER1\USER_V2_36_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER1\USER_V2_37_bip 1.wav</Source>
+      <Name>Sound Samples\USER1\USER_V2_37_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER1\USER_V2_37_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER1\USER_V2_38_bip 1.wav</Source>
+      <Name>Sound Samples\USER1\USER_V2_38_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER1\USER_V2_38_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER1\USER_V2_39_bip 1.wav</Source>
+      <Name>Sound Samples\USER1\USER_V2_39_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER1\USER_V2_39_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER1\USER_V2_40_bip 1.wav</Source>
+      <Name>Sound Samples\USER1\USER_V2_40_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER1\USER_V2_40_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER1\USER_V2_41_bip 1.wav</Source>
+      <Name>Sound Samples\USER1\USER_V2_41_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER1\USER_V2_41_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER1\USER_V2_42_bip 1.wav</Source>
+      <Name>Sound Samples\USER1\USER_V2_42_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER1\USER_V2_42_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER1\USER_V2_43_bip 1.wav</Source>
+      <Name>Sound Samples\USER1\USER_V2_43_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER1\USER_V2_43_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER1\USER_V2_44_bip 1.wav</Source>
+      <Name>Sound Samples\USER1\USER_V2_44_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER1\USER_V2_44_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER1\USER_V2_45_bip 1.wav</Source>
+      <Name>Sound Samples\USER1\USER_V2_45_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER1\USER_V2_45_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER1\USER_V2_46_bip 1.wav</Source>
+      <Name>Sound Samples\USER1\USER_V2_46_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER1\USER_V2_46_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER1\USER_V2_47_bip 1.wav</Source>
+      <Name>Sound Samples\USER1\USER_V2_47_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER1\USER_V2_47_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER1\USER_V2_48_bip 1.wav</Source>
+      <Name>Sound Samples\USER1\USER_V2_48_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER1\USER_V2_48_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER1\USER_V2_49_bip 1.wav</Source>
+      <Name>Sound Samples\USER1\USER_V2_49_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER1\USER_V2_49_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER1\USER_V2_50_bip 1.wav</Source>
+      <Name>Sound Samples\USER1\USER_V2_50_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER1\USER_V2_50_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER1\USER_V2_51_bip 1.wav</Source>
+      <Name>Sound Samples\USER1\USER_V2_51_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER1\USER_V2_51_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER1\USER_V2_52_bip 1.wav</Source>
+      <Name>Sound Samples\USER1\USER_V2_52_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER1\USER_V2_52_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER1\USER_V2_53_bip 1.wav</Source>
+      <Name>Sound Samples\USER1\USER_V2_53_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER1\USER_V2_53_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER1\USER_V2_54_bip 1.wav</Source>
+      <Name>Sound Samples\USER1\USER_V2_54_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER1\USER_V2_54_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER1\USER_V2_55_bip 1.wav</Source>
+      <Name>Sound Samples\USER1\USER_V2_55_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER1\USER_V2_55_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER1\USER_V2_56_bip 1.wav</Source>
+      <Name>Sound Samples\USER1\USER_V2_56_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER1\USER_V2_56_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER1\USER_V2_57_bip 1.wav</Source>
+      <Name>Sound Samples\USER1\USER_V2_57_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER1\USER_V2_57_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER1\USER_V2_58_bip 1.wav</Source>
+      <Name>Sound Samples\USER1\USER_V2_58_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER1\USER_V2_58_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER1\USER_V2_59_bip 1.wav</Source>
+      <Name>Sound Samples\USER1\USER_V2_59_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER1\USER_V2_59_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER1\USER_V2_60_bip 1.wav</Source>
+      <Name>Sound Samples\USER1\USER_V2_60_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER1\USER_V2_60_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER1\USER_V2_61_bip 1.wav</Source>
+      <Name>Sound Samples\USER1\USER_V2_61_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER1\USER_V2_61_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER1\USER_V2_62_bip 1.wav</Source>
+      <Name>Sound Samples\USER1\USER_V2_62_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER1\USER_V2_62_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER1\USER_V2_63_bip 1.wav</Source>
+      <Name>Sound Samples\USER1\USER_V2_63_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER1\USER_V2_63_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER1\USER_V2_64_bip 1.wav</Source>
+      <Name>Sound Samples\USER1\USER_V2_64_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER1\USER_V2_64_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER1\USER_V3_36_bip 1.wav</Source>
+      <Name>Sound Samples\USER1\USER_V3_36_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER1\USER_V3_36_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER1\USER_V3_37_bip 1.wav</Source>
+      <Name>Sound Samples\USER1\USER_V3_37_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER1\USER_V3_37_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER1\USER_V3_38_bip 1.wav</Source>
+      <Name>Sound Samples\USER1\USER_V3_38_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER1\USER_V3_38_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER1\USER_V3_39_bip 1.wav</Source>
+      <Name>Sound Samples\USER1\USER_V3_39_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER1\USER_V3_39_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER1\USER_V3_40_bip 1.wav</Source>
+      <Name>Sound Samples\USER1\USER_V3_40_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER1\USER_V3_40_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER1\USER_V3_41_bip 1.wav</Source>
+      <Name>Sound Samples\USER1\USER_V3_41_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER1\USER_V3_41_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER1\USER_V3_42_bip 1.wav</Source>
+      <Name>Sound Samples\USER1\USER_V3_42_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER1\USER_V3_42_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER1\USER_V3_43_bip 1.wav</Source>
+      <Name>Sound Samples\USER1\USER_V3_43_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER1\USER_V3_43_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER1\USER_V3_44_bip 1.wav</Source>
+      <Name>Sound Samples\USER1\USER_V3_44_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER1\USER_V3_44_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER1\USER_V3_45_bip 1.wav</Source>
+      <Name>Sound Samples\USER1\USER_V3_45_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER1\USER_V3_45_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER1\USER_V3_46_bip 1.wav</Source>
+      <Name>Sound Samples\USER1\USER_V3_46_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER1\USER_V3_46_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER1\USER_V3_47_bip 1.wav</Source>
+      <Name>Sound Samples\USER1\USER_V3_47_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER1\USER_V3_47_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER1\USER_V3_48_bip 1.wav</Source>
+      <Name>Sound Samples\USER1\USER_V3_48_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER1\USER_V3_48_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER1\USER_V3_49_bip 1.wav</Source>
+      <Name>Sound Samples\USER1\USER_V3_49_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER1\USER_V3_49_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER1\USER_V3_50_bip 1.wav</Source>
+      <Name>Sound Samples\USER1\USER_V3_50_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER1\USER_V3_50_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER1\USER_V3_51_bip 1.wav</Source>
+      <Name>Sound Samples\USER1\USER_V3_51_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER1\USER_V3_51_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER1\USER_V3_52_bip 1.wav</Source>
+      <Name>Sound Samples\USER1\USER_V3_52_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER1\USER_V3_52_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER1\USER_V3_53_bip 1.wav</Source>
+      <Name>Sound Samples\USER1\USER_V3_53_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER1\USER_V3_53_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER1\USER_V3_54_bip 1.wav</Source>
+      <Name>Sound Samples\USER1\USER_V3_54_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER1\USER_V3_54_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER1\USER_V3_55_bip 1.wav</Source>
+      <Name>Sound Samples\USER1\USER_V3_55_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER1\USER_V3_55_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER1\USER_V3_56_bip 1.wav</Source>
+      <Name>Sound Samples\USER1\USER_V3_56_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER1\USER_V3_56_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER1\USER_V3_57_bip 1.wav</Source>
+      <Name>Sound Samples\USER1\USER_V3_57_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER1\USER_V3_57_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER1\USER_V3_58_bip 1.wav</Source>
+      <Name>Sound Samples\USER1\USER_V3_58_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER1\USER_V3_58_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER1\USER_V3_59_bip 1.wav</Source>
+      <Name>Sound Samples\USER1\USER_V3_59_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER1\USER_V3_59_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER1\USER_V3_60_bip 1.wav</Source>
+      <Name>Sound Samples\USER1\USER_V3_60_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER1\USER_V3_60_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER1\USER_V3_61_bip 1.wav</Source>
+      <Name>Sound Samples\USER1\USER_V3_61_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER1\USER_V3_61_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER1\USER_V3_62_bip 1.wav</Source>
+      <Name>Sound Samples\USER1\USER_V3_62_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER1\USER_V3_62_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER1\USER_V3_63_bip 1.wav</Source>
+      <Name>Sound Samples\USER1\USER_V3_63_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER1\USER_V3_63_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER1\USER_V3_64_bip 1.wav</Source>
+      <Name>Sound Samples\USER1\USER_V3_64_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER1\USER_V3_64_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER2\USER_V1_36_bip 1.wav</Source>
+      <Name>Sound Samples\USER2\USER_V1_36_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER2\USER_V1_36_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER2\USER_V1_37_bip 1.wav</Source>
+      <Name>Sound Samples\USER2\USER_V1_37_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER2\USER_V1_37_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER2\USER_V1_38_bip 1.wav</Source>
+      <Name>Sound Samples\USER2\USER_V1_38_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER2\USER_V1_38_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER2\USER_V1_39_bip 1.wav</Source>
+      <Name>Sound Samples\USER2\USER_V1_39_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER2\USER_V1_39_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER2\USER_V1_40_bip 1.wav</Source>
+      <Name>Sound Samples\USER2\USER_V1_40_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER2\USER_V1_40_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER2\USER_V1_41_bip 1.wav</Source>
+      <Name>Sound Samples\USER2\USER_V1_41_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER2\USER_V1_41_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER2\USER_V1_42_bip 1.wav</Source>
+      <Name>Sound Samples\USER2\USER_V1_42_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER2\USER_V1_42_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER2\USER_V1_43_bip 1.wav</Source>
+      <Name>Sound Samples\USER2\USER_V1_43_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER2\USER_V1_43_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER2\USER_V1_44_bip 1.wav</Source>
+      <Name>Sound Samples\USER2\USER_V1_44_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER2\USER_V1_44_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER2\USER_V1_45_bip 1.wav</Source>
+      <Name>Sound Samples\USER2\USER_V1_45_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER2\USER_V1_45_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER2\USER_V1_46_bip 1.wav</Source>
+      <Name>Sound Samples\USER2\USER_V1_46_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER2\USER_V1_46_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER2\USER_V1_47_bip 1.wav</Source>
+      <Name>Sound Samples\USER2\USER_V1_47_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER2\USER_V1_47_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER2\USER_V1_48_bip 1.wav</Source>
+      <Name>Sound Samples\USER2\USER_V1_48_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER2\USER_V1_48_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER2\USER_V1_49_bip 1.wav</Source>
+      <Name>Sound Samples\USER2\USER_V1_49_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER2\USER_V1_49_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER2\USER_V1_50_bip 1.wav</Source>
+      <Name>Sound Samples\USER2\USER_V1_50_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER2\USER_V1_50_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER2\USER_V1_51_bip 1.wav</Source>
+      <Name>Sound Samples\USER2\USER_V1_51_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER2\USER_V1_51_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER2\USER_V1_52_bip 1.wav</Source>
+      <Name>Sound Samples\USER2\USER_V1_52_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER2\USER_V1_52_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER2\USER_V1_53_bip 1.wav</Source>
+      <Name>Sound Samples\USER2\USER_V1_53_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER2\USER_V1_53_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER2\USER_V1_54_bip 1.wav</Source>
+      <Name>Sound Samples\USER2\USER_V1_54_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER2\USER_V1_54_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER2\USER_V1_55_bip 1.wav</Source>
+      <Name>Sound Samples\USER2\USER_V1_55_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER2\USER_V1_55_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER2\USER_V1_56_bip 1.wav</Source>
+      <Name>Sound Samples\USER2\USER_V1_56_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER2\USER_V1_56_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER2\USER_V1_57_bip 1.wav</Source>
+      <Name>Sound Samples\USER2\USER_V1_57_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER2\USER_V1_57_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER2\USER_V1_58_bip 1.wav</Source>
+      <Name>Sound Samples\USER2\USER_V1_58_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER2\USER_V1_58_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER2\USER_V1_59_bip 1.wav</Source>
+      <Name>Sound Samples\USER2\USER_V1_59_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER2\USER_V1_59_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER2\USER_V1_60_bip 1.wav</Source>
+      <Name>Sound Samples\USER2\USER_V1_60_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER2\USER_V1_60_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER2\USER_V1_61_bip 1.wav</Source>
+      <Name>Sound Samples\USER2\USER_V1_61_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER2\USER_V1_61_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER2\USER_V1_62_bip 1.wav</Source>
+      <Name>Sound Samples\USER2\USER_V1_62_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER2\USER_V1_62_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER2\USER_V1_63_bip 1.wav</Source>
+      <Name>Sound Samples\USER2\USER_V1_63_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER2\USER_V1_63_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER2\USER_V1_64_bip 1.wav</Source>
+      <Name>Sound Samples\USER2\USER_V1_64_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER2\USER_V1_64_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER2\USER_V2_36_bip 1.wav</Source>
+      <Name>Sound Samples\USER2\USER_V2_36_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER2\USER_V2_36_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER2\USER_V2_37_bip 1.wav</Source>
+      <Name>Sound Samples\USER2\USER_V2_37_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER2\USER_V2_37_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER2\USER_V2_38_bip 1.wav</Source>
+      <Name>Sound Samples\USER2\USER_V2_38_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER2\USER_V2_38_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER2\USER_V2_39_bip 1.wav</Source>
+      <Name>Sound Samples\USER2\USER_V2_39_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER2\USER_V2_39_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER2\USER_V2_40_bip 1.wav</Source>
+      <Name>Sound Samples\USER2\USER_V2_40_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER2\USER_V2_40_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER2\USER_V2_41_bip 1.wav</Source>
+      <Name>Sound Samples\USER2\USER_V2_41_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER2\USER_V2_41_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER2\USER_V2_42_bip 1.wav</Source>
+      <Name>Sound Samples\USER2\USER_V2_42_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER2\USER_V2_42_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER2\USER_V2_43_bip 1.wav</Source>
+      <Name>Sound Samples\USER2\USER_V2_43_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER2\USER_V2_43_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER2\USER_V2_44_bip 1.wav</Source>
+      <Name>Sound Samples\USER2\USER_V2_44_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER2\USER_V2_44_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER2\USER_V2_45_bip 1.wav</Source>
+      <Name>Sound Samples\USER2\USER_V2_45_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER2\USER_V2_45_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER2\USER_V2_46_bip 1.wav</Source>
+      <Name>Sound Samples\USER2\USER_V2_46_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER2\USER_V2_46_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER2\USER_V2_47_bip 1.wav</Source>
+      <Name>Sound Samples\USER2\USER_V2_47_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER2\USER_V2_47_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER2\USER_V2_48_bip 1.wav</Source>
+      <Name>Sound Samples\USER2\USER_V2_48_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER2\USER_V2_48_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER2\USER_V2_49_bip 1.wav</Source>
+      <Name>Sound Samples\USER2\USER_V2_49_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER2\USER_V2_49_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER2\USER_V2_50_bip 1.wav</Source>
+      <Name>Sound Samples\USER2\USER_V2_50_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER2\USER_V2_50_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER2\USER_V2_51_bip 1.wav</Source>
+      <Name>Sound Samples\USER2\USER_V2_51_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER2\USER_V2_51_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER2\USER_V2_52_bip 1.wav</Source>
+      <Name>Sound Samples\USER2\USER_V2_52_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER2\USER_V2_52_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER2\USER_V2_53_bip 1.wav</Source>
+      <Name>Sound Samples\USER2\USER_V2_53_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER2\USER_V2_53_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER2\USER_V2_54_bip 1.wav</Source>
+      <Name>Sound Samples\USER2\USER_V2_54_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER2\USER_V2_54_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER2\USER_V2_55_bip 1.wav</Source>
+      <Name>Sound Samples\USER2\USER_V2_55_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER2\USER_V2_55_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER2\USER_V2_56_bip 1.wav</Source>
+      <Name>Sound Samples\USER2\USER_V2_56_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER2\USER_V2_56_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER2\USER_V2_57_bip 1.wav</Source>
+      <Name>Sound Samples\USER2\USER_V2_57_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER2\USER_V2_57_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER2\USER_V2_58_bip 1.wav</Source>
+      <Name>Sound Samples\USER2\USER_V2_58_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER2\USER_V2_58_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER2\USER_V2_59_bip 1.wav</Source>
+      <Name>Sound Samples\USER2\USER_V2_59_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER2\USER_V2_59_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER2\USER_V2_60_bip 1.wav</Source>
+      <Name>Sound Samples\USER2\USER_V2_60_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER2\USER_V2_60_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER2\USER_V2_61_bip 1.wav</Source>
+      <Name>Sound Samples\USER2\USER_V2_61_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER2\USER_V2_61_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER2\USER_V2_62_bip 1.wav</Source>
+      <Name>Sound Samples\USER2\USER_V2_62_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER2\USER_V2_62_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER2\USER_V2_63_bip 1.wav</Source>
+      <Name>Sound Samples\USER2\USER_V2_63_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER2\USER_V2_63_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER2\USER_V2_64_bip 1.wav</Source>
+      <Name>Sound Samples\USER2\USER_V2_64_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER2\USER_V2_64_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER2\USER_V3_36_bip 1.wav</Source>
+      <Name>Sound Samples\USER2\USER_V3_36_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER2\USER_V3_36_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER2\USER_V3_37_bip 1.wav</Source>
+      <Name>Sound Samples\USER2\USER_V3_37_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER2\USER_V3_37_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER2\USER_V3_38_bip 1.wav</Source>
+      <Name>Sound Samples\USER2\USER_V3_38_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER2\USER_V3_38_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER2\USER_V3_39_bip 1.wav</Source>
+      <Name>Sound Samples\USER2\USER_V3_39_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER2\USER_V3_39_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER2\USER_V3_40_bip 1.wav</Source>
+      <Name>Sound Samples\USER2\USER_V3_40_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER2\USER_V3_40_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER2\USER_V3_41_bip 1.wav</Source>
+      <Name>Sound Samples\USER2\USER_V3_41_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER2\USER_V3_41_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER2\USER_V3_42_bip 1.wav</Source>
+      <Name>Sound Samples\USER2\USER_V3_42_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER2\USER_V3_42_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER2\USER_V3_43_bip 1.wav</Source>
+      <Name>Sound Samples\USER2\USER_V3_43_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER2\USER_V3_43_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER2\USER_V3_44_bip 1.wav</Source>
+      <Name>Sound Samples\USER2\USER_V3_44_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER2\USER_V3_44_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER2\USER_V3_45_bip 1.wav</Source>
+      <Name>Sound Samples\USER2\USER_V3_45_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER2\USER_V3_45_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER2\USER_V3_46_bip 1.wav</Source>
+      <Name>Sound Samples\USER2\USER_V3_46_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER2\USER_V3_46_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER2\USER_V3_47_bip 1.wav</Source>
+      <Name>Sound Samples\USER2\USER_V3_47_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER2\USER_V3_47_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER2\USER_V3_48_bip 1.wav</Source>
+      <Name>Sound Samples\USER2\USER_V3_48_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER2\USER_V3_48_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER2\USER_V3_49_bip 1.wav</Source>
+      <Name>Sound Samples\USER2\USER_V3_49_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER2\USER_V3_49_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER2\USER_V3_50_bip 1.wav</Source>
+      <Name>Sound Samples\USER2\USER_V3_50_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER2\USER_V3_50_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER2\USER_V3_51_bip 1.wav</Source>
+      <Name>Sound Samples\USER2\USER_V3_51_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER2\USER_V3_51_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER2\USER_V3_52_bip 1.wav</Source>
+      <Name>Sound Samples\USER2\USER_V3_52_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER2\USER_V3_52_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER2\USER_V3_53_bip 1.wav</Source>
+      <Name>Sound Samples\USER2\USER_V3_53_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER2\USER_V3_53_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER2\USER_V3_54_bip 1.wav</Source>
+      <Name>Sound Samples\USER2\USER_V3_54_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER2\USER_V3_54_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER2\USER_V3_55_bip 1.wav</Source>
+      <Name>Sound Samples\USER2\USER_V3_55_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER2\USER_V3_55_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER2\USER_V3_56_bip 1.wav</Source>
+      <Name>Sound Samples\USER2\USER_V3_56_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER2\USER_V3_56_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER2\USER_V3_57_bip 1.wav</Source>
+      <Name>Sound Samples\USER2\USER_V3_57_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER2\USER_V3_57_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER2\USER_V3_58_bip 1.wav</Source>
+      <Name>Sound Samples\USER2\USER_V3_58_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER2\USER_V3_58_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER2\USER_V3_59_bip 1.wav</Source>
+      <Name>Sound Samples\USER2\USER_V3_59_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER2\USER_V3_59_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER2\USER_V3_60_bip 1.wav</Source>
+      <Name>Sound Samples\USER2\USER_V3_60_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER2\USER_V3_60_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER2\USER_V3_61_bip 1.wav</Source>
+      <Name>Sound Samples\USER2\USER_V3_61_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER2\USER_V3_61_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER2\USER_V3_62_bip 1.wav</Source>
+      <Name>Sound Samples\USER2\USER_V3_62_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER2\USER_V3_62_bip 1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound Samples\USER2\USER_V3_63_bip 1.wav</Source>
+      <Name>Sound Samples\USER2\USER_V3_63_bip 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\Sound Samples\USER2\USER_V3_63_bip 1.xnb</Output>
       <Time>0001-01-01T00:00:00</Time>
     </Item>
     <BuildSuccessful>false</BuildSuccessful>
     <Settings>
       <ContentProjectGUID>{DFD9B219-E855-4E35-AE0F-87B434B35149}</ContentProjectGUID>
       <TargetPlatform>Windows</TargetPlatform>
-      <TargetProfile>Reach</TargetProfile>
+      <TargetProfile>HiDef</TargetProfile>
       <BuildConfiguration>Release</BuildConfiguration>
       <CompressContent>true</CompressContent>
-      <RootDirectory>C:\SD Card\Dropbox\Cascade\Cascade\CascadeContent\</RootDirectory>
-      <LoggerRootDirectory>C:\SD Card\Dropbox\Cascade\Cascade\Cascade\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\SD Card\Dropbox\Cascade\Cascade\Cascade\obj\x86\Release\</IntermediateDirectory>
-      <OutputDirectory>C:\SD Card\Dropbox\Cascade\Cascade\Cascade\bin\x86\Release\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\CascadeContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\obj\x86\Release\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Release\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>

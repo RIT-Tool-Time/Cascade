@@ -13,6 +13,7 @@ using System.Text;
 using System.Globalization;
 using Windows7.Multitouch.Win32Helper;
 using Windows7.Multitouch;
+using System.ComponentModel;
 
 namespace Cascade
 {
@@ -31,14 +32,48 @@ namespace Cascade
         ColorManager clearColor = new ColorManager();
         RenderTarget2D colorTarget, depthTarget, finalTarget;
         TouchEmitter[] emitters = new TouchEmitter[10];
+        public List<TouchPoint> Touches = new List<TouchPoint>();
+        string socketBuffer = "";
+        public BackgroundWorker startUpWorker;
+        System.Timers.Timer threadTimer;
         public Game1()
         {
+            threadTimer = new System.Timers.Timer(1000d / 240d);
+            threadTimer.Elapsed += new System.Timers.ElapsedEventHandler(threadTimer_Elapsed);
             Global.Game = this;
             graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
             tcp = new TcpObject();
             this.TargetElapsedTime = TimeSpan.FromSeconds(1d / 60d);
             GC.KeepAlive(this.Window);
+            startUpWorker = new BackgroundWorker();
+            startUpWorker.DoWork += new DoWorkEventHandler(startUpWorker_DoWork);
+        }
+
+        void threadTimer_Elapsed(object sender, System.Timers.ElapsedEventArgs e)
+        {
+            if (tcp.Connected && !threadRunning)
+            {
+                socketThread = new Thread(socketThreadStart);
+                socketThread.Priority = ThreadPriority.Highest;
+                socketThread.IsBackground = false;
+                socketThread.Start();
+            }
+        }
+
+        void startUpWorker_DoWork(object sender, DoWorkEventArgs e)
+        {
+            try
+            {
+                tcp.Connect("129.21.64.202", 8124);
+                tcp.Write("Yo");
+                tcp.Write("I am connected");
+                Global.Output += "TCP Client connected";
+            }
+            catch
+            {
+                Global.Output += "TCP Client not connected";
+            }
         }
 
         void th_TouchDown(object sender, TouchEventArgs e)
@@ -74,12 +109,12 @@ namespace Cascade
             {
                 emitters[i] = new TouchEmitter(Global.ParticleManager, Vector3.Zero)
                 {
-                    Step = 3,
+                    Step = 6,
                     Speed = new Vector3(0, 0, 0),
                     SpeedRange = new Vector3(0, 0, 0),
-                    Color = new Color(45, 160, 241),
-                    ColorRange = new Color(0.2f, 0.0f, 0.0f, 0.0f),
-                    SpeedTransferMultiplier = 0.0f
+                    Color = new Color(210, 235, 255),
+                    ColorRange = new Color(0.0f, 0.03f, 0.0f, 0.0f),
+                    SpeedTransferMultiplier = 1f
                 };
                 emitters[i].Emitted += new ParticleEmittedEventHandler(Game1_Emitted);
             }
@@ -99,7 +134,7 @@ namespace Cascade
                 Global.PanelManager.Add(
                     new MusicPanel()
                     {
-                        NoteOffset = MusicManager.PentatonicScale[i]
+                        NoteOffset = MusicManager.PentatonicScale[i % MusicManager.PentatonicScale.Length]
                     }
                     );
             }
@@ -119,18 +154,9 @@ namespace Cascade
             
 
             this.IsMouseVisible = true;
-            
-            try
-            {
-                /*tcp.Connect("129.21.65.69", 8124);
-                tcp.Write("Yo");
-                tcp.Write("I am connected");
-                Global.Output += "TCP Client connected";*/
-            }
-            catch
-            {
-                Global.Output += "TCP Client not connected";
-            }
+
+            startUpWorker.RunWorkerAsync();
+            threadTimer.Start();
             graphics.PreferredBackBufferWidth = 1920; graphics.PreferredBackBufferHeight = (int)(graphics.PreferredBackBufferWidth * (9f / 16f));
             graphics.IsFullScreen = true;
             graphics.ApplyChanges();
@@ -143,17 +169,36 @@ namespace Cascade
 
         void Game1_Emitted(ParticleEmittedEventArgs e)
         {
-            e.Particle.Gravity = 0.0f;
-            e.Particle.Behaviors.Add(new Behaviors.Disappear(30, 0.2f, 0.05f, 0.5f));
-            e.Particle.Behaviors.Add(new Behaviors.SpeedDamping(0.6f, 0.5f));
-            
+            if (e.Emitter is TouchEmitter)
+            {
+                TouchEmitter emit = e.Emitter as TouchEmitter;
+                if (emit.Touch == null)
+                {
 
-            e.Particle.BlendState = BlendState.AlphaBlend;
-            //e.Particle.Behaviors.Add(new Behaviors.Bounce(720, 0.5f));
-            e.Particle.Alpha = 0;
-            e.Particle.Scale = new Vector2(MyMath.RandomRange(0.5f, 0.75f));
-            e.Particle.ScaleSpeed = new Vector2(MyMath.RandomRange(0.01f, 0.02f)) * 0.1f;
-            e.Particle.MotionStretch = true;
+                }
+                else
+                {
+                    if (emit.Touch.Holding)
+                    {
+                        e.Particle.Scale = new Vector2(MyMath.RandomRange(0.1f, 0.3f));
+                    }
+                    else
+                    {
+                        e.Particle.Scale = new Vector2(MyMath.RandomRange(0.25f, 0.75f));
+                    }
+                }
+                e.Particle.Gravity = 0.0f;
+                e.Particle.Behaviors.Add(new Behaviors.Disappear(60, 0.2f, 0.05f, 0.5f));
+                e.Particle.Behaviors.Add(new Behaviors.SpeedDamping(0.6f, 0.5f));
+
+
+                e.Particle.BlendState = BlendState.AlphaBlend;
+                //e.Particle.Behaviors.Add(new Behaviors.Bounce(720, 0.5f));
+                e.Particle.Alpha = 0;
+                
+                e.Particle.ScaleSpeed = new Vector2(MyMath.RandomRange(0.01f, 0.02f)) * 0.1f;
+                e.Particle.MotionStretch = true;
+            }
         }
         private void CreateRenderTargets(int width, float aspectRatio)
         {
@@ -168,42 +213,85 @@ namespace Cascade
             threadRunning = true;
             if (tcp.Connected)
             {
+                bool checkValue = false;
+                string newBuffer = "";
                 string value = tcp.ReadString(Encoding.ASCII).Replace("\0", "");
-                string[] values = value.Split(' ');
-                foreach (var val in values)
+                for (int i = 0; i < value.Length; i++)
                 {
-                    Global.Output += val;
-                    if (val.StartsWith("#") && val.Length > 1)
+                    if (value[i] != ';' && !checkValue)
                     {
-                        string hex = val.Substring(1);
-                        uint num = uint.Parse(hex, System.Globalization.NumberStyles.HexNumber, CultureInfo.InvariantCulture);
-                        clearColor.R = (byte)(num >> 16);
-                        clearColor.G = (byte)(num >> 8);
-                        clearColor.B = (byte)num;
-                        clearColor.A = (byte)255;
-                        foreach (var mp in Global.PanelManager.Panels)
-                        {
-                            mp.ColorManager.Color = clearColor;
-                        }
+                        socketBuffer += value[i];
                     }
-                    else if (val.Contains("Tap"))
+                    else
                     {
-                        //clearColor.Animate(Color.White, 15);
-                        int index = 0;
-                        try
+                        Global.Output += socketBuffer;
+                        if (socketBuffer.Contains("move"))
                         {
-                            string s = val.Substring(3);
-                            int.TryParse(s, out index);
-                            index--;
-                            Global.PanelManager[index].ColorManager.Animate(Color.White, 15);
+                            var vals = socketBuffer.Split(':');
+                            foreach (var t in Touches)
+                            {
+                                int id = (int)(long.Parse(vals[2]) % int.MaxValue);
+                                if (t.Id == id)
+                                {
+                                    string[] pos = vals[1].Split(',');
+                                    t.Position.X = float.Parse(pos[0]) * Global.ScreenSize.X;
+                                    t.Position.Y = float.Parse(pos[1]) * Global.ScreenSize.Y;
+                                }
+                            }
                         }
-                        catch
+                        else if (socketBuffer.Contains("touch"))
                         {
-
+                            var vals = socketBuffer.Split(':');
+                            var touch = new TouchPoint();
+                            long l = long.Parse(vals[2]);
+                            touch.Id = (int)(l % int.MaxValue);
+                            touch.State = TouchState.Touched;
+                            string[] pos = vals[1].Split(',');
+                            touch.Position.X = float.Parse(pos[0]) * Global.ScreenSize.X;
+                            touch.Position.Y = float.Parse(pos[1]) * Global.ScreenSize.Y;
+                            Touches.Add(touch);
+                            Touches = Touches;
                         }
+                        else if (socketBuffer.Contains("cancel"))
+                        {
+                            var vals = socketBuffer.Split(':');
+                            if (vals[1] != "null")
+                            {
+                                TouchPoint t1 = null;
+                                string[] strings = vals[1].Split(',');
+                                int[] ids = new int[strings.Length];
+                                for (int o = 0; o < ids.Length; o++)
+                                {
+                                    ids[o] = (int)(long.Parse(strings[o]) % int.MaxValue);
+                                }
+                                foreach (var t in Touches)
+                                {
+                                    if (!ids.Contains(t.Id))
+                                    {
+                                        t1 = t;
+                                        break;
+                                    }
+                                }
+                                if (t1 != null)
+                                {
+                                    t1.State = TouchState.Released;
+                                    //Touches.Remove(t1);
+                                }
+                            }
+                            else
+                            {
+                                foreach (var t in Touches)
+                                {
+                                    t.State = TouchState.Released;
+                                }
+                                //Touches.Clear();
+                            }
+                        }
+                        socketBuffer = "";
                     }
+                    
                 }
-                Console.Write(value);
+                
             }
             threadRunning = false;
         }
@@ -215,7 +303,7 @@ namespace Cascade
         {
             // TODO: Unload any non ContentManager content here
         }
-
+        
         /// <summary>
         /// Allows the game to run logic such as updating the world,
         /// checking for collisions, gathering input, and playing audio.
@@ -225,13 +313,13 @@ namespace Cascade
         {
             // Allows the game to exit
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Controls.GetKey(Keys.Escape) == ControlState.Pressed)
-                this.Exit();
-            if (tcp.Connected && !threadRunning)
             {
-                socketThread = new Thread(socketThreadStart);
-                socketThread.Start();
-            }
-
+                this.Exit();
+                tcp.Close();
+            } 
+            
+            
+            
             TouchManager.Update();
             Global.Update(gameTime);
             MusicManager.Update();
@@ -259,9 +347,18 @@ namespace Cascade
                     {
                         emit.Touch = touch;
                         emit.Pos = touch.Position.ToVector3();
-                        emit.EmitParticle();
+                       // emit.EmitParticle();
                         break;
                     }
+                }
+            }
+            for (int i = 0; i < Touches.Count; i++)
+            {
+                Touches[i].Update();
+                if (Touches[i].State == TouchState.None)
+                {
+                    Touches.RemoveAt(i);
+                    i--;
                 }
             }
             //emitter.Pos = new Vector3(-Controls.MousePos, 1000);
@@ -316,18 +413,20 @@ namespace Cascade
             Global.Effect.View = Matrix.CreateTranslation(0, 0, 0);
            // Global.Effect.Projection = Matrix.CreatePerspectiveFieldOfView(MathHelper.ToRadians(45), 16f / 9f, 1, 1000000);
             Global.Effect.World = Matrix.CreateTranslation(0, 0, 0);
+           
             Global.ParticleManager.Draw(GraphicsDevice, graphics, spriteBatch, colorTarget, Global.ScreenSize.X, Global.ScreenSize.Y);
 
             //sprite batch stuff
             GraphicsDevice.BlendState = BlendState.AlphaBlend;
             GraphicsDevice.SetRenderTarget(finalTarget);
-            GraphicsDevice.Clear(Color.White);
+            GraphicsDevice.Clear(new Color(170, 220, 240));
             //Global.SpriteEffect.Parameters["depthTexture"].SetValue(depthTarget);
             Matrix sbMatrix = Matrix.CreateOrthographicOffCenter(0, Global.ScreenSize.X, Global.ScreenSize.Y, 0, 0, 1);
             Global.SpriteEffect.Parameters["MatrixTransform"].SetValue(sbMatrix);
             Global.Effect.World = Matrix.CreateTranslation(Vector3.Zero);
             Global.Effect.Alpha = 1;
             GraphicsDevice.RasterizerState = RasterizerState.CullNone;
+            Global.Effect.Color = Color.White;
             foreach (var pass in Global.Effect.CurrentTechnique.Passes)
             {
                 pass.Apply();
@@ -356,7 +455,7 @@ namespace Cascade
                 Vector2 size = Fonts.Output.MeasureString(Global.Output);
                 if (size.Y > 500)
                     y = -(size.Y - 500);
-                spriteBatch.DrawString(Fonts.Output, Global.Output, new Vector2(0, y), Color.Black);
+                //spriteBatch.DrawString(Fonts.Output, Global.Output, new Vector2(0, y), Color.Black);
             }
             
 

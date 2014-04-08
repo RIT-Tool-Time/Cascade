@@ -9,14 +9,16 @@ namespace Cascade
     public static class MusicManager
     {
         public static readonly int[] MajorScale = { 0, 2, 4, 5, 6, 9, 11, 12 };
+
         public static readonly int[] PentatonicScale = { 0, 2, 4, 7, 9, 12 };
+
         public static List<MusicalNote> SoundEffects = new List<MusicalNote>();
         
         public static SoundEffect LoadUserSound(int UserNumber, int MidiNumber, int Version, string InstrumentName)
         {
             try
             {
-                string path = "Sound Samples/USER" + UserNumber + "/USER" + UserNumber + "_" + MidiNumber + "_V" + Version + "_" + InstrumentName;
+                string path = "Sound Samples/USER" + UserNumber + "/USER" + "_V" + Version + "_" + MidiNumber + "_" + InstrumentName + " 1";
 
                 return Global.Game.Content.Load<SoundEffect>(path);
             }
@@ -32,6 +34,7 @@ namespace Cascade
 
             for (int i = 0; i < 3; i++)
             {
+                
                 effects[i] = LoadUserSound(UserNumber, MidiNumber, i + 1, InstrumentName);
             }
 
@@ -39,6 +42,7 @@ namespace Cascade
         }
         public static MusicalNote AddNote(SoundEffectInstance i)
         {
+            
             var m = new MusicalNote(i);
             SoundEffects.Add(m);
             return m;
@@ -86,6 +90,7 @@ namespace Cascade
             s.Volume = 0;
             fadeIn = true;
             s.Play();
+            
         }
        
         public void FadeOut(float fadeSpeed, float fadeSpeed2)

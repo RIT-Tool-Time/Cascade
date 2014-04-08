@@ -1,1 +1,2 @@
 C:\SD Card\Dropbox\Cascade\Cascade\CascadeContent\obj\x86\Release\CascadeContent.contentprojResolveAssemblyReference.cache
+C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\CascadeContent\obj\x86\Release\CascadeContent.contentprojResolveAssemblyReference.cache

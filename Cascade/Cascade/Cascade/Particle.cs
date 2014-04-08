@@ -29,10 +29,6 @@ namespace Cascade
             set
             {
                 color = value;
-                for (int i = 0; i < Vertices.Length; i++)
-                {
-                    Vertices[i].Color = value;
-                }
             }
         }
         public ParticleManager Manager
@@ -107,6 +103,7 @@ namespace Cascade
         {
             Global.Effect.World = Matrix.CreateScale(new Vector3(Scale + new Vector2(0, stretchScale), 1)) * Matrix.CreateRotationZ(MathHelper.ToRadians(stretchRot)) * Matrix.CreateTranslation(Pos);
             Global.Effect.Alpha = Alpha;
+            Global.Effect.Color = Color;
             Global.Effect.Depth = Depth;
             GraphicsDevice.BlendState = BlendState;
             GraphicsDevice.RasterizerState = RasterizerState;
