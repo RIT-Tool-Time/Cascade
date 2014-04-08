@@ -65,6 +65,12 @@
     <Reference Include="Microsoft.Xna.Framework.Graphics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86" />
     <Reference Include="Microsoft.Xna.Framework.GamerServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86" />
     <Reference Include="mscorlib" />
+    <Reference Include="NAudio">
+      <HintPath>..\..\NAudio-Release\NAudio.dll</HintPath>
+    </Reference>
+    <Reference Include="NAudio.WindowsMediaFormat">
+      <HintPath>..\..\NAudio-Release\NAudio.WindowsMediaFormat.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Input.Manipulations" />
@@ -102,6 +108,7 @@
     <Compile Include="TouchManager.cs" />
     <Compile Include="Triangle.cs" />
     <Compile Include="VertexEffect.cs" />
+    <Compile Include="VolumeMeter.cs" />
     <Compile Include="Window.cs" />
   </ItemGroup>
   <ItemGroup>

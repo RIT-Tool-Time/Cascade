@@ -7,8 +7,8 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\OutputFont.xnb</Output>
-      <Time>2014-03-16T15:50:51.9094527-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\OutputFont.xnb</Output>
+      <Time>2014-04-08T01:43:52.0213628-04:00</Time>
     </Item>
     <Item>
       <Source>Shader.fx</Source>
@@ -16,8 +16,8 @@
       <Importer>EffectImporter</Importer>
       <Processor>EffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Shader.xnb</Output>
-      <Time>2014-04-06T18:53:38.101308-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Shader.xnb</Output>
+      <Time>2014-04-08T01:43:52.0223386-04:00</Time>
     </Item>
     <Item>
       <Source>SpriteShader.fx</Source>
@@ -25,8 +25,8 @@
       <Importer>EffectImporter</Importer>
       <Processor>EffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\SpriteShader.xnb</Output>
-      <Time>2014-03-31T18:30:05.4167467-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\SpriteShader.xnb</Output>
+      <Time>2014-04-08T01:43:58.6749414-04:00</Time>
     </Item>
     <Item>
       <Source>Light2.png</Source>
@@ -34,8 +34,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Light2.xnb</Output>
-      <Time>2014-03-25T23:43:52.1772917-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Light2.xnb</Output>
+      <Time>2014-04-08T01:43:52.0115965-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\ARP1\ARP1_100_24_bip.wav</Source>
@@ -43,8 +43,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_100_24_bip.xnb</Output>
-      <Time>2014-04-04T17:18:29.7757603-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_100_24_bip.xnb</Output>
+      <Time>2014-04-08T01:43:52.0408933-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\ARP1\ARP1_100_25_bip.wav</Source>
@@ -52,8 +52,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_100_25_bip.xnb</Output>
-      <Time>2014-04-04T17:18:29.7914062-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_100_25_bip.xnb</Output>
+      <Time>2014-04-08T01:43:52.0594492-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\ARP1\ARP1_100_26_bip.wav</Source>
@@ -61,8 +61,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_100_26_bip.xnb</Output>
-      <Time>2014-04-04T17:18:29.7914062-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_100_26_bip.xnb</Output>
+      <Time>2014-04-08T01:43:52.098514-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\ARP1\ARP1_100_27_bip.wav</Source>
@@ -70,8 +70,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_100_27_bip.xnb</Output>
-      <Time>2014-04-04T17:18:29.7914062-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_100_27_bip.xnb</Output>
+      <Time>2014-04-08T01:43:52.1180464-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\ARP1\ARP1_100_28_bip.wav</Source>
@@ -79,8 +79,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_100_28_bip.xnb</Output>
-      <Time>2014-04-04T17:18:29.807016-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_100_28_bip.xnb</Output>
+      <Time>2014-04-08T01:43:52.1366008-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\ARP1\ARP1_100_29_bip.wav</Source>
@@ -88,8 +88,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_100_29_bip.xnb</Output>
-      <Time>2014-04-04T17:18:29.807016-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_100_29_bip.xnb</Output>
+      <Time>2014-04-08T01:43:52.1551559-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\ARP1\ARP1_100_30_bip.wav</Source>
@@ -97,8 +97,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_100_30_bip.xnb</Output>
-      <Time>2014-04-04T17:18:29.8226361-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_100_30_bip.xnb</Output>
+      <Time>2014-04-08T01:43:52.1746879-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\ARP1\ARP1_100_31_bip.wav</Source>
@@ -106,8 +106,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_100_31_bip.xnb</Output>
-      <Time>2014-04-04T17:18:29.8226361-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_100_31_bip.xnb</Output>
+      <Time>2014-04-08T01:43:52.1922679-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\ARP1\ARP1_100_32_bip.wav</Source>
@@ -115,8 +115,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_100_32_bip.xnb</Output>
-      <Time>2014-04-04T17:18:29.8226361-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_100_32_bip.xnb</Output>
+      <Time>2014-04-08T01:43:52.210823-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\ARP1\ARP1_100_33_bip.wav</Source>
@@ -124,8 +124,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_100_33_bip.xnb</Output>
-      <Time>2014-04-04T17:18:29.8382642-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_100_33_bip.xnb</Output>
+      <Time>2014-04-08T01:43:52.2293785-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\ARP1\ARP1_100_34_bip.wav</Source>
@@ -133,8 +133,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_100_34_bip.xnb</Output>
-      <Time>2014-04-04T17:18:29.8382642-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_100_34_bip.xnb</Output>
+      <Time>2014-04-08T01:43:52.247934-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\ARP1\ARP1_100_35_bip.wav</Source>
@@ -142,8 +142,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_100_35_bip.xnb</Output>
-      <Time>2014-04-04T17:18:29.8538869-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_100_35_bip.xnb</Output>
+      <Time>2014-04-08T01:43:52.2664898-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\ARP1\ARP1_100_36_bip.wav</Source>
@@ -151,8 +151,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_100_36_bip.xnb</Output>
-      <Time>2014-04-04T17:18:29.8538869-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_100_36_bip.xnb</Output>
+      <Time>2014-04-08T01:43:52.2860204-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\ARP1\ARP1_100_37_bip.wav</Source>
@@ -160,8 +160,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_100_37_bip.xnb</Output>
-      <Time>2014-04-04T17:18:29.8538869-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_100_37_bip.xnb</Output>
+      <Time>2014-04-08T01:43:52.3045755-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\ARP1\ARP1_100_38_bip.wav</Source>
@@ -169,8 +169,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_100_38_bip.xnb</Output>
-      <Time>2014-04-04T17:18:29.8695154-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_100_38_bip.xnb</Output>
+      <Time>2014-04-08T01:43:52.3241086-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\ARP1\ARP1_100_39_bip.wav</Source>
@@ -178,8 +178,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_100_39_bip.xnb</Output>
-      <Time>2014-04-04T17:18:29.8695154-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_100_39_bip.xnb</Output>
+      <Time>2014-04-08T01:43:52.3426637-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\ARP1\ARP1_100_40_bip.wav</Source>
@@ -187,8 +187,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_100_40_bip.xnb</Output>
-      <Time>2014-04-04T17:18:29.8851417-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_100_40_bip.xnb</Output>
+      <Time>2014-04-08T01:43:52.3621965-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\ARP1\ARP1_100_41_bip.wav</Source>
@@ -196,8 +196,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_100_41_bip.xnb</Output>
-      <Time>2014-04-04T17:18:29.8851417-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_100_41_bip.xnb</Output>
+      <Time>2014-04-08T01:43:52.4686464-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\ARP1\ARP1_100_42_bip.wav</Source>
@@ -205,8 +205,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_100_42_bip.xnb</Output>
-      <Time>2014-04-04T17:18:29.9007658-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_100_42_bip.xnb</Output>
+      <Time>2014-04-08T01:43:52.4881781-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\ARP1\ARP1_100_43_bip.wav</Source>
@@ -214,8 +214,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_100_43_bip.xnb</Output>
-      <Time>2014-04-04T17:18:29.9007658-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_100_43_bip.xnb</Output>
+      <Time>2014-04-08T01:43:52.5077105-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\ARP1\ARP1_100_44_bip.wav</Source>
@@ -223,8 +223,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_100_44_bip.xnb</Output>
-      <Time>2014-04-04T17:18:29.9163921-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_100_44_bip.xnb</Output>
+      <Time>2014-04-08T01:43:52.5262656-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\ARP1\ARP1_100_45_bip.wav</Source>
@@ -232,8 +232,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_100_45_bip.xnb</Output>
-      <Time>2014-04-04T17:18:29.9163921-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_100_45_bip.xnb</Output>
+      <Time>2014-04-08T01:43:52.5457976-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\ARP1\ARP1_100_46_bip.wav</Source>
@@ -241,8 +241,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_100_46_bip.xnb</Output>
-      <Time>2014-04-04T17:18:29.9163921-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_100_46_bip.xnb</Output>
+      <Time>2014-04-08T01:43:52.5643531-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\ARP1\ARP1_100_47_bip.wav</Source>
@@ -250,8 +250,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_100_47_bip.xnb</Output>
-      <Time>2014-04-04T17:18:29.932013-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_100_47_bip.xnb</Output>
+      <Time>2014-04-08T01:43:52.5838852-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\ARP1\ARP1_100_48_bip.wav</Source>
@@ -259,8 +259,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_100_48_bip.xnb</Output>
-      <Time>2014-04-04T17:18:29.932013-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_100_48_bip.xnb</Output>
+      <Time>2014-04-08T01:43:52.6034172-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\ARP1\ARP1_100_49_bip.wav</Source>
@@ -268,8 +268,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_100_49_bip.xnb</Output>
-      <Time>2014-04-04T17:18:29.947638-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_100_49_bip.xnb</Output>
+      <Time>2014-04-08T01:43:52.6229493-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\ARP1\ARP1_100_50_bip.wav</Source>
@@ -277,8 +277,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_100_50_bip.xnb</Output>
-      <Time>2014-04-04T17:18:29.947638-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_100_50_bip.xnb</Output>
+      <Time>2014-04-08T01:43:52.6415047-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\ARP1\ARP1_100_51_bip.wav</Source>
@@ -286,8 +286,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_100_51_bip.xnb</Output>
-      <Time>2014-04-04T17:18:29.947638-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_100_51_bip.xnb</Output>
+      <Time>2014-04-08T01:43:52.6610353-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\ARP1\ARP1_100_52_bip.wav</Source>
@@ -295,8 +295,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_100_52_bip.xnb</Output>
-      <Time>2014-04-04T17:18:29.9632674-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_100_52_bip.xnb</Output>
+      <Time>2014-04-08T01:43:52.6795915-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\ARP1\ARP1_120_24_bip.wav</Source>
@@ -304,8 +304,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_120_24_bip.xnb</Output>
-      <Time>2014-04-04T17:18:29.9632674-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_120_24_bip.xnb</Output>
+      <Time>2014-04-08T01:43:52.6952165-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\ARP1\ARP1_120_25_bip.wav</Source>
@@ -313,8 +313,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_120_25_bip.xnb</Output>
-      <Time>2014-04-04T17:18:29.9632674-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_120_25_bip.xnb</Output>
+      <Time>2014-04-08T01:43:52.7108422-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\ARP1\ARP1_120_26_bip.wav</Source>
@@ -322,8 +322,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_120_26_bip.xnb</Output>
-      <Time>2014-04-04T17:18:29.978891-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_120_26_bip.xnb</Output>
+      <Time>2014-04-08T01:43:52.7264683-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\ARP1\ARP1_120_27_bip.wav</Source>
@@ -331,8 +331,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_120_27_bip.xnb</Output>
-      <Time>2014-04-04T17:18:29.978891-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_120_27_bip.xnb</Output>
+      <Time>2014-04-08T01:43:52.7420933-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\ARP1\ARP1_120_28_bip.wav</Source>
@@ -340,8 +340,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_120_28_bip.xnb</Output>
-      <Time>2014-04-04T17:18:29.9945173-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_120_28_bip.xnb</Output>
+      <Time>2014-04-08T01:43:52.7577197-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\ARP1\ARP1_120_29_bip.wav</Source>
@@ -349,8 +349,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_120_29_bip.xnb</Output>
-      <Time>2014-04-04T17:18:29.9945173-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_120_29_bip.xnb</Output>
+      <Time>2014-04-08T01:43:52.7801812-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\ARP1\ARP1_120_30_bip.wav</Source>
@@ -358,8 +358,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_120_30_bip.xnb</Output>
-      <Time>2014-04-04T17:18:29.9945173-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_120_30_bip.xnb</Output>
+      <Time>2014-04-08T01:43:52.8573339-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\ARP1\ARP1_120_31_bip.wav</Source>
@@ -367,8 +367,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_120_31_bip.xnb</Output>
-      <Time>2014-04-04T17:18:30.0101436-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_120_31_bip.xnb</Output>
+      <Time>2014-04-08T01:43:52.8758882-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\ARP1\ARP1_120_32_bip.wav</Source>
@@ -376,8 +376,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_120_32_bip.xnb</Output>
-      <Time>2014-04-04T17:18:30.0101436-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_120_32_bip.xnb</Output>
+      <Time>2014-04-08T01:43:52.8924905-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\ARP1\ARP1_120_33_bip.wav</Source>
@@ -385,8 +385,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_120_33_bip.xnb</Output>
-      <Time>2014-04-04T17:18:30.0257659-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_120_33_bip.xnb</Output>
+      <Time>2014-04-08T01:43:52.9081159-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\ARP1\ARP1_120_34_bip.wav</Source>
@@ -394,8 +394,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_120_34_bip.xnb</Output>
-      <Time>2014-04-04T17:18:30.0257659-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_120_34_bip.xnb</Output>
+      <Time>2014-04-08T01:43:52.9237416-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\ARP1\ARP1_120_35_bip.wav</Source>
@@ -403,8 +403,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_120_35_bip.xnb</Output>
-      <Time>2014-04-04T17:18:30.0257659-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_120_35_bip.xnb</Output>
+      <Time>2014-04-08T01:43:52.9403439-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\ARP1\ARP1_120_36_bip.wav</Source>
@@ -412,8 +412,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_120_36_bip.xnb</Output>
-      <Time>2014-04-04T17:18:30.0413922-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_120_36_bip.xnb</Output>
+      <Time>2014-04-08T01:43:52.95597-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\ARP1\ARP1_120_37_bip.wav</Source>
@@ -421,8 +421,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_120_37_bip.xnb</Output>
-      <Time>2014-04-04T17:18:30.0413922-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_120_37_bip.xnb</Output>
+      <Time>2014-04-08T01:43:52.9725715-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\ARP1\ARP1_120_38_bip.wav</Source>
@@ -430,8 +430,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_120_38_bip.xnb</Output>
-      <Time>2014-04-04T17:18:30.0570189-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_120_38_bip.xnb</Output>
+      <Time>2014-04-08T01:43:52.9891735-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\ARP1\ARP1_120_39_bip.wav</Source>
@@ -439,8 +439,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_120_39_bip.xnb</Output>
-      <Time>2014-04-04T17:18:30.0570189-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_120_39_bip.xnb</Output>
+      <Time>2014-04-08T01:43:53.0057758-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\ARP1\ARP1_120_40_bip.wav</Source>
@@ -448,8 +448,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_120_40_bip.xnb</Output>
-      <Time>2014-04-04T17:18:30.0726457-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_120_40_bip.xnb</Output>
+      <Time>2014-04-08T01:43:53.0214015-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\ARP1\ARP1_120_41_bip.wav</Source>
@@ -457,8 +457,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_120_41_bip.xnb</Output>
-      <Time>2014-04-04T17:18:30.0726457-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_120_41_bip.xnb</Output>
+      <Time>2014-04-08T01:43:53.0380031-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\ARP1\ARP1_120_42_bip.wav</Source>
@@ -466,8 +466,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_120_42_bip.xnb</Output>
-      <Time>2014-04-04T17:18:30.0882657-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_120_42_bip.xnb</Output>
+      <Time>2014-04-08T01:43:53.0546061-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\ARP1\ARP1_120_43_bip.wav</Source>
@@ -475,8 +475,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_120_43_bip.xnb</Output>
-      <Time>2014-04-04T17:18:30.0882657-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_120_43_bip.xnb</Output>
+      <Time>2014-04-08T01:43:53.0917156-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\ARP1\ARP1_120_44_bip.wav</Source>
@@ -484,8 +484,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_120_44_bip.xnb</Output>
-      <Time>2014-04-04T17:18:30.1039491-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_120_44_bip.xnb</Output>
+      <Time>2014-04-08T01:43:53.108319-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\ARP1\ARP1_120_45_bip.wav</Source>
@@ -493,8 +493,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_120_45_bip.xnb</Output>
-      <Time>2014-04-04T17:18:30.1195366-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_120_45_bip.xnb</Output>
+      <Time>2014-04-08T01:43:53.1434753-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\ARP1\ARP1_120_46_bip.wav</Source>
@@ -502,8 +502,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_120_46_bip.xnb</Output>
-      <Time>2014-04-04T17:18:30.1351446-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_120_46_bip.xnb</Output>
+      <Time>2014-04-08T01:43:53.1630091-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\ARP1\ARP1_120_47_bip.wav</Source>
@@ -511,8 +511,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_120_47_bip.xnb</Output>
-      <Time>2014-04-04T17:18:30.1351446-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_120_47_bip.xnb</Output>
+      <Time>2014-04-08T01:43:53.1786341-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\ARP1\ARP1_120_48_bip.wav</Source>
@@ -520,8 +520,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_120_48_bip.xnb</Output>
-      <Time>2014-04-04T17:18:30.1508079-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_120_48_bip.xnb</Output>
+      <Time>2014-04-08T01:43:53.196213-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\ARP1\ARP1_120_49_bip.wav</Source>
@@ -529,8 +529,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_120_49_bip.xnb</Output>
-      <Time>2014-04-04T17:18:30.1508079-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_120_49_bip.xnb</Output>
+      <Time>2014-04-08T01:43:53.232347-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\ARP1\ARP1_120_50_bip.wav</Source>
@@ -538,8 +538,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_120_50_bip.xnb</Output>
-      <Time>2014-04-04T17:18:30.1508079-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_120_50_bip.xnb</Output>
+      <Time>2014-04-08T01:43:53.2489497-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\ARP1\ARP1_120_51_bip.wav</Source>
@@ -547,8 +547,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_120_51_bip.xnb</Output>
-      <Time>2014-04-04T17:18:30.1664115-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_120_51_bip.xnb</Output>
+      <Time>2014-04-08T01:43:53.2655509-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\ARP1\ARP1_120_52_bip.wav</Source>
@@ -556,8 +556,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_120_52_bip.xnb</Output>
-      <Time>2014-04-04T17:18:30.1664115-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_120_52_bip.xnb</Output>
+      <Time>2014-04-08T01:43:53.2821535-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\ARP1\ARP1_140_24_bip.wav</Source>
@@ -565,8 +565,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_140_24_bip.xnb</Output>
-      <Time>2014-04-04T17:18:30.1820378-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_140_24_bip.xnb</Output>
+      <Time>2014-04-08T01:43:53.2958261-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\ARP1\ARP1_140_25_bip.wav</Source>
@@ -574,8 +574,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_140_25_bip.xnb</Output>
-      <Time>2014-04-04T17:18:30.1820378-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_140_25_bip.xnb</Output>
+      <Time>2014-04-08T01:43:53.308522-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\ARP1\ARP1_140_26_bip.wav</Source>
@@ -583,8 +583,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_140_26_bip.xnb</Output>
-      <Time>2014-04-04T17:18:30.1976618-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_140_26_bip.xnb</Output>
+      <Time>2014-04-08T01:43:53.3221938-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\ARP1\ARP1_140_27_bip.wav</Source>
@@ -592,8 +592,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_140_27_bip.xnb</Output>
-      <Time>2014-04-04T17:18:30.1976618-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_140_27_bip.xnb</Output>
+      <Time>2014-04-08T01:43:53.3358667-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\ARP1\ARP1_140_28_bip.wav</Source>
@@ -601,8 +601,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_140_28_bip.xnb</Output>
-      <Time>2014-04-04T17:18:30.2133238-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_140_28_bip.xnb</Output>
+      <Time>2014-04-08T01:43:53.3495393-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\ARP1\ARP1_140_29_bip.wav</Source>
@@ -610,8 +610,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_140_29_bip.xnb</Output>
-      <Time>2014-04-04T17:18:30.2133238-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_140_29_bip.xnb</Output>
+      <Time>2014-04-08T01:43:53.3632122-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\ARP1\ARP1_140_30_bip.wav</Source>
@@ -619,8 +619,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_140_30_bip.xnb</Output>
-      <Time>2014-04-04T17:18:30.2133238-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_140_30_bip.xnb</Output>
+      <Time>2014-04-08T01:43:53.3768844-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\ARP1\ARP1_140_31_bip.wav</Source>
@@ -628,8 +628,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_140_31_bip.xnb</Output>
-      <Time>2014-04-04T17:18:30.2288948-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_140_31_bip.xnb</Output>
+      <Time>2014-04-08T01:43:53.3915328-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\ARP1\ARP1_140_32_bip.wav</Source>
@@ -637,8 +637,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_140_32_bip.xnb</Output>
-      <Time>2014-04-04T17:18:30.2445729-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_140_32_bip.xnb</Output>
+      <Time>2014-04-08T01:43:53.4052057-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\ARP1\ARP1_140_33_bip.wav</Source>
@@ -646,8 +646,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_140_33_bip.xnb</Output>
-      <Time>2014-04-04T17:18:30.2445729-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_140_33_bip.xnb</Output>
+      <Time>2014-04-08T01:43:53.4188779-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\ARP1\ARP1_140_34_bip.wav</Source>
@@ -655,8 +655,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_140_34_bip.xnb</Output>
-      <Time>2014-04-04T17:18:30.2602023-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_140_34_bip.xnb</Output>
+      <Time>2014-04-08T01:43:53.455013-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\ARP1\ARP1_140_35_bip.wav</Source>
@@ -664,8 +664,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_140_35_bip.xnb</Output>
-      <Time>2014-04-04T17:18:30.2757715-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_140_35_bip.xnb</Output>
+      <Time>2014-04-08T01:43:53.4735673-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\ARP1\ARP1_140_36_bip.wav</Source>
@@ -673,8 +673,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_140_36_bip.xnb</Output>
-      <Time>2014-04-04T17:18:30.2913995-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_140_36_bip.xnb</Output>
+      <Time>2014-04-08T01:43:53.487241-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\ARP1\ARP1_140_37_bip.wav</Source>
@@ -682,8 +682,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_140_37_bip.xnb</Output>
-      <Time>2014-04-04T17:18:30.2913995-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_140_37_bip.xnb</Output>
+      <Time>2014-04-08T01:43:53.5018883-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\ARP1\ARP1_140_38_bip.wav</Source>
@@ -691,8 +691,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_140_38_bip.xnb</Output>
-      <Time>2014-04-04T17:18:30.3070187-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_140_38_bip.xnb</Output>
+      <Time>2014-04-08T01:43:53.516537-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\ARP1\ARP1_140_39_bip.wav</Source>
@@ -700,8 +700,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_140_39_bip.xnb</Output>
-      <Time>2014-04-04T17:18:30.3227017-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_140_39_bip.xnb</Output>
+      <Time>2014-04-08T01:43:53.530211-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\ARP1\ARP1_140_40_bip.wav</Source>
@@ -709,8 +709,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_140_40_bip.xnb</Output>
-      <Time>2014-04-04T17:18:30.416401-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_140_40_bip.xnb</Output>
+      <Time>2014-04-08T01:43:53.5526728-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\ARP1\ARP1_140_41_bip.wav</Source>
@@ -718,8 +718,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_140_41_bip.xnb</Output>
-      <Time>2014-04-04T17:18:30.4320215-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_140_41_bip.xnb</Output>
+      <Time>2014-04-08T01:43:53.5682986-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\ARP1\ARP1_140_42_bip.wav</Source>
@@ -727,8 +727,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_140_42_bip.xnb</Output>
-      <Time>2014-04-04T17:18:30.4476536-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_140_42_bip.xnb</Output>
+      <Time>2014-04-08T01:43:53.582947-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\ARP1\ARP1_140_43_bip.wav</Source>
@@ -736,8 +736,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_140_43_bip.xnb</Output>
-      <Time>2014-04-04T17:18:30.5101753-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_140_43_bip.xnb</Output>
+      <Time>2014-04-08T01:43:53.5975957-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\ARP1\ARP1_140_44_bip.wav</Source>
@@ -745,8 +745,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_140_44_bip.xnb</Output>
-      <Time>2014-04-04T17:18:30.5257726-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_140_44_bip.xnb</Output>
+      <Time>2014-04-08T01:43:53.6112675-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\ARP1\ARP1_140_45_bip.wav</Source>
@@ -754,8 +754,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_140_45_bip.xnb</Output>
-      <Time>2014-04-04T17:18:30.5257726-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_140_45_bip.xnb</Output>
+      <Time>2014-04-08T01:43:53.6259178-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\ARP1\ARP1_140_46_bip.wav</Source>
@@ -763,8 +763,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_140_46_bip.xnb</Output>
-      <Time>2014-04-04T17:18:30.5726488-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_140_46_bip.xnb</Output>
+      <Time>2014-04-08T01:43:53.6405662-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\ARP1\ARP1_140_47_bip.wav</Source>
@@ -772,8 +772,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_140_47_bip.xnb</Output>
-      <Time>2014-04-04T17:18:30.5726488-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_140_47_bip.xnb</Output>
+      <Time>2014-04-08T01:43:53.6552157-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\ARP1\ARP1_140_48_bip.wav</Source>
@@ -781,8 +781,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_140_48_bip.xnb</Output>
-      <Time>2014-04-04T17:18:30.5882742-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_140_48_bip.xnb</Output>
+      <Time>2014-04-08T01:43:53.6698641-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\ARP1\ARP1_140_49_bip.wav</Source>
@@ -790,8 +790,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_140_49_bip.xnb</Output>
-      <Time>2014-04-04T17:18:30.6351571-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_140_49_bip.xnb</Output>
+      <Time>2014-04-08T01:43:53.6845139-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\ARP1\ARP1_140_50_bip.wav</Source>
@@ -799,8 +799,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_140_50_bip.xnb</Output>
-      <Time>2014-04-04T17:18:30.650803-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_140_50_bip.xnb</Output>
+      <Time>2014-04-08T01:43:53.699163-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\ARP1\ARP1_140_51_bip.wav</Source>
@@ -808,8 +808,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_140_51_bip.xnb</Output>
-      <Time>2014-04-04T17:18:30.6820289-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_140_51_bip.xnb</Output>
+      <Time>2014-04-08T01:43:53.7147884-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\ARP1\ARP1_140_52_bip.wav</Source>
@@ -817,8 +817,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_140_52_bip.xnb</Output>
-      <Time>2014-04-04T17:18:30.6976556-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\ARP1\ARP1_140_52_bip.xnb</Output>
+      <Time>2014-04-08T01:43:53.7294379-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\BASS2\BASS2_28_bip.wav</Source>
@@ -826,8 +826,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\BASS2\BASS2_28_bip.xnb</Output>
-      <Time>2014-04-04T17:18:30.7445425-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\BASS2\BASS2_28_bip.xnb</Output>
+      <Time>2014-04-08T01:43:53.7431097-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\BASS2\BASS2_29_bip.wav</Source>
@@ -835,8 +835,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\BASS2\BASS2_29_bip.xnb</Output>
-      <Time>2014-04-04T17:18:30.7601519-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\BASS2\BASS2_29_bip.xnb</Output>
+      <Time>2014-04-08T01:43:53.7567819-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\BASS2\BASS2_30_bip.wav</Source>
@@ -844,8 +844,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\BASS2\BASS2_30_bip.xnb</Output>
-      <Time>2014-04-04T17:18:30.8070281-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\BASS2\BASS2_30_bip.xnb</Output>
+      <Time>2014-04-08T01:43:53.8290513-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\BASS2\BASS2_31_bip.wav</Source>
@@ -853,8 +853,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\BASS2\BASS2_31_bip.xnb</Output>
-      <Time>2014-04-04T17:18:30.8226798-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\BASS2\BASS2_31_bip.xnb</Output>
+      <Time>2014-04-08T01:43:53.8427235-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\BASS2\BASS2_32_bip.wav</Source>
@@ -862,8 +862,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\BASS2\BASS2_32_bip.xnb</Output>
-      <Time>2014-04-04T17:18:30.8226798-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\BASS2\BASS2_32_bip.xnb</Output>
+      <Time>2014-04-08T01:43:53.8573719-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\BASS2\BASS2_33_bip.wav</Source>
@@ -871,8 +871,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\BASS2\BASS2_33_bip.xnb</Output>
-      <Time>2014-04-04T17:18:30.8382842-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\BASS2\BASS2_33_bip.xnb</Output>
+      <Time>2014-04-08T01:43:53.8720199-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\BASS2\BASS2_34_bip.wav</Source>
@@ -880,8 +880,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\BASS2\BASS2_34_bip.xnb</Output>
-      <Time>2014-04-04T17:18:30.8539302-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\BASS2\BASS2_34_bip.xnb</Output>
+      <Time>2014-04-08T01:43:53.8847166-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\BASS2\BASS2_35_bip.wav</Source>
@@ -889,8 +889,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\BASS2\BASS2_35_bip.xnb</Output>
-      <Time>2014-04-04T17:18:30.8695359-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\BASS2\BASS2_35_bip.xnb</Output>
+      <Time>2014-04-08T01:43:53.8983899-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\BASS2\BASS2_36_bip.wav</Source>
@@ -898,8 +898,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\BASS2\BASS2_36_bip.xnb</Output>
-      <Time>2014-04-04T17:18:30.885181-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\BASS2\BASS2_36_bip.xnb</Output>
+      <Time>2014-04-08T01:43:53.9120613-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\BASS2\BASS2_37_bip.wav</Source>
@@ -907,8 +907,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\BASS2\BASS2_37_bip.xnb</Output>
-      <Time>2014-04-04T17:18:30.885181-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\BASS2\BASS2_37_bip.xnb</Output>
+      <Time>2014-04-08T01:43:53.9413603-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\BASS2\BASS2_38_bip.wav</Source>
@@ -916,8 +916,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\BASS2\BASS2_38_bip.xnb</Output>
-      <Time>2014-04-04T17:18:30.9007823-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\BASS2\BASS2_38_bip.xnb</Output>
+      <Time>2014-04-08T01:43:53.9550318-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\BASS2\BASS2_39_bip.wav</Source>
@@ -925,8 +925,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\BASS2\BASS2_39_bip.xnb</Output>
-      <Time>2014-04-04T17:18:30.9164113-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\BASS2\BASS2_39_bip.xnb</Output>
+      <Time>2014-04-08T01:43:53.9687047-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\BASS2\BASS2_40_bip.wav</Source>
@@ -934,8 +934,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\BASS2\BASS2_40_bip.xnb</Output>
-      <Time>2014-04-04T17:18:30.9320304-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\BASS2\BASS2_40_bip.xnb</Output>
+      <Time>2014-04-08T01:43:53.9823769-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER1\USER_V1_36_bip 1.wav</Source>
@@ -943,8 +943,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V1_36_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:30.9632959-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V1_36_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:54.0077677-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER1\USER_V1_37_bip 1.wav</Source>
@@ -952,8 +952,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V1_37_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:30.9632959-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V1_37_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:54.0321827-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER1\USER_V1_38_bip 1.wav</Source>
@@ -961,8 +961,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V1_38_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:30.9789048-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V1_38_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:54.0565984-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER1\USER_V1_39_bip 1.wav</Source>
@@ -970,8 +970,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V1_39_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:30.9945575-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V1_39_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:54.0800375-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER1\USER_V1_40_bip 1.wav</Source>
@@ -979,8 +979,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V1_40_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:31.0101829-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V1_40_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:54.1034751-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER1\USER_V1_41_bip 1.wav</Source>
@@ -988,8 +988,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V1_41_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:31.0257904-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V1_41_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:54.1259369-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER1\USER_V1_42_bip 1.wav</Source>
@@ -997,8 +997,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V1_42_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:31.0414069-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V1_42_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:54.1493753-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER1\USER_V1_43_bip 1.wav</Source>
@@ -1006,8 +1006,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V1_43_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:31.0570386-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V1_43_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:54.173791-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER1\USER_V1_44_bip 1.wav</Source>
@@ -1015,8 +1015,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V1_44_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:31.0726631-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V1_44_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:54.1972276-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER1\USER_V1_45_bip 1.wav</Source>
@@ -1024,8 +1024,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V1_45_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:31.0726631-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V1_45_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:54.2206671-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER1\USER_V1_46_bip 1.wav</Source>
@@ -1033,8 +1033,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V1_46_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:31.0882827-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V1_46_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:54.2450806-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER1\USER_V1_47_bip 1.wav</Source>
@@ -1042,8 +1042,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V1_47_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:31.1039067-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V1_47_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:54.2694974-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER1\USER_V1_48_bip 1.wav</Source>
@@ -1051,8 +1051,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V1_48_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:31.1195598-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V1_48_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:54.2929358-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER1\USER_V1_49_bip 1.wav</Source>
@@ -1060,8 +1060,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V1_49_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:31.1351651-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V1_49_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:54.3173508-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER1\USER_V1_50_bip 1.wav</Source>
@@ -1069,8 +1069,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V1_50_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:31.1508106-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V1_50_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:54.3407891-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER1\USER_V1_51_bip 1.wav</Source>
@@ -1078,8 +1078,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V1_51_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:31.1664133-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V1_51_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:54.3652045-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER1\USER_V1_52_bip 1.wav</Source>
@@ -1087,8 +1087,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V1_52_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:31.1664133-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V1_52_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:54.4140344-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER1\USER_V1_53_bip 1.wav</Source>
@@ -1096,8 +1096,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V1_53_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:31.1820436-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V1_53_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:54.4384494-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER1\USER_V1_54_bip 1.wav</Source>
@@ -1105,8 +1105,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V1_54_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:31.1976641-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V1_54_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:54.4628633-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER1\USER_V1_55_bip 1.wav</Source>
@@ -1114,8 +1114,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V1_55_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:31.2133113-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V1_55_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:54.487279-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER1\USER_V1_56_bip 1.wav</Source>
@@ -1123,8 +1123,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V1_56_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:31.2289376-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V1_56_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:54.5214605-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER1\USER_V1_57_bip 1.wav</Source>
@@ -1132,8 +1132,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V1_57_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:31.2445711-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V1_57_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:54.5458748-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER1\USER_V1_58_bip 1.wav</Source>
@@ -1141,8 +1141,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V1_58_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:31.2601688-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V1_58_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:54.5702894-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER1\USER_V1_59_bip 1.wav</Source>
@@ -1150,8 +1150,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V1_59_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:31.275792-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V1_59_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:54.6044709-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER1\USER_V1_60_bip 1.wav</Source>
@@ -1159,8 +1159,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V1_60_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:31.2914161-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V1_60_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:54.6288863-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER1\USER_V1_61_bip 1.wav</Source>
@@ -1168,8 +1168,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V1_61_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:31.3070401-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V1_61_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:54.6542774-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER1\USER_V1_62_bip 1.wav</Source>
@@ -1177,8 +1177,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V1_62_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:31.3070401-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V1_62_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:54.6786917-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER1\USER_V1_63_bip 1.wav</Source>
@@ -1186,8 +1186,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V1_63_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:31.3226602-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V1_63_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:54.7031074-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER1\USER_V1_64_bip 1.wav</Source>
@@ -1195,8 +1195,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V1_64_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:31.3383141-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V1_64_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:54.7275216-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER1\USER_V2_36_bip 1.wav</Source>
@@ -1204,8 +1204,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V2_36_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:31.3539105-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V2_36_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:54.7519366-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER1\USER_V2_37_bip 1.wav</Source>
@@ -1213,8 +1213,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V2_37_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:31.3695359-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V2_37_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:54.7753761-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER1\USER_V2_38_bip 1.wav</Source>
@@ -1222,8 +1222,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V2_38_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:31.3851609-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V2_38_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:54.7988145-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER1\USER_V2_39_bip 1.wav</Source>
@@ -1231,8 +1231,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V2_39_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:31.4008135-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V2_39_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:54.8222529-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER1\USER_V2_40_bip 1.wav</Source>
@@ -1240,8 +1240,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V2_40_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:31.4008135-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V2_40_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:54.8466667-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER1\USER_V2_41_bip 1.wav</Source>
@@ -1249,8 +1249,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V2_41_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:31.4164389-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V2_41_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:54.8710832-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER1\USER_V2_42_bip 1.wav</Source>
@@ -1258,8 +1258,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V2_42_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:31.4320643-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V2_42_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:54.895497-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER1\USER_V2_43_bip 1.wav</Source>
@@ -1267,8 +1267,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V2_43_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:31.4476897-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V2_43_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:54.9199138-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER1\USER_V2_44_bip 1.wav</Source>
@@ -1276,8 +1276,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V2_44_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:31.4632933-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V2_44_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:54.944327-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER1\USER_V2_45_bip 1.wav</Source>
@@ -1285,8 +1285,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V2_45_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:31.4789124-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V2_45_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:54.968742-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER1\USER_V2_46_bip 1.wav</Source>
@@ -1294,8 +1294,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V2_46_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:31.4945423-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V2_46_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:54.9921811-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER1\USER_V2_47_bip 1.wav</Source>
@@ -1303,8 +1303,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V2_47_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:31.4945423-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V2_47_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:55.0156206-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER1\USER_V2_48_bip 1.wav</Source>
@@ -1312,8 +1312,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V2_48_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:31.5101905-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V2_48_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:55.0400344-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER1\USER_V2_49_bip 1.wav</Source>
@@ -1321,8 +1321,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V2_49_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:31.5257944-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V2_49_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:55.0634732-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER1\USER_V2_50_bip 1.wav</Source>
@@ -1330,8 +1330,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V2_50_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:31.5414212-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V2_50_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:55.086912-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER1\USER_V2_51_bip 1.wav</Source>
@@ -1339,8 +1339,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V2_51_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:31.557039-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V2_51_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:55.1826198-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER1\USER_V2_52_bip 1.wav</Source>
@@ -1348,8 +1348,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V2_52_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:31.557039-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V2_52_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:55.2070344-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER1\USER_V2_53_bip 1.wav</Source>
@@ -1357,8 +1357,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V2_53_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:31.5882894-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V2_53_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:55.2314486-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER1\USER_V2_54_bip 1.wav</Source>
@@ -1366,8 +1366,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V2_54_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:31.6039237-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V2_54_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:55.3789165-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER1\USER_V2_55_bip 1.wav</Source>
@@ -1375,8 +1375,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V2_55_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:31.6195464-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V2_55_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:55.4043062-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER1\USER_V2_56_bip 1.wav</Source>
@@ -1384,8 +1384,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V2_56_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:31.6351718-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V2_56_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:55.4287223-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER1\USER_V2_57_bip 1.wav</Source>
@@ -1393,8 +1393,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V2_57_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:31.6507905-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V2_57_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:55.4541135-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER1\USER_V2_58_bip 1.wav</Source>
@@ -1402,8 +1402,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V2_58_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:31.6664436-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V2_58_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:55.4931776-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER1\USER_V2_59_bip 1.wav</Source>
@@ -1411,8 +1411,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V2_59_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:31.6820695-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V2_59_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:55.5185702-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER1\USER_V2_60_bip 1.wav</Source>
@@ -1420,8 +1420,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V2_60_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:31.7132913-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V2_60_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:55.5429845-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER1\USER_V2_61_bip 1.wav</Source>
@@ -1429,8 +1429,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V2_61_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:31.7445412-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V2_61_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:55.568376-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER1\USER_V2_62_bip 1.wav</Source>
@@ -1438,8 +1438,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V2_62_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:31.7602215-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V2_62_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:55.5937669-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER1\USER_V2_63_bip 1.wav</Source>
@@ -1447,8 +1447,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V2_63_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:31.7914205-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V2_63_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:55.6181833-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER1\USER_V2_64_bip 1.wav</Source>
@@ -1456,8 +1456,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V2_64_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:31.8226972-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V2_64_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:55.6425994-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER1\USER_V3_36_bip 1.wav</Source>
@@ -1465,8 +1465,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V3_36_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:31.8539467-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V3_36_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:55.6660348-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER1\USER_V3_37_bip 1.wav</Source>
@@ -1474,8 +1474,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V3_37_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:31.9007939-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V3_37_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:55.6894743-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER1\USER_V3_38_bip 1.wav</Source>
@@ -1483,8 +1483,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V3_38_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:31.947725-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V3_38_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:55.712912-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER1\USER_V3_39_bip 1.wav</Source>
@@ -1492,8 +1492,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V3_39_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:31.9945459-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V3_39_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:55.7392797-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER1\USER_V3_40_bip 1.wav</Source>
@@ -1501,8 +1501,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V3_40_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:32.041427-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V3_40_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:55.7627192-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER1\USER_V3_41_bip 1.wav</Source>
@@ -1510,8 +1510,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V3_41_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:32.0726769-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V3_41_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:55.7871342-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER1\USER_V3_42_bip 1.wav</Source>
@@ -1519,8 +1519,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V3_42_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:32.088297-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V3_42_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:55.8105719-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER1\USER_V3_43_bip 1.wav</Source>
@@ -1528,8 +1528,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V3_43_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:32.1195629-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V3_43_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:55.8340121-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER1\USER_V3_44_bip 1.wav</Source>
@@ -1537,8 +1537,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V3_44_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:32.1508004-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V3_44_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:55.8594033-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER1\USER_V3_45_bip 1.wav</Source>
@@ -1546,8 +1546,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V3_45_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:32.1820869-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V3_45_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:55.8838179-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER1\USER_V3_46_bip 1.wav</Source>
@@ -1555,8 +1555,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V3_46_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:32.2133042-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V3_46_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:55.9072559-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER1\USER_V3_47_bip 1.wav</Source>
@@ -1564,8 +1564,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V3_47_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:32.2445764-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V3_47_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:55.9316709-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER1\USER_V3_48_bip 1.wav</Source>
@@ -1573,8 +1573,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V3_48_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:32.2757991-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V3_48_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:55.9551093-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER1\USER_V3_49_bip 1.wav</Source>
@@ -1582,8 +1582,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V3_49_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:32.2914424-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V3_49_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:55.9795242-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER1\USER_V3_50_bip 1.wav</Source>
@@ -1591,8 +1591,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V3_50_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:32.3226749-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V3_50_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:56.0049172-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER1\USER_V3_51_bip 1.wav</Source>
@@ -1600,8 +1600,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V3_51_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:32.3383003-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V3_51_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:56.0293308-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER1\USER_V3_52_bip 1.wav</Source>
@@ -1609,8 +1609,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V3_52_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:32.3539262-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V3_52_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:56.0537461-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER1\USER_V3_53_bip 1.wav</Source>
@@ -1618,8 +1618,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V3_53_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:32.3695596-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V3_53_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:56.0771845-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER1\USER_V3_54_bip 1.wav</Source>
@@ -1627,8 +1627,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V3_54_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:32.3851837-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V3_54_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:56.1025757-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER1\USER_V3_55_bip 1.wav</Source>
@@ -1636,8 +1636,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V3_55_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:32.4008568-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V3_55_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:56.1260144-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER1\USER_V3_56_bip 1.wav</Source>
@@ -1645,8 +1645,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V3_56_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:32.416455-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V3_56_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:56.1504294-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER1\USER_V3_57_bip 1.wav</Source>
@@ -1654,8 +1654,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V3_57_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:32.4320594-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V3_57_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:56.1748436-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER1\USER_V3_58_bip 1.wav</Source>
@@ -1663,8 +1663,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V3_58_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:32.4477049-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V3_58_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:56.1992597-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER1\USER_V3_59_bip 1.wav</Source>
@@ -1672,8 +1672,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V3_59_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:32.4633098-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V3_59_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:56.2236743-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER1\USER_V3_60_bip 1.wav</Source>
@@ -1681,8 +1681,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V3_60_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:32.4789361-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V3_60_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:56.2471127-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER1\USER_V3_61_bip 1.wav</Source>
@@ -1690,8 +1690,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V3_61_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:32.4945588-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V3_61_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:56.271528-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER1\USER_V3_62_bip 1.wav</Source>
@@ -1699,8 +1699,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V3_62_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:32.5101775-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V3_62_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:56.2959434-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER1\USER_V3_63_bip 1.wav</Source>
@@ -1708,8 +1708,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V3_63_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:32.5101775-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V3_63_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:56.3203584-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER1\USER_V3_64_bip 1.wav</Source>
@@ -1717,8 +1717,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V3_64_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:32.5258114-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER1\USER_V3_64_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:56.3447733-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER2\USER_V1_36_bip 1.wav</Source>
@@ -1726,8 +1726,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V1_36_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:32.5414337-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V1_36_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:56.3682121-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER2\USER_V1_37_bip 1.wav</Source>
@@ -1735,8 +1735,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V1_37_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:32.5570609-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V1_37_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:56.3926267-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER2\USER_V1_38_bip 1.wav</Source>
@@ -1744,8 +1744,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V1_38_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:32.5727336-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V1_38_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:56.4170417-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER2\USER_V1_39_bip 1.wav</Source>
@@ -1753,8 +1753,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V1_39_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:32.5883099-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V1_39_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:56.4404804-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER2\USER_V1_40_bip 1.wav</Source>
@@ -1762,8 +1762,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V1_40_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:32.6039585-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V1_40_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:56.4639188-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER2\USER_V1_41_bip 1.wav</Source>
@@ -1771,8 +1771,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V1_41_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:32.6195625-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V1_41_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:56.4883334-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER2\USER_V1_42_bip 1.wav</Source>
@@ -1780,8 +1780,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V1_42_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:32.6195625-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V1_42_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:56.5117718-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER2\USER_V1_43_bip 1.wav</Source>
@@ -1789,8 +1789,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V1_43_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:32.6351843-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V1_43_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:56.5361871-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER2\USER_V1_44_bip 1.wav</Source>
@@ -1798,8 +1798,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V1_44_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:32.6508329-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V1_44_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:56.5606028-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER2\USER_V1_45_bip 1.wav</Source>
@@ -1807,8 +1807,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V1_45_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:32.6664592-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V1_45_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:56.5850171-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER2\USER_V1_46_bip 1.wav</Source>
@@ -1816,8 +1816,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V1_46_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:32.6820592-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V1_46_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:56.6182224-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER2\USER_V1_47_bip 1.wav</Source>
@@ -1825,8 +1825,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V1_47_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:32.6976886-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V1_47_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:56.6426363-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER2\USER_V1_48_bip 1.wav</Source>
@@ -1834,8 +1834,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V1_48_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:32.7133073-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V1_48_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:56.6660743-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER2\USER_V1_49_bip 1.wav</Source>
@@ -1843,8 +1843,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V1_49_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:32.7133073-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V1_49_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:56.6895134-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER2\USER_V1_50_bip 1.wav</Source>
@@ -1852,8 +1852,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V1_50_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:32.7289591-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V1_50_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:56.7139273-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER2\USER_V1_51_bip 1.wav</Source>
@@ -1861,8 +1861,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V1_51_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:32.7445849-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V1_51_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:56.767642-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER2\USER_V1_52_bip 1.wav</Source>
@@ -1870,8 +1870,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V1_52_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:32.7602099-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V1_52_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:56.9043656-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER2\USER_V1_53_bip 1.wav</Source>
@@ -1879,8 +1879,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V1_53_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:32.7758134-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V1_53_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:56.9287802-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER2\USER_V1_54_bip 1.wav</Source>
@@ -1888,8 +1888,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V1_54_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:32.791441-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V1_54_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:56.9522179-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER2\USER_V1_55_bip 1.wav</Source>
@@ -1897,8 +1897,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V1_55_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:32.8070647-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V1_55_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:56.9766332-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER2\USER_V1_56_bip 1.wav</Source>
@@ -1906,8 +1906,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V1_56_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:32.8227101-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V1_56_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:57.0000727-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER2\USER_V1_57_bip 1.wav</Source>
@@ -1915,8 +1915,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V1_57_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:32.8227101-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V1_57_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:57.0244862-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER2\USER_V1_58_bip 1.wav</Source>
@@ -1924,8 +1924,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V1_58_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:32.8383088-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V1_58_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:57.0489023-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER2\USER_V1_59_bip 1.wav</Source>
@@ -1933,8 +1933,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V1_59_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:32.8539605-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V1_59_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:57.0733162-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER2\USER_V1_60_bip 1.wav</Source>
@@ -1942,8 +1942,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V1_60_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:32.8695868-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V1_60_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:57.0967549-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER2\USER_V1_61_bip 1.wav</Source>
@@ -1951,8 +1951,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V1_61_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:32.8851917-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V1_61_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:57.1211706-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER2\USER_V1_62_bip 1.wav</Source>
@@ -1960,8 +1960,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V1_62_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:32.9008166-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V1_62_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:57.1455856-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER2\USER_V1_63_bip 1.wav</Source>
@@ -1969,8 +1969,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V1_63_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:32.9164626-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V1_63_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:57.1709768-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER2\USER_V1_64_bip 1.wav</Source>
@@ -1978,8 +1978,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V1_64_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:32.9320625-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V1_64_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:57.1953914-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER2\USER_V2_36_bip 1.wav</Source>
@@ -1987,8 +1987,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V2_36_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:32.9320625-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V2_36_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:57.2188301-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER2\USER_V2_37_bip 1.wav</Source>
@@ -1996,8 +1996,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V2_37_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:32.947712-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V2_37_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:57.2412923-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER2\USER_V2_38_bip 1.wav</Source>
@@ -2005,8 +2005,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V2_38_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:32.9633142-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V2_38_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:57.26473-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER2\USER_V2_39_bip 1.wav</Source>
@@ -2014,8 +2014,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V2_39_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:32.9789432-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V2_39_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:57.290123-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER2\USER_V2_40_bip 1.wav</Source>
@@ -2023,8 +2023,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V2_40_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:32.9789432-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V2_40_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:57.3145365-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER2\USER_V2_41_bip 1.wav</Source>
@@ -2032,8 +2032,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V2_41_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:32.9945601-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V2_41_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:57.337976-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER2\USER_V2_42_bip 1.wav</Source>
@@ -2041,8 +2041,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V2_42_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:33.0101851-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V2_42_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:57.3604374-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER2\USER_V2_43_bip 1.wav</Source>
@@ -2050,8 +2050,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V2_43_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:33.0414645-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V2_43_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:57.3848517-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER2\USER_V2_44_bip 1.wav</Source>
@@ -2059,8 +2059,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V2_44_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:33.0414645-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V2_44_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:57.4073142-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER2\USER_V2_45_bip 1.wav</Source>
@@ -2068,8 +2068,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V2_45_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:33.057089-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V2_45_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:57.4307537-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER2\USER_V2_46_bip 1.wav</Source>
@@ -2077,8 +2077,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V2_46_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:33.0883393-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V2_46_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:57.454191-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER2\USER_V2_47_bip 1.wav</Source>
@@ -2086,8 +2086,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V2_47_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:33.1352423-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V2_47_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:57.4786052-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER2\USER_V2_48_bip 1.wav</Source>
@@ -2095,8 +2095,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V2_48_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:33.1508401-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V2_48_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:57.5020443-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER2\USER_V2_49_bip 1.wav</Source>
@@ -2104,8 +2104,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V2_49_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:33.1821159-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V2_49_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:57.5254834-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER2\USER_V2_50_bip 1.wav</Source>
@@ -2113,8 +2113,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V2_50_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:33.1977172-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V2_50_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:57.5498973-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER2\USER_V2_51_bip 1.wav</Source>
@@ -2122,8 +2122,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V2_51_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:33.2289452-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V2_51_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:57.574313-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER2\USER_V2_52_bip 1.wav</Source>
@@ -2131,8 +2131,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V2_52_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:33.2289452-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V2_52_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:57.5987269-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER2\USER_V2_53_bip 1.wav</Source>
@@ -2140,8 +2140,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V2_53_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:33.2758156-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V2_53_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:57.6231433-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER2\USER_V2_54_bip 1.wav</Source>
@@ -2149,8 +2149,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V2_54_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:33.3227177-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V2_54_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:57.6495111-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER2\USER_V2_55_bip 1.wav</Source>
@@ -2158,8 +2158,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V2_55_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:33.3383436-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V2_55_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:57.6749027-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER2\USER_V2_56_bip 1.wav</Source>
@@ -2167,8 +2167,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V2_56_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:33.3695658-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V2_56_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:57.6993173-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER2\USER_V2_57_bip 1.wav</Source>
@@ -2176,8 +2176,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V2_57_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:33.3852194-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V2_57_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:57.7227568-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER2\USER_V2_58_bip 1.wav</Source>
@@ -2185,8 +2185,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V2_58_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:33.4789972-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V2_58_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:57.747171-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER2\USER_V2_59_bip 1.wav</Source>
@@ -2194,8 +2194,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V2_59_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:33.5258725-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V2_59_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:57.771586-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER2\USER_V2_60_bip 1.wav</Source>
@@ -2203,8 +2203,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V2_60_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:33.557122-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V2_60_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:57.7950247-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER2\USER_V2_61_bip 1.wav</Source>
@@ -2212,8 +2212,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V2_61_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:33.5726992-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V2_61_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:57.8204167-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER2\USER_V2_62_bip 1.wav</Source>
@@ -2221,8 +2221,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V2_62_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:33.5883197-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V2_62_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:57.8448313-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER2\USER_V2_63_bip 1.wav</Source>
@@ -2230,8 +2230,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V2_63_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:33.6195696-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V2_63_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:57.874131-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER2\USER_V2_64_bip 1.wav</Source>
@@ -2239,8 +2239,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V2_64_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:33.6508204-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V2_64_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:57.8985441-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER2\USER_V3_36_bip 1.wav</Source>
@@ -2248,8 +2248,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V3_36_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:33.6820708-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V3_36_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:57.9219836-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER2\USER_V3_37_bip 1.wav</Source>
@@ -2257,8 +2257,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V3_37_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:33.6977091-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V3_37_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:57.9454209-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER2\USER_V3_38_bip 1.wav</Source>
@@ -2266,8 +2266,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V3_38_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:33.7290001-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V3_38_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:57.9698362-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER2\USER_V3_39_bip 1.wav</Source>
@@ -2275,8 +2275,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V3_39_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:33.7602505-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V3_39_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:58.048941-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER2\USER_V3_40_bip 1.wav</Source>
@@ -2284,8 +2284,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V3_40_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:33.77585-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V3_40_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:58.073356-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER2\USER_V3_41_bip 1.wav</Source>
@@ -2293,8 +2293,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V3_41_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:33.7914763-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V3_41_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:58.0977699-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER2\USER_V3_42_bip 1.wav</Source>
@@ -2302,8 +2302,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V3_42_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:33.8071004-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V3_42_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:58.1202331-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER2\USER_V3_43_bip 1.wav</Source>
@@ -2311,8 +2311,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V3_43_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:33.8227262-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V3_43_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:58.1436704-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER2\USER_V3_44_bip 1.wav</Source>
@@ -2320,8 +2320,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V3_44_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:33.8383235-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V3_44_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:58.1983613-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER2\USER_V3_45_bip 1.wav</Source>
@@ -2329,8 +2329,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V3_45_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:33.8539561-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V3_45_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:58.2217986-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER2\USER_V3_46_bip 1.wav</Source>
@@ -2338,8 +2338,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V3_46_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:33.8695734-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V3_46_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:58.2452378-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER2\USER_V3_47_bip 1.wav</Source>
@@ -2347,8 +2347,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V3_47_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:33.8695734-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V3_47_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:58.2686761-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER2\USER_V3_48_bip 1.wav</Source>
@@ -2356,8 +2356,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V3_48_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:33.8852265-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V3_48_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:58.2930904-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER2\USER_V3_49_bip 1.wav</Source>
@@ -2365,8 +2365,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V3_49_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:33.9008519-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V3_49_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:58.327273-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER2\USER_V3_50_bip 1.wav</Source>
@@ -2374,8 +2374,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V3_50_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:33.9164773-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V3_50_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:58.351688-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER2\USER_V3_51_bip 1.wav</Source>
@@ -2383,8 +2383,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V3_51_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:33.9320831-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V3_51_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:58.3751246-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER2\USER_V3_52_bip 1.wav</Source>
@@ -2392,8 +2392,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V3_52_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:33.9477277-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V3_52_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:58.3985633-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER2\USER_V3_53_bip 1.wav</Source>
@@ -2401,8 +2401,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V3_53_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:33.9633535-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V3_53_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:58.4229783-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER2\USER_V3_54_bip 1.wav</Source>
@@ -2410,8 +2410,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V3_54_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:33.9789776-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V3_54_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:58.4483695-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER2\USER_V3_55_bip 1.wav</Source>
@@ -2419,8 +2419,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V3_55_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:33.9946039-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V3_55_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:58.4727855-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER2\USER_V3_56_bip 1.wav</Source>
@@ -2428,8 +2428,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V3_56_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:34.0102003-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V3_56_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:58.4962232-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER2\USER_V3_57_bip 1.wav</Source>
@@ -2437,8 +2437,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V3_57_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:34.0258542-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V3_57_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:58.5206389-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER2\USER_V3_58_bip 1.wav</Source>
@@ -2446,8 +2446,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V3_58_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:34.0414792-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V3_58_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:58.5460297-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER2\USER_V3_59_bip 1.wav</Source>
@@ -2455,8 +2455,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V3_59_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:34.0571046-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V3_59_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:58.5704462-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER2\USER_V3_60_bip 1.wav</Source>
@@ -2464,8 +2464,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V3_60_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:34.0727296-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V3_60_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:58.5958374-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER2\USER_V3_61_bip 1.wav</Source>
@@ -2473,8 +2473,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V3_61_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:34.0883273-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V3_61_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:58.6212285-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER2\USER_V3_62_bip 1.wav</Source>
@@ -2482,8 +2482,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V3_62_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:34.1039607-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V3_62_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:58.6485755-04:00</Time>
     </Item>
     <Item>
       <Source>Sound Samples\USER2\USER_V3_63_bip 1.wav</Source>
@@ -2491,8 +2491,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V3_63_bip 1.xnb</Output>
-      <Time>2014-04-04T17:18:34.1195857-04:00</Time>
+      <Output>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\Sound Samples\USER2\USER_V3_63_bip 1.xnb</Output>
+      <Time>2014-04-08T01:43:58.6739637-04:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -2501,39 +2501,39 @@
       <TargetProfile>HiDef</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\CascadeContent\</RootDirectory>
-      <LoggerRootDirectory>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\CascadeContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
         <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
-        <Value>2011-09-01T17:22:30-04:00</Value>
+        <Value>2012-09-06T17:52:54-04:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
-        <Value>2011-09-01T17:22:30-04:00</Value>
+        <Value>2012-09-06T17:52:54-04:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
-        <Value>2011-09-01T17:22:30-04:00</Value>
+        <Value>2012-09-06T17:52:54-04:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
-        <Value>2011-09-01T17:22:30-04:00</Value>
+        <Value>2012-09-06T17:52:54-04:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
-        <Value>2011-09-01T17:22:30-04:00</Value>
+        <Value>2012-09-06T17:52:54-04:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
-        <Value>2011-09-01T17:22:30-04:00</Value>
+        <Value>2012-09-06T17:52:54-04:00</Value>
       </Assembly>
       <Assembly>
-        <Key>C:\windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
-        <Value>2014-01-31T15:21:17.5373099-05:00</Value>
+        <Key>C:\WINDOWS\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2013-11-17T16:40:34.7206364-05:00</Value>
       </Assembly>
     </Assemblies>
   </Asset>

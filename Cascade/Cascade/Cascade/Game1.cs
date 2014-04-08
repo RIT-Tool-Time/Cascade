@@ -188,9 +188,10 @@ namespace Cascade
                     }
                 }
                 e.Particle.Gravity = 0.0f;
-                e.Particle.Behaviors.Add(new Behaviors.Disappear(60, 0.2f, 0.05f, 0.5f));
+                e.Particle.Behaviors.Add(new Behaviors.Disappear(60, 0.025f, 0.05f, 0.5f));
                 e.Particle.Behaviors.Add(new Behaviors.SpeedDamping(0.6f, 0.5f));
-
+                float ang = MyMath.RandomRange(0, 360);
+                e.Particle.Speed += new Vector3(MyMath.LengthDirX(30, ang), MyMath.LengthDirY(30, ang), 0);
 
                 e.Particle.BlendState = BlendState.AlphaBlend;
                 //e.Particle.Behaviors.Add(new Behaviors.Bounce(720, 0.5f));
@@ -323,7 +324,8 @@ namespace Cascade
             TouchManager.Update();
             Global.Update(gameTime);
             MusicManager.Update();
-            
+            VolumeMeter.Update();
+            Global.Output += VolumeMeter.Volume;
             clearColor.Update();
             Global.PanelManager.Update();
             if (Controls.GetKey(Keys.Space) == ControlState.Pressed)
@@ -455,7 +457,7 @@ namespace Cascade
                 Vector2 size = Fonts.Output.MeasureString(Global.Output);
                 if (size.Y > 500)
                     y = -(size.Y - 500);
-                //spriteBatch.DrawString(Fonts.Output, Global.Output, new Vector2(0, y), Color.Black);
+                spriteBatch.DrawString(Fonts.Output, Global.Output, new Vector2(0, y), Color.Black);
             }
             
 

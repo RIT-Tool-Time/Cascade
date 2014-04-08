@@ -113,7 +113,6 @@ namespace Cascade
                 Behaviors.ParticleBehavior be = new Behaviors.Pulsate(part.Scale * 0.9f, part.Scale * 1.1f, betweenVal * 1.1f, 0.03f);
                 part.Behaviors.Add(be);
                 holdParticles[i] = part;
-                
             }
         }
         public override void Update()
@@ -134,7 +133,8 @@ namespace Cascade
                     }
                     else if (Touch.Holding)
                     {
-                        SpeedRange = new Vector3(new Vector2(25), 0);
+                        //SpeedRange = new Vector3(new Vector2(25), 0);
+                        Speed = SpeedRange = Vector3.Zero;
                         Emit = true;
                     }
                     else
