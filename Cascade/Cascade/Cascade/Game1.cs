@@ -109,7 +109,7 @@ namespace Cascade
             {
                 emitters[i] = new TouchEmitter(Global.ParticleManager, Vector3.Zero)
                 {
-                    Step = 6,
+                    Step = 3,
                     Speed = new Vector3(0, 0, 0),
                     SpeedRange = new Vector3(0, 0, 0),
                     Color = new Color(210, 235, 255),

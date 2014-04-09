@@ -616,3 +616,6 @@ C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\Co
 C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\NAudio.dll
 C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\NAudio.WindowsMediaFormat.dll
 C:\Users\Chris\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\NAudio.xml
+C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\NAudio.dll
+C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\NAudio.WindowsMediaFormat.dll
+C:\Users\Christopher\Documents\GitHub\Cascade\Cascade\Cascade\Cascade\bin\x86\Debug\NAudio.xml
