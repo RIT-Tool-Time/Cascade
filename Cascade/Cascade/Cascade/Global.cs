@@ -15,7 +15,6 @@ namespace Cascade
         public static VertexEffect Effect;
         public static SpriteShader SpriteEffect;
         public static ParticleManager ParticleManager;
-        public static PanelManager PanelManager;
         public static Camera Camera;
         public static Vector2 ScreenSize = new Vector2(1280, 720);
         static Controls controls;
@@ -36,7 +35,6 @@ namespace Cascade
             SpriteEffect = new SpriteShader();
             Output = new OutputString("\n");
             ParticleManager = new ParticleManager();
-            PanelManager = new PanelManager();
             Camera = new Camera();
             controls = new Controls();
         }

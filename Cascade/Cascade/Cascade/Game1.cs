@@ -36,6 +36,7 @@ namespace Cascade
         string socketBuffer = "";
         public BackgroundWorker startUpWorker;
         System.Timers.Timer threadTimer;
+        DynamicSoundEffectInstance dse;
         public Game1()
         {
             threadTimer = new System.Timers.Timer(1000d / 240d);
@@ -127,17 +128,19 @@ namespace Cascade
             panelManager.Add(Color.White);
             panelManager.Add(Color.White);
             panelManager.Add(Color.White);*/
-            Global.PanelManager.NoteOffset = 48;
-            MusicManager.Update();
-            for (int i = 0; i < MusicManager.PentatonicScale.Length; i++)
+
+            for (int i = 0; i < 1; i++)
             {
-                Global.PanelManager.Add(
-                    new MusicPanel()
-                    {
-                        NoteOffset = MusicManager.PentatonicScale[i % MusicManager.PentatonicScale.Length]
-                    }
-                    );
+                MusicManager.AddPanelManager(MusicalScaleType.Pentatonic);
             }
+            for (int i = 0; i < MusicManager.PanelManagers.Count; i++)
+            {
+                MusicManager.PanelManagers[i].NoteOffset = 48;
+            }
+            MusicManager.Update();
+            MusicManager.StartAnalysis();
+
+
 
             for (int i = 0; i < 10; i++)
             {
@@ -164,7 +167,26 @@ namespace Cascade
             Global.Output += "LoadContent completed";
             
             CreateRenderTargets(1920, (9f / 16f));
+            dse = new DynamicSoundEffectInstance(44100, AudioChannels.Mono);
+            dse.BufferNeeded += new EventHandler<EventArgs>(dse_BufferNeeded);
+            //dse.Play();
             // TODO: use this.Content to load your game content here
+        }
+
+        void dse_BufferNeeded(object sender, EventArgs e)
+        {
+            byte[] b = new byte[256];
+            for (int i = 0; i < b.Length; i+=2)
+            {
+                //b[i] = (byte)MyMath.RandomRange(0, 255);
+                Int16 val = (short)((i % 40000 < 100) ? 40000 : -40000);
+                b[i] = (byte)(val >> 8);
+                if (i + 1 < b.Length)
+                {
+                    b[i + 1] = (byte)(val << 8);
+                }
+            }
+            dse.SubmitBuffer(b);
         }
 
         void Game1_Emitted(ParticleEmittedEventArgs e)
@@ -325,9 +347,7 @@ namespace Cascade
             Global.Update(gameTime);
             MusicManager.Update();
             VolumeMeter.Update();
-            Global.Output += VolumeMeter.Volume;
             clearColor.Update();
-            Global.PanelManager.Update();
             if (Controls.GetKey(Keys.Space) == ControlState.Pressed)
             {
                 Global.SetSpeed(0.1f, 0.1f);
@@ -433,7 +453,10 @@ namespace Cascade
             {
                 pass.Apply();
                 //spriteBatch.Draw(colorTarget, new Rectangle(0, 0, (int)Global.ScreenSize.X, (int)Global.ScreenSize.Y), Color.White);
-                Global.PanelManager.Draw(GraphicsDevice, graphics, spriteBatch, null, 1280, 720);
+                for (int i = 0; i < MusicManager.PanelManagers.Count; i++)
+                {
+                    MusicManager.PanelManagers[i].Draw(GraphicsDevice, graphics, spriteBatch, null, 1280, 720);
+                }
             }
 
             spriteBatch.Begin(SpriteSortMode.Immediate, BlendState.AlphaBlend, null, null, null);

@@ -41,7 +41,7 @@ namespace Cascade
         }
         public MusicPanel Add(Color baseColor)
         {
-            MusicPanel mp = new MusicPanel();
+            MusicPanel mp = new MusicPanel(this);
             panels.Add(mp);
             //mp.Color = baseColor;
             return mp;

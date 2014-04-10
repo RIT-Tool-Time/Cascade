@@ -20,6 +20,7 @@ namespace Cascade
         int instrument = 1;
         Timer timer;
         bool waitingForTimer = false;
+        PanelManager manager;
         public ColorManager ColorManager
         {
             get
@@ -38,8 +39,9 @@ namespace Cascade
                 clearColor.Color = value;
             }
         }
-        public MusicPanel()
+        public MusicPanel(PanelManager man)
         {
+            manager = man;
             clearColor = new ColorManager();
             clearColor.Color = new Color(255,255,255);
             timer = new Timer(1000d / 32d);
@@ -52,22 +54,22 @@ namespace Cascade
         {
             bool lastIsTouched = isBeingTouched;
             clearColor.Update();
-            int index = Global.PanelManager.Panels.IndexOf(this);
+            int index = manager.Panels.IndexOf(this);
             if (index != -1)
             {
                 bool touchOccured = false;
                 int num = 0;
                 foreach (var touch in Global.Touches)
                 {
-                    if (touch.Position.X > (Global.ScreenSize.X / Global.PanelManager.Panels.Count) * index
-                        && touch.Position.X < (Global.ScreenSize.X / Global.PanelManager.Panels.Count) * (index + 1)
+                    if (touch.Position.X > (Global.ScreenSize.X / manager.Panels.Count) * index
+                        && touch.Position.X < (Global.ScreenSize.X / manager.Panels.Count) * (index + 1)
                         )
                     {
                         touchOccured = true;
                         if (waitingForTimer && !idList.Contains(touch.Id))
                         {
                             idList.Add(touch.Id);
-                            Global.Output += "Added " + touch.Id + " to idList";
+                            //Global.Output += "Added " + touch.Id + " to idList";
                             
                         }
                         num++;
@@ -115,14 +117,15 @@ namespace Cascade
             {
                 instrument = 1;
             }
-            Global.Output += "Number of fingers on panel: " + idList.Count;
-            note = MusicManager.AddNote(MusicManager.LoadUserSounds(instrument, NoteOffset + Global.PanelManager.NoteOffset, "bip")[rand.Next(0, 3)].CreateInstance());
+            //Global.Output += "Number of fingers on panel: " + idList.Count;
+            note = MusicManager.AddNote(MusicManager.LoadUserSounds(instrument, NoteOffset + manager.NoteOffset, "bip")[rand.Next(0, 3)].CreateInstance());
+            MusicManager.NotePlayedByUser(NoteOffset + manager.NoteOffset, MusicManager.PanelManagers.IndexOf(manager), instrument );
             if (!isBeingTouched)
             {
                 note.FadeOut(0.04f, 0.001f);
             }
             idList.Clear();
-            Global.Output += "idList cleared";
+            //Global.Output += "idList cleared";
             waitingForTimer = false;
         }
     }
