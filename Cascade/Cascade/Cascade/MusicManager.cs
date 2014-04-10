@@ -4,16 +4,28 @@ using System.Linq;
 using System.Text;
 using Microsoft.Xna.Framework.Audio;
 using System.Diagnostics;
+using Microsoft.Xna.Framework;
 
 namespace Cascade
 {
     public enum MusicalScaleType { Major, Minor, Pentatonic }
+
     public enum MusicState { Unknown, WaitingToStartAnalysis, Analysis, Level1, Level2, Level3 }
     public static class MusicManager
     {
         public static readonly int[] MajorScale = { 0, 2, 4, 5, 6, 9, 11, 12 };
 
         public static readonly int[] PentatonicScale = { 0, 2, 4, 7, 9, 12 };
+
+        public static readonly int[,] Chords = 
+        {
+            { 1, 3, 5 },
+            { 2, 4, 6 },
+            { 3, 5, 7 },
+            { 4, 6, 1 },
+            { 5, 7, 2 },
+            { 6, 1, 3 }
+        };
 
         public static List<MusicalNote> SoundEffects = new List<MusicalNote>();
 
@@ -53,6 +65,12 @@ namespace Cascade
             return effects;
         }
 
+        public static SoundEffect LoadPadSound(int padNumber, int midiNumber)
+        {
+            string path = "Sound Samples/PAD1/PAD_" + padNumber + "_" + midiNumber + "_bip 1";
+            return Global.Game.Content.Load<SoundEffect>(path);
+        }
+
         public static PanelManager AddPanelManager(MusicalScaleType musicalScaleType)
         {
             int[] array;
@@ -85,12 +103,21 @@ namespace Cascade
                 state = MusicState.Analysis;
                 stopWatch.Restart();
                 notesPlayed.Clear();
-                Global.Output += "Fist note played, starting analysis";
+
                 timeForAnalysis = MyMath.RandomRange(20, 30);
+                Global.Output += "First note played, running analysis for " + timeForAnalysis + " seconds";
+                var pad1 = LoadPadSound(0, midiNumber + MajorScale[Chords[3, 0]]);
+                var pad2 = LoadPadSound(0, midiNumber + MajorScale[Chords[3, 2]]);
+                var n1 = AddNote(new QuaveringVolumeNote(pad1.CreateInstance(), MyMath.RandomRange(0.01f, 0.03f), MyMath.RandomRange(0.5f, 0.2f)));
+                var n2 = AddNote(new QuaveringVolumeNote(pad2.CreateInstance(), MyMath.RandomRange(0.01f, 0.03f), MyMath.RandomRange(0.5f, 0.2f)));
+
+                n1.Volume = n2.Volume = 0.25f;
+                //pad1.Play();
+                //pad2.Play();
             }
             if (state == MusicState.Analysis)
             {
-                Global.Output += "Adding note for analysis of player " + (playerIndex + 1) + ": " + stopWatch.Elapsed;
+                //Global.Output += "Adding note for analysis of player " + (playerIndex + 1) + ": " + stopWatch.Elapsed;
                 notesPlayed.Add(new NoteTimeInfo(midiNumber, instrumentNumber, playerIndex, stopWatch.Elapsed));
             }
         }
@@ -99,6 +126,11 @@ namespace Cascade
         {
             
             var m = new MusicalNote(i);
+            SoundEffects.Add(m);
+            return m;
+        }
+        public static MusicalNote AddNote(MusicalNote m)
+        {
             SoundEffects.Add(m);
             return m;
         }
@@ -114,6 +146,7 @@ namespace Cascade
                 if (SoundEffects[i].State == SoundState.Stopped)
                 {
                     SoundEffects.RemoveAt(i);
+                    Global.Output += "Removed sound";
                     i--;
                 }
             }
@@ -141,15 +174,16 @@ namespace Cascade
         float fadeSpeed = 0.01f;
         float fadeSpeed2 = 0.01f;
         SoundEffectInstance s;
+        float volume = 1, fadeVolume = 1;
         public float Volume
         {
             get
             {
-                return s.Volume;
+                return GetVolume();
             }
             set
             {
-                s.Volume = value;
+                volume = value;
             }
         }
         public SoundState State
@@ -163,6 +197,7 @@ namespace Cascade
         {
             s = instance;
             s.Volume = 0;
+            fadeVolume = 0;
             fadeIn = true;
             s.Play();
             
@@ -174,14 +209,14 @@ namespace Cascade
             this.fadeSpeed2 = fadeSpeed2;
             fade = true;
         }
-        public void Update()
+        public virtual void Update()
         {
             if (fade && !fadeIn)
             {
-                float vol = Volume - (Volume > 0.1f ? fadeSpeed : fadeSpeed2);
+                float vol = fadeVolume - (fadeVolume > 0.1f ? fadeSpeed : fadeSpeed2);
                 if (vol > 0)
                 {
-                    s.Volume = vol;
+                    fadeVolume = vol;
                 }
                 else
                 {
@@ -191,17 +226,52 @@ namespace Cascade
             }
             else if (fadeIn)
             {
-                float vol = Volume + 0.1f;
+                float vol = fadeVolume + 0.1f;
                 if (vol < 1)
                 {
-                    s.Volume = vol;
+                    fadeVolume = vol;
                 }
                 else 
                 {
-                    s.Volume = 1;
+                    fadeVolume = 1;
                     fadeIn = false;
                 }
             }
+            s.Volume = MathHelper.Clamp(GetVolume(), 0, 1);
+            
+        }
+        protected virtual float GetVolume()
+        {
+            return volume * fadeVolume;
+        }
+    }
+    public class QuaveringVolumeNote : MusicalNote
+    {
+        float range, speed;
+        float vol = 1;
+        public QuaveringVolumeNote(SoundEffectInstance i, float speed, float range)
+            :base(i)
+        {
+            this.speed = speed;
+            this.range = range;
+        }
+        public override void Update()
+        {
+            base.Update();
+            if (vol < 0 && speed < 0)
+            {
+                speed *= -1;
+            }
+            else if (vol > 1 && speed > 0)
+            {
+                speed *= -1;
+            }
+            vol += speed;
+            Global.Output += GetVolume();
+        }
+        protected override float GetVolume()
+        {
+            return base.GetVolume() * MyMath.Between(1 + range, 1 - range, vol);
         }
     }
     public struct NoteTimeInfo
