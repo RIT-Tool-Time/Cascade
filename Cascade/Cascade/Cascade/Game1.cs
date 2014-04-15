@@ -135,8 +135,9 @@ namespace Cascade
             }
             for (int i = 0; i < MusicManager.PanelManagers.Count; i++)
             {
-                MusicManager.PanelManagers[i].NoteOffset = 48;
+                MusicManager.PanelManagers[i].NoteOffset = 0;
             }
+
             MusicManager.Update();
             MusicManager.StartAnalysis();
 
@@ -161,7 +162,7 @@ namespace Cascade
             startUpWorker.RunWorkerAsync();
             threadTimer.Start();
             graphics.PreferredBackBufferWidth = 1920; graphics.PreferredBackBufferHeight = (int)(graphics.PreferredBackBufferWidth * (9f / 16f));
-            graphics.IsFullScreen = true;
+            //graphics.IsFullScreen = true;
             graphics.ApplyChanges();
             socketThreadStart = new ThreadStart(SocketMethod);
             Global.Output += "LoadContent completed";

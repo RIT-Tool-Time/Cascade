@@ -15,6 +15,14 @@ namespace Cascade
     public enum Tempo { T100 = 100, T120 = 120, T140 = 140 }
     public static class MusicManager
     {
+        static int noteOffset = 40;
+        public static int NoteOffset
+        {
+            get
+            {
+                return noteOffset;
+            }
+        }
         public static readonly int[] MajorScale = { 0, 2, 4, 5, 6, 9, 11, 12 };
 
         public static readonly int[] PentatonicScale = { 0, 2, 4, 7, 9, 12 };
@@ -51,13 +59,14 @@ namespace Cascade
         static int note = 0;
         static Timer timer =null;
 
-        
+        static int bassIndex = 0;
+        static MusicalNote bassNote;
         
         public static SoundEffect LoadUserSound(int UserNumber, int MidiNumber, int Version, string InstrumentName)
         {
             try
             {
-                string path = "Sound Samples/USER" + UserNumber + "/USER" + "_V" + Version + "_" + MidiNumber + "_" + InstrumentName + " 1";
+                string path = "Sound Samples/USER" + UserNumber + "/USER" + "_V" + Version + "_" + MidiNumber + "_" + InstrumentName;
 
                 return Global.Game.Content.Load<SoundEffect>(path);
             }
@@ -80,9 +89,14 @@ namespace Cascade
             return effects;
         }
 
+        public static SoundEffect LoadBassSound(int instrumentNumber, int midiNumber)
+        {
+            return Global.Game.Content.Load<SoundEffect>("Sound Samples/BASS" + instrumentNumber + "/BASS_" + midiNumber + "_bip 1");
+        }
+
         public static SoundEffect LoadPadSound(int padNumber, int midiNumber)
         {
-            string path = "Sound Samples/PAD1/PAD_" + padNumber + "_" + midiNumber + "_bip 1";
+            string path = "Sound Samples/PAD1/PAD_" + midiNumber + "_bip 1";
             return Global.Game.Content.Load<SoundEffect>(path);
         }
 
@@ -239,7 +253,29 @@ namespace Cascade
         }
         static void BeatIncremented()
         {
-
+            if (beat % 8 == 0)
+            {
+                if (state == MusicState.Level1)
+                {
+                    if (bassIndex == 0)
+                    {
+                        bassIndex = 2;
+                    }
+                    else
+                    {
+                        bassIndex = 0;
+                    }
+                    if (chordProgression != null)
+                    {
+                        SoundEffect se = LoadBassSound(2, 28 + (MajorScale[Chords[bassIndex, 0]]));
+                        if (bassNote != null)
+                        {
+                            bassNote.FadeOut(0.1f, 0.1f);
+                        }
+                        bassNote = AddNote(se.CreateInstance());
+                    }
+                }
+            }
         }
         static void BarIncremented()
         {

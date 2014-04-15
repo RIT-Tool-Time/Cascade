@@ -50,6 +50,7 @@ namespace Cascade
         }
         static void handler_TouchMove(object sender, TouchEventArgs e)
         {
+            //Global.Output += e.Location;
             foreach (var t in TouchPoints)
             {
                 if (t.Id == e.Id)
@@ -148,6 +149,7 @@ namespace Cascade
         }
         public void SetArgs(TouchEventArgs e)
         {
+            //Position = new Vector2(e.Location.X, e.Location.Y) * (Global.ScreenSize / new Vector2(1920, 1080));
             Position = new Vector2(e.Location.X, e.Location.Y);
             Id = e.Id;
             if (e.IsTouchDown)

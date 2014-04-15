@@ -44,7 +44,7 @@ namespace Cascade
             manager = man;
             clearColor = new ColorManager();
             clearColor.Color = new Color(255,255,255);
-            timer = new Timer(1000d / 32d);
+            timer = new Timer(1000d / 30d);
             timer.Stop();
             timer.Elapsed += new ElapsedEventHandler(timer_Elapsed);
         }
@@ -63,6 +63,7 @@ namespace Cascade
                 {
                     if (touch.Position.X > (Global.ScreenSize.X / manager.Panels.Count) * index
                         && touch.Position.X < (Global.ScreenSize.X / manager.Panels.Count) * (index + 1)
+                        && (touch.State == TouchState.Moved || touch.State == TouchState.Touched)
                         )
                     {
                         touchOccured = true;
@@ -117,9 +118,10 @@ namespace Cascade
             {
                 instrument = 1;
             }
+            //instrument = 1;
             //Global.Output += "Number of fingers on panel: " + idList.Count;
-            note = MusicManager.AddNote(MusicManager.LoadUserSounds(instrument, NoteOffset + manager.NoteOffset, "bip")[rand.Next(0, 3)].CreateInstance());
-            MusicManager.NotePlayedByUser(NoteOffset + manager.NoteOffset, MusicManager.PanelManagers.IndexOf(manager), instrument );
+            note = MusicManager.AddNote(MusicManager.LoadUserSounds(instrument, NoteOffset + manager.NoteOffset + MusicManager.NoteOffset, "bip")[rand.Next(0, 3)].CreateInstance());
+            MusicManager.NotePlayedByUser(NoteOffset + manager.NoteOffset + MusicManager.NoteOffset, MusicManager.PanelManagers.IndexOf(manager), instrument );
             if (!isBeingTouched)
             {
                 note.FadeOut(0.04f, 0.001f);
