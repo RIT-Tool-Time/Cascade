@@ -1,0 +1,741 @@
+<html>
+    <head>
+    	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no,minimal-ui" />
+		<title>Cascade</title>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400' rel='stylesheet' type='text/css' />
+		<style type="text/css">
+		
+			html {
+				-webkit-touch-callout: none;
+			   	-webkit-text-size-adjust: none;
+			   	-webkit-tap-highlight-color: rgba(0,0,0,0);
+			   	-webkit-transform: translate3d(0,0,0);
+			   	-webkit-appearance: none;
+			}
+			
+			body{
+				background: #fff;
+				margin:0;
+				padding:0;
+				overflow: hidden;
+			}
+			
+			h2 {
+				-webkit-font-smoothing: antialiased;
+				font-family: "Open Sans";
+				font-weight: 300;
+				padding: 20px 0;
+				margin: 0;
+			}
+			
+			.container {
+				position: absolute;
+				width: 100%;
+				height: 100%;
+				background-color: #f0f1f3;
+			}
+			
+			.connected {
+				background-color: #fff;
+				width: 700px;
+				height: 400px;
+				position: absolute;
+				top: 0;
+				left: 0;
+				right: 0;
+				bottom: 0;
+				margin: auto;
+				display: none;
+				border-radius: 3px;
+				box-shadow:0px 3px 3px #e3e4e6;
+				color: #637277;
+				overflow: hidden;
+			}
+			
+			.form {
+				display: inline-block;
+				width: 100%;
+				height: 100%;
+			}
+				
+			#creatorImage {
+				float: left;
+				margin: 90px 0 0 140px;
+				width: 100px;
+				height: 100px;
+				border-radius: 50%;
+			}
+			
+			.infoConnected {
+				text-align: left;
+				float: right;
+				margin: 65px 165px 0 0;
+			}
+			
+			input[type="text"] {
+				-webkit-font-smoothing: antialiased;
+				-webkit-appearance: none;
+				font-family: "Open Sans";
+				font-weight: 300;
+				font-size: 15px;
+				float:left;
+				padding-left:10px;
+				width: 100%;
+				height: 35px;
+				background-color: #f6f6f6;
+				border: 1px solid #ddd;
+				border-radius: 2px;
+				margin-bottom:15px;
+				overflow: hidden;
+			}
+			
+			input[type="submit"] {
+				-webkit-font-smoothing: antialiased;
+				-webkit-appearance: none;
+				font-family: "Open Sans";
+				font-weight: 400;
+				font-size: 15px;
+				float:left;
+				width: 110px;
+				text-align:center;
+				background-color: #51b9db;
+				border: none;
+				border-radius: 2px;
+				color:white;
+				padding: 10px 0;
+			}
+				
+			.options, .step-up, .shapes {
+				display: none;
+				width: 100%;
+				height: 100%;
+				text-align: center;
+			}
+			
+				.options h2, .step-up h2, .shapes h2 {
+					display: none;
+					padding: 50px;
+				}
+			
+			.choose {
+				width: 50%;
+				margin-top: -20px;
+			}
+			
+				.choose img {
+					padding: 0 0 0 40px;
+				}
+				
+				.choose:last-child img:last-child {
+					padding: 0 0 0 20px;
+				}
+				
+			.step-up .choose {
+				width: 100%;
+				margin-top: -20px;
+			}
+			
+				.step-up .choose img {
+					padding: 0 40px;
+				}
+			
+			.circle {
+				display: none;
+				visibility: hidden;
+				width: 175px;
+				height: 175px;
+				margin: 0px 20px;
+			}
+					
+				.circle img {
+					width: 100%;
+				}	
+				
+			#canvas {
+				display: none;
+				position: absolute;
+				bottom: 0;
+				left: 0;
+			}
+			
+			.sections {
+				-webkit-column-count: 7;
+				-webkit-column-gap: 0;
+				height: 100%;
+				overflow: hidden;					
+			}
+			
+			.section {
+				height: 100%;
+				border-right: 1px solid #ececec;
+				border-width:1px;	
+				visibility: hidden;
+				margin: 0;
+				padding: 0;
+			}
+			
+			.section:last-child {
+				border: none;
+			}
+			
+			.slideUp {
+				-webkit-animation: slideUp 1.5s ease;
+				visibility: visible !important;			
+			}
+			
+			.slideRight {
+				-webkit-animation: slideRight 1.5s ease;
+				visibility: visible !important;			
+			}
+			
+			.slideLeft {
+				-webkit-animation: slideLeft 1.5s ease;
+				visibility: visible !important;	
+				display: block;		
+			}
+			
+			.slideShapes {
+				-webkit-animation: slideShapes 1s ease;
+				visibility: visible !important;	
+			}
+			
+			.fadeIn{
+				animation: fadeIn 0.7s ease;	
+				-webkit-animation: fadeIn 0.7s ease;	
+				-moz-animation: fadeIn 0.7s ease;	
+			
+				visibility: visible !important;	
+			}
+
+			@-webkit-keyframes slideUp {
+				0% {
+					-webkit-transform: translate3d(0, 100%, 0);
+				}
+			
+				100% {
+					-webkit-transform: translate3d(0, 0%, 0);
+					visibility: visible !important;	
+				}	
+			}
+			
+			@-webkit-keyframes slideRight {
+				0% {
+					-webkit-transform: translate3d(-100%, 0, 0);
+				}
+			
+				100% {
+					-webkit-transform: translate3d(0%, 0, 0);
+					visibility: visible !important;	
+				}	
+			}
+			
+			@-webkit-keyframes slideLeft {
+				0% {
+					-webkit-transform: translate3d(100%, 0, 0);
+				}
+			
+				100% {
+					-webkit-transform: translate3d(0%, 0, 0);
+					visibility: visible !important;	
+				}	
+			}
+			
+			@-webkit-keyframes slideShapes {
+				0% {
+					-webkit-transform: translate3d(400%, 0, 0);
+				}
+			
+				100% {
+					-webkit-transform: translate3d(0%, 0, 0);
+					visibility: visible !important;	
+				}	
+			}
+						
+			@-webkit-keyframes fadeIn {
+				0% {
+					-webkit-transform: scale(0);
+					opacity: 0;		
+				}
+				100% {
+					-webkit-transform: scale(1);
+					opacity: 1;	
+				}		
+			}
+		</style>
+		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    	<script src="http://cdnjs.cloudflare.com/ajax/libs/socket.io/0.9.16/socket.io.min.js"></script>
+		<script type="text/javascript">
+		
+			// Declare our players
+			var player = getUrlParameter('player');
+			var name;
+			var email;
+					
+			// Declaring our variables
+			var QUALITY = 4,
+				WIDTH = Math.floor(window.innerWidth / QUALITY), 
+				HEIGHT = Math.floor(window.innerHeight / QUALITY), 
+				SIZE = WIDTH * HEIGHT,	
+				context, image, data,
+				buffer1, buffer2, tempbuffer,				
+				//colors = [45, 160, 241],
+				colors = [],
+				isUserInteracting, pointers,
+				socket = io.connect('129.21.67.6');
+			
+			// When loaded call init
+			window.onload = init;
+									
+			function init() {
+				var canvas = document.getElementById("canvas");
+				canvas.width = WIDTH;
+				canvas.height = HEIGHT;
+				canvas.style.width = window.innerWidth + "px";
+				canvas.style.height = window.innerHeight + "px";
+
+				context = canvas.getContext("2d");
+				context.fillStyle = "rgb(255, 255, 255)";
+				context.fillRect (0, 0, WIDTH, HEIGHT);
+			
+				image = context.webkitGetImageDataHD(0, 0, WIDTH, HEIGHT);
+				data = image.data;
+
+				buffer1 = [];
+				buffer2 = [];
+				
+				for (var i = 0; i < SIZE; i ++) {
+
+					buffer1[i] = 0;
+					buffer2[i] = i > WIDTH && i < SIZE - WIDTH && Math.random() > 0.995 ? 255 : 0;
+				}			
+				
+				// Show the form to start
+				$('.connected').fadeIn(1200);
+				
+				// Set name active
+				$('#name').focus();	
+				
+				// Submit the form by clicking the button or by enter key
+				$('#submit').on('click', function(){
+		        	
+		        	// Submit the form
+		        	submitForm();      		        	 
+	            });   
+	            
+	            $('#name, #email').on('keypress', function(e){
+		        	if ( event.which == 13 ) {
+						
+						// Submit for and hide keyboard
+						//submitForm();
+						$(this).blur();
+					}
+	            });   
+	            
+	            $('.choose').on('click', function(){
+		        	
+		        	if($(this).attr('id') == 'tablet') {
+			        	$('.options').fadeOut(400, function(){ 
+			        	  				        	
+				        	// Show shape selection menu
+							$('.shapes').fadeIn(400).css('display', 'table');
+							$('.shapes h2').fadeIn(1200);
+							
+							$('.circle').each(function(a){
+							
+								// Add animation class to each circle over time						
+								var p = $(this);
+								p.css('display', 'inline-block');
+								
+								setTimeout(function(){
+									p.addClass('slideShapes');
+								}, 200*a)
+							});
+						});
+					}
+					else {
+					
+						$('.options').fadeOut(400, function(){ 
+			        		
+			        		// Show the message to step up the the installation  
+				        	$('.step-up').fadeIn(400).css('display', 'table'); 
+							$('.step-up h2').fadeIn(1200); 
+													
+							$('step-up .choose').each(function(){
+						
+								// Add animation class to exibit image						
+								var p = $(this);
+								p.css('display', 'inline-block');
+								p.addClass('fadeIn');
+							});
+							
+							// Send player information to the server						
+							socket.emit('name', player, name, email, 'null');
+							
+							$('#name').val('');
+							$('#email').val('');
+						});
+					}
+	            });
+	            
+	            $('.circle').on('click', function(){	            	
+	            	
+	            	color = $(this).attr('id');
+	            	
+	            	if (color == 'R') {
+		            	colors = [239, 84, 12];
+	            	}
+	            	
+	            	else if (color == 'G') {
+		            	colors = [90, 217, 98];
+	            	}
+	            	
+	            	else {
+	            		colors = [81, 185, 219];
+	            	}
+	            	
+	            	// Hide the form
+		           	hideForm();
+		           			        	
+		        	// Loop to control the behavior of the waves
+					setInterval(loop, 1000 / 60);
+
+					// Get each section
+                    var section = document.getElementsByClassName('section');
+			
+                    // Append the animation class
+    				for (var key in section) {
+                        if (section.hasOwnProperty(key)) {
+                            section[key].className += " slideUp";
+                        }
+                    }
+
+					// Send player information to the server						
+					socket.emit('name', player, name, email, color);
+					
+					// Touch event listeners
+					document.addEventListener('touchstart', onTouchStart, false);
+					document.addEventListener('touchmove', onTouchMove, false);
+					document.addEventListener('touchend', onTouchEnd, false);
+	            });          
+            }
+            
+			// Event handlers			
+			function onTouchStart(event) {
+								
+				// Prevent the page from scrolling and zooming
+				event.preventDefault();
+				
+				// Our user is touching the display
+				isUserInteracting = true;
+								
+				// Create pointers array
+				pointers = [];
+				
+				for (var i = 0; i < event.touches.length; i++) {
+					
+					// For each touch, add the x and y position to the array
+					pointers.push([player, event.touches[i].pageX / QUALITY, event.touches[i].pageY / QUALITY, event.touches[i].indentifier]);	
+					
+					// Round touch's x position to 3 decimal places
+                	var rX = Math.round(((event.touches[i].pageX / QUALITY) / (window.innerWidth / 4)) * 1000) / 1000;
+                	var rY = Math.round(((event.touches[i].pageY / QUALITY) / (window.innerHeight / 4)) * 1000) / 1000;
+                	
+                	if(rY < 0) {
+	                	rY = 0;	
+                	}
+                	
+					// Change instrument
+					socket.emit('touch', player, rX, rY, event.touches[i].identifier, event.touches.length);		
+                }			
+			}
+ 
+			function onTouchMove(event) {
+				
+				// Prevent the page from scrolling and zooming
+				event.preventDefault();
+
+				// Clear pointers array
+				pointers = [];
+				
+				for (var i = 0; i < event.touches.length; i++) {
+					
+					// For each touch moved, add the x and y position to the array
+					pointers.push([player, event.touches[i].pageX / QUALITY, event.touches[i].pageY / QUALITY, event.touches[i].indentifier]);					
+					
+					// Round touch's x and y position to 3 decimal places
+                	var rX = Math.round(((event.touches[i].pageX / QUALITY) / (window.innerWidth / 4)) * 1000) / 1000;
+                	var rY = Math.round(((event.touches[i].pageY / QUALITY) / (window.innerHeight / 4)) * 1000) / 1000;
+                		
+                	if(rY < 0) {
+	                	rY = 0;	
+                	}
+                	
+                	socket.emit('move', player, rX, rY, event.touches[i].identifier, event.touches.length);
+                }	
+			}
+			
+			function onTouchEnd(event) {
+			
+				// Prevent the page from scrolling and zooming
+				event.preventDefault();
+				
+				if(event.touches.length < 1) {
+					
+					// If the user is not touching the display, set interacting to false
+					isUserInteracting = false;
+					
+					socket.emit('cancel', 'null');
+					
+					// Clear pointers array
+					pointers = [];
+				}
+				
+				else {
+					
+					// Remove 1 touch from the pointers array. If removing fingers from display 
+					// while keeping others on, (ie: going from two touches to one, this makes 
+					// it so the pointers still register and not all are cleared 
+					pointers.pop();
+					
+					var str = "";
+					
+					for (var i = 0; i < event.touches.length; i++) {
+						str += event.touches[i].identifier + ',';
+					}
+					
+					// Send message to server that a finger was removed from the display
+					socket.emit('cancel', str.substring(0, str.length - 1));
+                }
+			}
+			
+			function emit(x, y) {
+
+				// Gets the current touch's x and y position, rounds down, multiplies width, add to buffer1 	
+				buffer1[ Math.floor(x) + (Math.floor(y) * WIDTH)] = 255;
+			}
+
+			function loop() {
+				
+				// Check if the user is interacting with the display
+				if (isUserInteracting) {
+					
+					for (var i = 0; i < pointers.length; i++) {
+						
+						// Emit the current touch x and y position
+						emit(pointers[i][1], pointers[i][2]);
+					}
+				}
+
+				var pixel;
+				var iMax = (WIDTH * HEIGHT) - WIDTH;
+				
+				for (var i = WIDTH; i < iMax; i++) {
+
+					pixel = ((buffer1[i - 1] + buffer1[i + 1] + buffer1[i - WIDTH] + buffer1[i + WIDTH]) >> 1) - buffer2[i];
+					pixel -= pixel >> 20;
+
+					buffer2[i] = pixel;
+
+					if(pixel > 255) {
+						pixel = 255;
+					}
+					else if (pixel < 0) {
+						pixel = 0;
+					}
+					
+                    // + (0 red, 1 green, 2 blue, 3 alpha)
+                    data[ (i * 4) + 0 ] = pixel/255 * colors[0];
+    				data[ (i * 4) + 1 ] = pixel/255 * colors[1];
+    				data[ (i * 4) + 2 ] = pixel/255 * colors[2];
+    				data[ (i * 4) + 3 ] = ((pixel/255 * colors[0]) + (pixel/255 * colors[1]) + (pixel/255 * colors[2]))/24;
+                }
+
+				tempbuffer = buffer1;
+				buffer1 = buffer2;
+				buffer2 = tempbuffer;
+				
+				context.webkitPutImageDataHD(image, 0, 0);
+			}
+			
+			// Get the player number from the url parameter "player"
+			
+			function getUrlParameter(sParam) {
+			    var sPageURL = window.location.search.substring(1);
+			    var sURLVariables = sPageURL.split('&');
+			    for (var i = 0; i < sURLVariables.length; i++) 
+			    {
+			        var sParameterName = sURLVariables[i].split('=');
+			        if (sParameterName[0] == sParam) 
+			        {
+			            return sParameterName[1];
+			        }
+			    }
+			}
+			
+			function submitForm() {
+				
+				// If the inputs are not blank and do not equal their placeholders
+		        if($.trim($('#name').val()) != '' && $.trim($('#name').val().toLowerCase()) != 'name' && $.trim($('#email').val()) != '' && $.trim($('#email').val().toLowerCase()) != 'email') {
+			        
+			        name = $('#name').val();
+			        email = $('#email').val();
+			        
+		        	// Hide form
+					$('.form').fadeOut(400, function(){
+						
+						// Show shape selection menu
+						$('.options').fadeIn(400).css('display', 'table');
+						$('.options h2').fadeIn(1200);
+						
+						$('.choose').each(function(){
+						
+							// Add animation class to each circle over time						
+							var p = $(this);
+							p.css('display', 'inline-block');
+							p.addClass('fadeIn');
+						});
+					});
+	        	}	
+	        	else {
+		        	alert('Please enter a valid name and email');	
+	        	}		  
+			}
+			
+			function showForm() {
+				
+				$('#name').val('');
+				$('#email').val('');
+				
+				// Hide canvas
+				$('#canvas').fadeOut(400);
+				
+				// Show form
+				$('.container').fadeIn(1200);
+				$('.form').css('display', 'inline-block');
+
+				// Show the form to start
+				$('.connected').fadeIn(1200);
+			}
+			
+			function hideForm() {
+				// Hide form
+				$('.container').fadeOut(1200, function(){
+				
+					// Reset other menu options
+					$('.form').hide();
+					
+					// Hide options menu
+					$('.options').fadeOut(400);
+					$('.options h2').hide();
+					$('.choose').hide();
+					
+					// Hide installation menu
+					$('.step-up').fadeOut(400);
+					$('.step-up h2').hide();
+					
+					// Hide shapes menu
+					$('.shapes').fadeOut(400);
+					$('.shapes h2').hide(1200);
+					$('.circle').hide(1200);
+					
+					// Remove animation classes
+					$('.choose').removeClass('fadeIn');
+					$('.circle').removeClass('slideShapes');
+					
+					$('#canvas').fadeIn(1200);
+					
+					// Set inputs back to empty
+					$('#name').val('');				
+					$('#email').val('');
+				});
+			}
+			
+			socket.on('game-over', function(msg){
+				if(msg == 'reset;') {	
+
+					// Cancel touches on the installation
+					socket.emit('cancel', 'null');					
+
+					$('div').each(function(){
+						$(this).removeAttr('style');
+					});
+					
+					$('h2').each(function(){
+						$(this).removeAttr('style');
+					});
+					
+					$('section').each(function(){
+						$(this).removeAttr('style');
+					});
+					
+					$('canvas').hide();
+					
+					// Remove animation classes
+					$('.choose').removeClass('fadeIn');
+					$('.circle').removeClass('slideShapes');
+
+					showForm();
+					
+					// Remove touch event listeners
+					document.removeEventListener('touchstart', onTouchStart, false);
+					document.removeEventListener('touchmove', onTouchMove, false);
+					document.removeEventListener('touchend', onTouchEnd, false);
+				}
+			});
+		</script>
+	</head>
+	<body>	
+		<div class="container">	
+			<div class="connected">
+				<div class="form">
+					<img src="http://demo.tutorialzine.com:1338/img/unnamed.jpg" id="creatorImage" class="slideRight"/>
+					<div class="infoConnected slideLeft">
+						<h2>Welcome to Cascade</h2>
+						<div class="form">
+							<input type="text" id="name" placeholder="Name" maxlength="24" /><br>
+							<input type="text" id="email" placeholder="Email" /><br>
+							<input type="submit" id="submit" value="START" />
+						</div>
+					</div>
+				</div>
+				<div class="options">
+					<h2>Would you like to use the installation or tablet?</h2>
+					<div id="installation" class="choose">
+						<img src="http://tooltime.cias.rit.edu/resource/img/installation.png" />
+					</div>
+					<div id="tablet" class="choose">
+						<img src="http://tooltime.cias.rit.edu/resource/img/tablet.png" />
+					</div>
+				</div>
+				<div class="step-up">
+					<h2>Please step up to the installation and select a color</h2>
+					<div class="choose">
+						<img src="http://tooltime.cias.rit.edu/resource/img/installation.png" />
+					</div>
+				</div>
+				<div class="shapes">
+					<h2>Please select a color</h2>
+					<div id="R" class="circle">
+						<img src="http://tooltime.cias.rit.edu/resource/img/Orange.png" />
+					</div>
+					<div id="G" class="circle">
+						<img src="http://tooltime.cias.rit.edu/resource/img/Green.png" />
+					</div>
+					<div id="B" class="circle">
+						<img src="http://tooltime.cias.rit.edu/resource/img/Blue.png" />
+					</div>
+				</div>
+			</div>
+		</div>
+		<section class="sections">
+			<div class="section"></div>
+			<div class="section"></div>
+			<div class="section"></div>
+			<div class="section"></div>
+			<div class="section"></div>
+			<div class="section"></div>
+			<div class="section"></div>
+		</section>
+		<canvas id="canvas"></canvas>
+	</body>
+</html>
